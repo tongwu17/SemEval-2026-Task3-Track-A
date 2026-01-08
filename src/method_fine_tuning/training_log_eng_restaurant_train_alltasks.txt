@@ -1,0 +1,100 @@
+==================================================
+Training Configuration - 2026-01-02 19:18:08
+==================================================
+Data: ../task-dataset/track_a/subtask_1/eng/eng_restaurant_train_alltasks.jsonl
+Model: xlm-roberta-base
+Output: ./checkpoints/eng_restaurant
+Epochs: 10, Batch size: 16
+Learning rate: 2e-05, Patience: 3
+Val split: 0.1, Seed: 42
+Log file: training_log_20260102_191808.txt
+==================================================
+
+Using device: mps
+Loading tokenizer: xlm-roberta-base
+Loading data...
+Train samples: 3293
+Val samples: 366
+Creating model: xlm-roberta-base
+Starting training for 10 epochs...
+Device: mps
+
+
+Epoch 1:
+  Train Loss: 5.7437
+  Val RMSE_VA: 1.6486
+  Val Valence RMSE: 1.2778
+  Val Arousal RMSE: 1.0417
+  → Saved best model (RMSE_VA: 1.6486)
+
+Epoch 2:
+  Train Loss: 2.3797
+  Val RMSE_VA: 1.2831
+  Val Valence RMSE: 0.9627
+  Val Arousal RMSE: 0.8483
+  → Saved best model (RMSE_VA: 1.2831)
+
+Epoch 3:
+  Train Loss: 1.6729
+  Val RMSE_VA: 1.2160
+  Val Valence RMSE: 0.8916
+  Val Arousal RMSE: 0.8269
+  → Saved best model (RMSE_VA: 1.2160)
+
+Epoch 4:
+  Train Loss: 1.2874
+  Val RMSE_VA: 1.1000
+  Val Valence RMSE: 0.8323
+  Val Arousal RMSE: 0.7192
+  → Saved best model (RMSE_VA: 1.1000)
+
+Epoch 5:
+  Train Loss: 1.0217
+  Val RMSE_VA: 1.0604
+  Val Valence RMSE: 0.7668
+  Val Arousal RMSE: 0.7324
+  → Saved best model (RMSE_VA: 1.0604)
+
+Epoch 6:
+  Train Loss: 0.8224
+  Val RMSE_VA: 1.0204
+  Val Valence RMSE: 0.7491
+  Val Arousal RMSE: 0.6929
+  → Saved best model (RMSE_VA: 1.0204)
+
+Epoch 7:
+  Train Loss: 0.7127
+  Val RMSE_VA: 1.0106
+  Val Valence RMSE: 0.7467
+  Val Arousal RMSE: 0.6810
+  → Saved best model (RMSE_VA: 1.0106)
+
+Epoch 8:
+  Train Loss: 0.6188
+  Val RMSE_VA: 1.0336
+  Val Valence RMSE: 0.7690
+  Val Arousal RMSE: 0.6906
+  No improvement (1/3)
+
+Epoch 9:
+  Train Loss: 0.5409
+  Val RMSE_VA: 1.0493
+  Val Valence RMSE: 0.7619
+  Val Arousal RMSE: 0.7215
+  No improvement (2/3)
+
+Epoch 10:
+  Train Loss: 0.4916
+  Val RMSE_VA: 1.0269
+  Val Valence RMSE: 0.7500
+  Val Arousal RMSE: 0.7015
+  No improvement (3/3)
+
+Early stopping at epoch 10
+Best model at epoch 7 with RMSE_VA: 1.0106
+
+==================================================
+Training completed!
+Best RMSE_VA: 1.0106
+Model saved to: ./checkpoints/eng_restaurant/best_model.pt
+==================================================

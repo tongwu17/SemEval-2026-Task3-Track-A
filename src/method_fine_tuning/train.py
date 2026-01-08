@@ -10,6 +10,7 @@ from transformers import AutoTokenizer, get_linear_schedule_with_warmup
 from tqdm import tqdm
 import numpy as np
 import sys
+from scipy.stats import pearsonr
 
 from model import create_model
 from data_loader import DimASRDataset
@@ -41,6 +42,19 @@ def calculate_individual_rmse(pred_valence, pred_arousal, gold_valence, gold_aro
     
     return float(valence_rmse), float(arousal_rmse)
 
+
+def calculate_pcc(pred_valence, pred_arousal, gold_valence, gold_arousal):
+    """Calculate Pearson Correlation Coefficient for Valence and Arousal"""
+    pred_valence = np.array(pred_valence)
+    pred_arousal = np.array(pred_arousal)
+    gold_valence = np.array(gold_valence)
+    gold_arousal = np.array(gold_arousal)
+    
+    pcc_v = pearsonr(pred_valence, gold_valence)[0]
+    pcc_a = pearsonr(pred_arousal, gold_arousal)[0]
+    
+    return float(pcc_v), float(pcc_a)
+
 class Trainer:
     """Trainer"""
     
@@ -52,7 +66,9 @@ class Trainer:
                  scheduler,
                  device,
                  output_dir='./checkpoints',
-                 patience=3):
+                 patience=3,
+                 model_name='xlm-roberta-base',
+                 max_length=256):
         """
         Args:
             model: model
@@ -63,6 +79,8 @@ class Trainer:
             device: device
             output_dir: model save directory
             patience: early stopping patience
+            model_name: pretrained model name
+            max_length: maximum sequence length
         """
         self.model = model
         self.train_loader = train_loader
@@ -72,6 +90,8 @@ class Trainer:
         self.device = device
         self.output_dir = output_dir
         self.patience = patience
+        self.model_name = model_name
+        self.max_length = max_length
         
         # MSE loss function
         self.criterion = nn.MSELoss()
@@ -150,10 +170,16 @@ class Trainer:
         valence_rmse, arousal_rmse = calculate_individual_rmse(
             pred_valences, pred_arousals, gold_valences, gold_arousals)
         
+        # Calculate PCC (Pearson Correlation Coefficient)
+        pcc_v, pcc_a = calculate_pcc(pred_valences, pred_arousals,
+                                      gold_valences, gold_arousals)
+        
         return {
             'rmse_va': rmse_va,
             'valence_rmse': valence_rmse,
-            'arousal_rmse': arousal_rmse
+            'arousal_rmse': arousal_rmse,
+            'pcc_v': pcc_v,
+            'pcc_a': pcc_a
         }
     
     def train(self, num_epochs):
@@ -173,6 +199,8 @@ class Trainer:
             logging.info(f"  Val RMSE_VA: {val_metrics['rmse_va']:.4f}")
             logging.info(f"  Val Valence RMSE: {val_metrics['valence_rmse']:.4f}")
             logging.info(f"  Val Arousal RMSE: {val_metrics['arousal_rmse']:.4f}")
+            logging.info(f"  Val PCC_V: {val_metrics['pcc_v']:.4f}")
+            logging.info(f"  Val PCC_A: {val_metrics['pcc_a']:.4f}")
             
             # Save best model
             if val_metrics['rmse_va'] < self.best_rmse:
@@ -187,7 +215,9 @@ class Trainer:
                     'model_state_dict': self.model.state_dict(),
                     'optimizer_state_dict': self.optimizer.state_dict(),
                     'rmse_va': self.best_rmse,
-                    'metrics': val_metrics
+                    'metrics': val_metrics,
+                    'model_name': self.model_name,
+                    'max_length': self.max_length
                 }, model_path)
                 logging.info(f"  → Saved best model (RMSE_VA: {self.best_rmse:.4f})")
             else:
@@ -314,7 +344,9 @@ def main():
         scheduler=scheduler,
         device=device,
         output_dir=args.output_dir,
-        patience=args.patience
+        patience=args.patience,
+        model_name=args.model_name,
+        max_length=args.max_length
     )
     
     best_rmse = trainer.train(args.num_epochs)

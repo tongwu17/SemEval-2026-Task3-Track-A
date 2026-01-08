@@ -181,6 +181,25 @@ def main():
     model = model.to(device)
     model.eval()
     
+    # Check for configuration consistency
+    checkpoint_model_name = checkpoint.get('model_name', None)
+    checkpoint_max_length = checkpoint.get('max_length', None)
+    
+    if checkpoint_model_name and checkpoint_model_name != args.model_name:
+        print(f"\nWARNING: Model name mismatch!")
+        print(f"  Training used: {checkpoint_model_name}")
+        print(f"  Inference using: {args.model_name}")
+        print(f"  This may cause errors or inconsistent results.\n")
+    
+    if checkpoint_max_length and checkpoint_max_length != args.max_length:
+        print(f"\nWARNING: Max length mismatch!")
+        print(f"  Training used: {checkpoint_max_length}")
+        print(f"  Inference using: {args.max_length}")
+        print(f"  Consider using --max_length {checkpoint_max_length} for consistency.\n")
+    
+    if checkpoint_model_name:
+        print(f"Model configuration from checkpoint: {checkpoint_model_name}, max_length={checkpoint_max_length}")
+    
     print(f"Model loaded (Best RMSE_VA: {checkpoint.get('rmse_va', 'N/A')})")
     
     # Load test data

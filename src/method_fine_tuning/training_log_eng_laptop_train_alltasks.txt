@@ -1,0 +1,72 @@
+==================================================
+Training Configuration - 2026-01-03 11:19:46
+==================================================
+Data: ../task-dataset/track_a/subtask_1/eng/eng_laptop_train_alltasks.jsonl
+Model: xlm-roberta-base
+Output: ./checkpoints/eng_laptop
+Epochs: 10, Batch size: 16
+Learning rate: 2e-05, Patience: 3
+Val split: 0.1, Seed: 42
+Log file: training_log_20260103_111946.txt
+==================================================
+
+Using device: mps
+Loading tokenizer: xlm-roberta-base
+Loading data...
+Train samples: 5195
+Val samples: 578
+Creating model: xlm-roberta-base
+Starting training for 10 epochs...
+Device: mps
+
+
+Epoch 1:
+  Train Loss: 4.2919
+  Val RMSE_VA: 1.3095
+  Val Valence RMSE: 1.0029
+  Val Arousal RMSE: 0.8421
+  → Saved best model (RMSE_VA: 1.3095)
+
+Epoch 2:
+  Train Loss: 1.6144
+  Val RMSE_VA: 1.1487
+  Val Valence RMSE: 0.8846
+  Val Arousal RMSE: 0.7328
+  → Saved best model (RMSE_VA: 1.1487)
+
+Epoch 3:
+  Train Loss: 1.2290
+  Val RMSE_VA: 1.0697
+  Val Valence RMSE: 0.8113
+  Val Arousal RMSE: 0.6972
+  → Saved best model (RMSE_VA: 1.0697)
+
+Epoch 4:
+  Train Loss: 0.9660
+  Val RMSE_VA: 1.0936
+  Val Valence RMSE: 0.8332
+  Val Arousal RMSE: 0.7082
+  No improvement (1/3)
+
+Epoch 5:
+  Train Loss: 0.8341
+  Val RMSE_VA: 1.1399
+  Val Valence RMSE: 0.8568
+  Val Arousal RMSE: 0.7519
+  No improvement (2/3)
+
+Epoch 6:
+  Train Loss: 0.6871
+  Val RMSE_VA: 1.0760
+  Val Valence RMSE: 0.8065
+  Val Arousal RMSE: 0.7123
+  No improvement (3/3)
+
+Early stopping at epoch 6
+Best model at epoch 3 with RMSE_VA: 1.0697
+
+==================================================
+Training completed!
+Best RMSE_VA: 1.0697
+Model saved to: ./checkpoints/eng_laptop/best_model.pt
+==================================================
