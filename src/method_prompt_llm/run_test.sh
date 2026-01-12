@@ -62,7 +62,7 @@ elif [[ "$METHOD" == gpt* ]]; then
     
 else
     echo "[ERROR] Unknown method: $METHOD"
-    echo "Supported: ollama, llama3.2, gpt-3.5-turbo, gpt-4, gpt-4o, gpt-4o-mini"
+    echo "Supported: ollama, llama3.2, gpt-4, gpt-4o, gpt-4o-mini, gpt-5.2"
     exit 1
 fi
 

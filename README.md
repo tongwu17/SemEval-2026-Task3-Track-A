@@ -30,7 +30,7 @@ src/
 │   ├── ollama.py           # Ollama local implementation
 │   ├── run_test.sh         # Simplified test script
 │   └── README.md           # Method documentation
-└── split_dataset/          # Split training data 
+└── task-dataset-split/     # Split training data 
 ```
 
 ---

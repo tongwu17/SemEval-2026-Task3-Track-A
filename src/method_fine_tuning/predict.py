@@ -149,19 +149,31 @@ def main():
     
     args = parser.parse_args()
     
+    # Detect dataset type: eval_20 (20% validation), or dev/test
+    test_basename = os.path.basename(args.test_file)
+    is_eval_20 = '_20_without_va' in test_basename  # 20% validation set for method comparison
+    
     # Auto-generate output file path based on test file if not specified
     if args.output_file is None:
         # Extract language code and dataset name from test_file
         # Example: eng_laptop_dev_task1.jsonl -> lang=eng, dataset=laptop
-        test_basename = os.path.basename(args.test_file)
-        parts = test_basename.split('_')
+        # Example: eng_laptop_train_alltasks_20_without_va.jsonl -> lang=eng, dataset=laptop
+        parts = test_basename.replace('_20_without_va', '').replace('_alltasks', '').replace('_task1', '').replace('.jsonl', '').split('_')
         if len(parts) >= 2:
             lang_code = parts[0]  # eng, zho, rus, etc.
             dataset_name = parts[1]  # laptop, restaurant, etc.
-            args.output_file = f'./outputs/{lang_code}/pred_{lang_code}_{dataset_name}.jsonl'
+            if is_eval_20:
+                # 20% validation set → save to eval_20/
+                args.output_file = f'./eval_20/pred_{lang_code}_{dataset_name}_20_finetuning.jsonl'
+            else:
+                # dev/test set → save to outputs/{lang}/
+                args.output_file = f'./outputs/{lang_code}/pred_{lang_code}_{dataset_name}.jsonl'
             print(f"Auto-generated output path: {args.output_file}")
         else:
-            args.output_file = './outputs/predictions.jsonl'
+            if is_eval_20:
+                args.output_file = './eval_20/predictions_20_finetuning.jsonl'
+            else:
+                args.output_file = './outputs/predictions.jsonl'
     
     # Setup device
     device = torch.device('cuda' if torch.cuda.is_available() else 

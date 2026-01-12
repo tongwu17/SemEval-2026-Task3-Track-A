@@ -1,7 +1,3 @@
-"""
-Prompt-based LLMusing OpenAI API
-"""
-
 import json
 import jsonlines
 import re
@@ -9,6 +5,9 @@ from tqdm import tqdm
 import time
 from openai import OpenAI
 import os
+
+# Change model here if needed
+MODEL_NAME = "gpt-5.2"
 
 def extract_va_scores(response):
     """Extract VA scores from LLM response"""
@@ -29,63 +28,17 @@ def extract_va_scores(response):
     print(f"Warning: Could not extract VA from: {response[:100]}")
     return 5.0, 5.0
 
-def create_prompt_few_shot(text, aspect, examples=None):
-    system_message = """You are an expert in sentiment analysis. Your task is to predict Valence and Arousal scores for aspects in sentences.
-
-Definitions:
-- Valence: emotional positivity/negativity (1.0 = very negative, 5.0 = neutral, 9.0 = very positive)
-- Arousal: emotional intensity/excitement (1.0 = very calm/sluggish, 5.0 = moderate, 9.0 = very excited)
-
-Output format: valence#arousal (e.g., 7.50#6.80)"""
-
-    # Few-shot examples
-    user_examples = """Examples:
-
-1. Text: "The salads are fantastic."
-   Aspect: "salads"
-   Answer: 7.88#7.75
-
-2. Text: "The service was terrible and slow."
-   Aspect: "service"
-   Answer: 2.10#7.50
-
-3. Text: "It's okay, nothing special."
-   Aspect: "general"
-   Answer: 5.20#4.30
-
-4. Text: "The battery life is amazing!"
-   Aspect: "battery"
-   Answer: 8.50#8.00
-
-5. Text: "Keyboard feels cheap and flimsy."
-   Aspect: "keyboard"
-   Answer: 2.80#6.20"""
-
-    user_query = f"""
-Now predict:
-Text: "{text}"
-Aspect: "{aspect}"
-
-Output ONLY the scores in format valence#arousal:"""
-
-    return system_message, user_examples + user_query
-
-def predict_va_with_openai(data_path, model='gpt-3.5-turbo', max_samples=None, api_key=None):
-    # Initialize OpenAI client
-    if api_key:
-        client = OpenAI(api_key=api_key)
-    else:
-        # Read from environment variable
-        api_key = os.getenv('OPENAI_API_KEY')
-        if not api_key:
-            print("[ERROR] No API key found!")
-            print("Set it with: export OPENAI_API_KEY='your-key-here'")
-            return None
-        client = OpenAI(api_key=api_key)
+def load_samples(data_path, max_samples=None):
+    """
+    Load samples from JSONL file
     
-    print(f"[INFO] Using OpenAI model: {model}")
+    Args:
+        data_path: Path to input JSONL file
+        max_samples: Maximum number of samples to load (None for all)
     
-    # Load data
+    Returns:
+        List of sample dicts with keys: id, text, aspect, va
+    """
     samples = []
     with jsonlines.open(data_path) as reader:
         for obj in reader:
@@ -112,35 +65,165 @@ def predict_va_with_openai(data_path, model='gpt-3.5-turbo', max_samples=None, a
     if max_samples:
         samples = samples[:max_samples]
     
-    print(f"Total samples: {len(samples)}")
+    print(f"[INFO] Loaded {len(samples)} samples from {data_path}")
+    return samples
+
+def predict_va_with_openai(samples, model=MODEL_NAME, api_key=None, max_retries=3):
+    """
+    Predict VA scores using OpenAI API with few-shot learning
     
+    Args:
+        samples: List of sample dicts (from load_samples)
+        model: OpenAI model name
+        api_key: OpenAI API key (if None, reads from OPENAI_API_KEY env var)
+        max_retries: Max retries per sample when API call fails
+    
+    Returns:
+        List of prediction results with VA scores
+    """
+    # Initialize OpenAI client
+    if api_key:
+        client = OpenAI(api_key=api_key)
+    else:
+        api_key = os.getenv('OPENAI_API_KEY')
+        if not api_key:
+            print("[ERROR] No API key found!")
+            print("Set it with: export OPENAI_API_KEY='your-key-here'")
+            return None
+        client = OpenAI(api_key=api_key)
+    
+    if model is None:
+        model = MODEL_NAME
+
+    print(f"[INFO] Using OpenAI model: {model}")
+    print(f"[INFO] Total samples to predict: {len(samples)}")
+    
+    system_prompt = """You are an expert in sentiment analysis. Your task is to predict Valence and Arousal scores for aspects in sentences.
+
+Definitions:
+- Valence: emotional positivity/negativity (1.0 = very negative, 5.0 = neutral, 9.0 = very positive)
+- Arousal: emotional intensity/excitement (1.0 = very calm/sluggish, 5.0 = moderate, 9.0 = very excited)
+
+Output format: valence#arousal (e.g., 7.50#6.80)"""
+
+    # Few-shot examples (from 80% training set, stratified by sentiment & domain)
+    # Source: eng_restaurant_train_alltasks_80.jsonl + eng_laptop_train_alltasks_80.jsonl
+    few_shot_examples = """Examples:
+
+1. Text: "the food was absolutely amazing!!"
+   Aspect: "food"
+   Answer: 8.50#8.25
+
+2. Text: "but the staff was so horrible to us."
+   Aspect: "staff"
+   Answer: 1.33#8.67
+
+3. Text: "food was just average... if they lowered the prices just a bit, it would be a bigger draw."
+   Aspect: "food"
+   Answer: 5.00#5.00
+
+4. Text: "i love this macbook."
+   Aspect: "macbook"
+   Answer: 7.10#6.90
+
+5. Text: "horrible product."
+   Aspect: "product"
+   Answer: 2.60#5.70
+
+6. Text: "it has and does everything it should."
+   Aspect: "NULL"
+   Answer: 5.67#5.50"""
+
     # Predict
     results = []
     total_tokens = 0
+    use_responses_api = model.startswith("gpt-5")
     
     for sample in tqdm(samples, desc="Predicting"):
-        system_msg, user_msg = create_prompt_few_shot(sample['text'], sample['aspect'])
+        user_prompt = f"""{few_shot_examples}
+
+Now predict:
+Text: "{sample['text']}"
+Aspect: "{sample['aspect']}"
+
+Output ONLY the scores in format valence#arousal:"""
         
-        try:
-            response = client.chat.completions.create(
-                model=model,
-                messages=[
-                    {"role": "system", "content": system_msg},
-                    {"role": "user", "content": user_msg}
-                ],
-                temperature=0.3,  # Reduce randomness
-                max_tokens=50
-            )
-            
-            answer = response.choices[0].message.content.strip()
-            total_tokens += response.usage.total_tokens
-            
+        answer = ""
+        last_error = None
+
+        for attempt in range(max_retries):
+            try:
+                if use_responses_api:
+                    # Responses API (for gpt-5.x)
+                    response = client.responses.create(
+                        model=model,
+                        input=[
+                            {
+                                "role": "system",
+                                "content": [{"type": "text", "text": system_prompt}],
+                            },
+                            {
+                                "role": "user",
+                                "content": [{"type": "text", "text": user_prompt}],
+                            },
+                        ],
+                        temperature=0.1,
+                        max_output_tokens=50,
+                    )
+
+                    # Extract text
+                    if hasattr(response, "output_text") and response.output_text:
+                        answer = response.output_text.strip()
+                    elif getattr(response, "output", None):
+                        for item in response.output:
+                            content = getattr(item, "content", None)
+                            if not content:
+                                continue
+                            for part in content:
+                                text_val = getattr(part, "text", None)
+                                if text_val:
+                                    answer = text_val.strip()
+                                    break
+                            if answer:
+                                break
+
+                    if answer and hasattr(response, "usage"):
+                        usage = response.usage
+                        tokens = getattr(usage, "total_tokens", None)
+                        if tokens is None:
+                            tokens = getattr(usage, "input_tokens", 0) + getattr(usage, "output_tokens", 0)
+                        total_tokens += tokens
+                else:
+                    # Chat Completions API (gpt-4 family)
+                    response = client.chat.completions.create(
+                        model=model,
+                        messages=[
+                            {"role": "system", "content": system_prompt},
+                            {"role": "user", "content": user_prompt}
+                        ],
+                        temperature=0.1,
+                        max_tokens=50
+                    )
+                    
+                    answer = response.choices[0].message.content.strip()
+                    if answer:
+                        total_tokens += response.usage.total_tokens
+                
+                if answer:
+                    break
+            except Exception as e:
+                last_error = e
+
+            if attempt < max_retries - 1:
+                print(f"\n[WARN] OpenAI call failed, retrying ({attempt + 1}/{max_retries})...")
+                time.sleep(1)
+
+        if answer:
             valence, arousal = extract_va_scores(answer)
-            
-        except Exception as e:
-            print(f"\nError: {e}")
+        else:
+            if last_error:
+                print(f"\nError: {last_error}")
             valence, arousal = 5.0, 5.0
-            time.sleep(1)
         
         results.append({
             'id': sample['id'],
@@ -221,8 +304,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--input', type=str, required=True, help='Input JSONL file')
     parser.add_argument('--output', type=str, default=None, help='Output JSONL file (only for dev set)')
-    parser.add_argument('--model', type=str, default='gpt-4o-mini', 
-                       choices=['gpt-3.5-turbo', 'gpt-4', 'gpt-4-turbo', 'gpt-4o', 'gpt-4o-mini'],
+    parser.add_argument('--model', type=str, default=MODEL_NAME, 
+                       choices=['gpt-4', 'gpt-4-turbo', 'gpt-4o', 'gpt-4o-mini', 'gpt-5.2'],
                        help='OpenAI model')
     parser.add_argument('--max_samples', type=int, default=None, help='Max samples for testing')
     parser.add_argument('--api_key', type=str, default=None, help='OpenAI API key')
@@ -230,29 +313,39 @@ if __name__ == "__main__":
     parser.add_argument('--eval_only', action='store_true', help='Evaluation mode: only compute RMSE, do not save predictions (for train set)')
     args = parser.parse_args()
     
-    # Detect if train or dev dataset
+    # Detect dataset type: eval_20 (20% validation), train (80% full), or dev/test
     input_basename = os.path.basename(args.input)
-    is_train = 'train' in input_basename
+    is_eval_20 = '_20_without_va' in input_basename  # 20% validation set for method comparison
+    is_train = 'train' in input_basename and not is_eval_20
     
-    # Auto-set eval_only (if train dataset)
+    # Auto-set eval_only for 80% train dataset (not for 20% eval)
     if is_train and not args.eval_only:
         args.eval_only = True
-        print(f"[INFO] Detected train dataset, auto-enabled --eval_only mode")
+        print(f"[INFO] Detected 80% train dataset, auto-enabled --eval_only mode")
     
     # Auto-determine method suffix
     if args.method_suffix is None:
-        args.method_suffix = args.model.replace('-', '_')  # gpt-3.5-turbo -> gpt_3_5_turbo
+        args.method_suffix = args.model.replace('-', '_')  
     
-    # Auto-generate output filename (only for dev dataset)
-    if args.output is None and not args.eval_only:
-        parts = input_basename.replace('.jsonl', '').split('_')
+    # Auto-generate output filename based on dataset type
+    if args.output is None:
+        parts = input_basename.replace('.jsonl', '').replace('_20_without_va', '').replace('_alltasks', '').replace('_task1', '').split('_')
         if len(parts) >= 2:
             lang = parts[0]
             domain = parts[1]
-            args.output = f"./outputs/pred_{lang}_{domain}_{args.method_suffix}.jsonl"
+            if is_eval_20:
+                # 20% validation set → save to eval_20/
+                args.output = f"./eval_20/pred_{lang}_{domain}_20_{args.method_suffix}.jsonl"
+            elif not args.eval_only:
+                # dev/test set → save to outputs/
+                args.output = f"./outputs/pred_{lang}_{domain}_{args.method_suffix}.jsonl"
         else:
-            args.output = f"./outputs/pred_output_{args.method_suffix}.jsonl"
-        print(f"[INFO] Auto-generated output file: {args.output}")
+            if is_eval_20:
+                args.output = f"./eval_20/pred_output_20_{args.method_suffix}.jsonl"
+            elif not args.eval_only:
+                args.output = f"./outputs/pred_output_{args.method_suffix}.jsonl"
+        if args.output:
+            print(f"[INFO] Auto-generated output file: {args.output}")
     
     # Generate log filename (if needed)
     log_file = None
@@ -264,24 +357,38 @@ if __name__ == "__main__":
         if len(parts) >= 2:
             lang = parts[0]
             domain = parts[1]
-            dataset_type = 'train' if is_train else 'dev'
+            dataset_type = 'train' if is_train else ('eval_20' if is_eval_20 else 'dev')
             sample_suffix = f"_{args.max_samples}" if args.max_samples else "_full"
             model_name = args.method_suffix
             log_file = f"log_{model_name}_{lang}_{domain}_{dataset_type}{sample_suffix}.txt"
     
-    print(f"Starting LLM {'evaluation' if args.eval_only else 'prediction'} with OpenAI...")
+    print("=" * 50)
+    if is_eval_20:
+        print("OpenAI LLM Evaluation on 20% Validation Set")
+    elif args.eval_only:
+        print("OpenAI LLM Evaluation (80% train set)")
+    else:
+        print("OpenAI LLM Prediction (dev/test set)")
     print(f"Model: {args.model}")
     print(f"Input: {args.input}")
-    print(f"Output: {args.output if not args.eval_only else 'N/A (eval only)'}")
-    print(f"Mode: {'Evaluation only (train set)' if args.eval_only else 'Prediction (dev set)'}")
+    print(f"Output: {args.output if args.output else 'N/A (eval only)'}")
+    if is_eval_20:
+        print(f"Mode: 20% validation (for method comparison)")
+    elif args.eval_only:
+        print(f"Mode: Evaluation only (80% train set)")
+    else:
+        print(f"Mode: Prediction (dev/test set)")
     if log_file:
         print(f"Log file: {log_file}")
+    print("=" * 50)
+    
+    # Load data
+    samples = load_samples(args.input, max_samples=args.max_samples)
     
     # Predict
     results = predict_va_with_openai(
-        args.input,
+        samples,
         model=args.model,
-        max_samples=args.max_samples,
         api_key=args.api_key
     )
     
@@ -297,8 +404,8 @@ if __name__ == "__main__":
             print(f"  Samples evaluated:             {metrics['n_samples']}")
             print("=" * 50)
         
-        # Save predictions (only in non-eval_only mode)
-        if not args.eval_only:
+        # Save predictions (for eval_20 and dev/test, not for 80% train)
+        if is_eval_20 or not args.eval_only:
             save_predictions(results, args.output)
             print("\n[SUCCESS] Prediction completed!")
             print(f"[SUCCESS] Results saved to: {args.output}")
