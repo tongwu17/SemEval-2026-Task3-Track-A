@@ -45,7 +45,16 @@ def load_samples(data_path, max_samples=None):
             text = obj['Text']
             id_val = obj['ID']
             
-            if 'Aspect_VA' in obj:
+            if 'Quadruplet' in obj:
+                # Format from split dataset (with or without VA)
+                for quad in obj['Quadruplet']:
+                    samples.append({
+                        'id': id_val,
+                        'text': text,
+                        'aspect': quad['Aspect'],
+                        'va': quad.get('VA')
+                    })
+            elif 'Aspect_VA' in obj:
                 for aspect_va in obj['Aspect_VA']:
                     samples.append({
                         'id': id_val,
@@ -160,11 +169,11 @@ Output ONLY the scores in format valence#arousal:"""
                         input=[
                             {
                                 "role": "system",
-                                "content": [{"type": "text", "text": system_prompt}],
+                                "content": [{"type": "input_text", "text": system_prompt}],
                             },
                             {
                                 "role": "user",
-                                "content": [{"type": "text", "text": user_prompt}],
+                                "content": [{"type": "input_text", "text": user_prompt}],
                             },
                         ],
                         temperature=0.1,
