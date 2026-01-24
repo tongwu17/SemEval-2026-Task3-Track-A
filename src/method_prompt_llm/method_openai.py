@@ -5,6 +5,7 @@ from tqdm import tqdm
 import time
 from openai import OpenAI
 import os
+from utils_fewshot import SYSTEM_PROMPT, FEW_SHOT_EXAMPLES
 
 # Change model here if needed
 MODEL_NAME = "gpt-5.2"
@@ -107,49 +108,13 @@ def predict_va_with_openai(samples, model=MODEL_NAME, api_key=None, max_retries=
     print(f"[INFO] Using OpenAI model: {model}")
     print(f"[INFO] Total samples to predict: {len(samples)}")
     
-    system_prompt = """You are an expert in sentiment analysis. Your task is to predict Valence and Arousal scores for aspects in sentences.
-
-Definitions:
-- Valence: emotional positivity/negativity (1.0 = very negative, 5.0 = neutral, 9.0 = very positive)
-- Arousal: emotional intensity/excitement (1.0 = very calm/sluggish, 5.0 = moderate, 9.0 = very excited)
-
-Output format: valence#arousal (e.g., 7.50#6.80)"""
-
-    # Few-shot examples (from 80% training set, stratified by sentiment & domain)
-    # Source: eng_restaurant_train_alltasks_80.jsonl + eng_laptop_train_alltasks_80.jsonl
-    few_shot_examples = """Examples:
-
-1. Text: "the food was absolutely amazing!!"
-   Aspect: "food"
-   Answer: 8.50#8.25
-
-2. Text: "but the staff was so horrible to us."
-   Aspect: "staff"
-   Answer: 1.33#8.67
-
-3. Text: "food was just average... if they lowered the prices just a bit, it would be a bigger draw."
-   Aspect: "food"
-   Answer: 5.00#5.00
-
-4. Text: "i love this macbook."
-   Aspect: "macbook"
-   Answer: 7.10#6.90
-
-5. Text: "horrible product."
-   Aspect: "product"
-   Answer: 2.60#5.70
-
-6. Text: "it has and does everything it should."
-   Aspect: "NULL"
-   Answer: 5.67#5.50"""
-
     # Predict
     results = []
     total_tokens = 0
     use_responses_api = model.startswith("gpt-5")
     
     for sample in tqdm(samples, desc="Predicting"):
-        user_prompt = f"""{few_shot_examples}
+        user_prompt = f"""{FEW_SHOT_EXAMPLES}
 
 Now predict:
 Text: "{sample['text']}"
@@ -169,7 +134,7 @@ Output ONLY the scores in format valence#arousal:"""
                         input=[
                             {
                                 "role": "system",
-                                "content": [{"type": "input_text", "text": system_prompt}],
+                                "content": [{"type": "input_text", "text": SYSTEM_PROMPT}],
                             },
                             {
                                 "role": "user",
@@ -207,7 +172,7 @@ Output ONLY the scores in format valence#arousal:"""
                     response = client.chat.completions.create(
                         model=model,
                         messages=[
-                            {"role": "system", "content": system_prompt},
+                            {"role": "system", "content": SYSTEM_PROMPT},
                             {"role": "user", "content": user_prompt}
                         ],
                         temperature=0.1,
@@ -314,7 +279,7 @@ if __name__ == "__main__":
     parser.add_argument('--input', type=str, required=True, help='Input JSONL file')
     parser.add_argument('--output', type=str, default=None, help='Output JSONL file (only for dev set)')
     parser.add_argument('--model', type=str, default=MODEL_NAME, 
-                       choices=['gpt-4', 'gpt-4-turbo', 'gpt-4o', 'gpt-4o-mini', 'gpt-5.2'],
+                       choices=['gpt-4', 'gpt-4o', 'gpt-4o-mini', 'gpt-5.2'],
                        help='OpenAI model')
     parser.add_argument('--max_samples', type=int, default=None, help='Max samples for testing')
     parser.add_argument('--api_key', type=str, default=None, help='OpenAI API key')
@@ -392,6 +357,7 @@ if __name__ == "__main__":
     print("=" * 50)
     
     # Load data
+    # TODO. Use load_samples_flat from utils_fewshot.py
     samples = load_samples(args.input, max_samples=args.max_samples)
     
     # Predict

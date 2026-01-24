@@ -6,6 +6,8 @@ from tqdm import tqdm
 import subprocess
 import time
 
+from utils_fewshot import SYSTEM_PROMPT, FEW_SHOT_EXAMPLES
+
 # Change model here if needed
 # MODEL_NAME = "llama3.2"
 MODEL_NAME = "llama4"
@@ -99,42 +101,6 @@ def predict_va_with_llm(samples, model=MODEL_NAME, max_retries=3):
     print(f"[INFO] Using Ollama model: {model}")
     print(f"[INFO] Total samples to predict: {len(samples)}")
     
-    system_prompt = """You are an expert in sentiment analysis. Your task is to predict Valence and Arousal scores for aspects in sentences.
-
-Definitions:
-- Valence: emotional positivity/negativity (1.0 = very negative, 5.0 = neutral, 9.0 = very positive)
-- Arousal: emotional intensity/excitement (1.0 = very calm/sluggish, 5.0 = moderate, 9.0 = very excited)
-
-Output format: valence#arousal (e.g., 7.50#6.80)"""
-
-    # Few-shot examples (from 80% training set, stratified by sentiment & domain)
-    # Source: eng_restaurant_train_alltasks_80.jsonl + eng_laptop_train_alltasks_80.jsonl
-    few_shot_examples = """Examples:
-
-1. Text: "the food was absolutely amazing!!"
-   Aspect: "food"
-   Answer: 8.50#8.25
-
-2. Text: "but the staff was so horrible to us."
-   Aspect: "staff"
-   Answer: 1.33#8.67
-
-3. Text: "food was just average... if they lowered the prices just a bit, it would be a bigger draw."
-   Aspect: "food"
-   Answer: 5.00#5.00
-
-4. Text: "i love this macbook."
-   Aspect: "macbook"
-   Answer: 7.10#6.90
-
-5. Text: "horrible product."
-   Aspect: "product"
-   Answer: 2.60#5.70
-
-6. Text: "it has and does everything it should."
-   Aspect: "NULL"
-   Answer: 5.67#5.50"""
-
     # Prepare env for Ollama calls
     env = os.environ.copy()
     if OLLAMA_MODELS_PATH:
@@ -143,7 +109,7 @@ Output format: valence#arousal (e.g., 7.50#6.80)"""
     # Predict
     results = []
     for sample in tqdm(samples, desc="Predicting"):
-        user_prompt = f"""{few_shot_examples}
+        user_prompt = f"""{FEW_SHOT_EXAMPLES}
 
 Now predict:
 Text: "{sample['text']}"
@@ -151,7 +117,7 @@ Aspect: "{sample['aspect']}"
 
 Output ONLY the scores in format valence#arousal:"""
 
-        prompt = f"{system_prompt}\n\n{user_prompt}"
+        prompt = f"{SYSTEM_PROMPT}\n\n{user_prompt}"
         
         response_text = ""
         last_error = None
@@ -360,6 +326,7 @@ if __name__ == "__main__":
     print()
     
     # Load data
+    # TODO. Use load_samples_flat from utils_fewshot.py
     samples = load_samples(args.input, max_samples=args.max_samples)
 
     # Predict
