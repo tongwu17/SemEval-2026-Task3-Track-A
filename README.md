@@ -27,6 +27,7 @@ src/
 │   └── requirements.txt    # Dependencies
 ├── method_prompt_llm/      # Prompt-based LLM method
 │   ├── method_openai.py    # OpenAI API implementation
+│   ├── method_bulkchain.py # Wrapper for Batched LLM querying (OpenAI, Replicate)
 │   ├── ollama.py           # Ollama local implementation
 │   ├── run_test.sh         # Simplified test script
 │   └── README.md           # Method documentation
@@ -201,6 +202,41 @@ python3 method_openai.py \
   --input ../../task-dataset/track_a/subtask_1/eng/eng_laptop_dev_task1.jsonl \
   --model gpt-4o
 # Output: ./outputs/pred_eng_laptop_gpt_4o.jsonl
+```
+
+
+#### Method 3: bulk-chain API
+
+[Bulk-chain](https://github.com/nicolay-r/bulk-chain) features Time-efficient Querying by providing **native support for `batched` LLM querying**. [[video]](http://youtube.com/watch?v=pa8jGOhHViI)
+
+This repository support the following providers:
+* OpenAI
+* Replicate
+
+> **NOTE**: To use API, you have to provide `API_KEY`
+
+**Quick start:** Install dependencies:
+```bash
+pip3 install -r dependencies.txt
+```
+
+**Usage:** Proceed with the following example of applying  `LLaMA-3-70B-Instruct` hosted by [Replicate](https://replicate.com/) for querying data from `eval_20` dataset with batch-size `10`:
+
+```bash
+# Use LLama-3-70b-instruct
+python3 method_bulkchain.py \
+    --model_name meta/meta-llama-3-70b-instruct  \
+    --provider_path providers/replicate_104.py  \
+    --langs eng zho \
+    --batch_size 10 \
+    --dataset_name eval_20 \
+    --api_token API_KEY
+# Output: ./eval_20/ folder content
+```
+
+Or via `.sh`:
+```bash
+./run_llama3_70B_instruct.sh
 ```
 
 ### Custom Method Name
