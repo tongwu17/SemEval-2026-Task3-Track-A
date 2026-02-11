@@ -77,7 +77,8 @@ if __name__ == "__main__":
 
     for lang, domain, src_path in iter_src_filepaths(langs=args.langs, domains=args.domains, template=template):
 
-        result_template = f"pred_{lang}_{domain}_{args.dataset_name}_{args.model_name.split('/')[-1]}.jsonl"
+        dataset_tag = '20' if args.dataset_name == 'eval_20' else args.dataset_name
+        result_template = f"pred_{lang}_{domain}_{dataset_tag}_{args.model_name.split('/')[-1]}.jsonl"
         output_path = f"{args.dataset_name}/flat/{result_template}"
 
         if not exists(output_path):

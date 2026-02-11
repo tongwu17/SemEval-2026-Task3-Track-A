@@ -357,7 +357,6 @@ if __name__ == "__main__":
     print("=" * 50)
     
     # Load data
-    # TODO. Use load_samples_flat from utils_fewshot.py
     samples = load_samples(args.input, max_samples=args.max_samples)
     
     # Predict
