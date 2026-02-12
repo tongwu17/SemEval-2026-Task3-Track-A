@@ -18,8 +18,12 @@ checkpoints/
 *.bin
 
 # Training logs
-src/training_log_*.txt
+src/method_fine_tuning/logs/
+**/training_log_*.txt
 *.log
+
+# Comparison results
+**/comparison_results*.txt
 
 # IDE
 .vscode/
@@ -27,6 +31,9 @@ src/training_log_*.txt
 *.swp
 *.swo
 *~
+
+# Nohup
+nohup.out
 
 # OS
 .DS_Store
