@@ -1,258 +1,77 @@
 # SemEval-2026-Task3-Track-A
 
 ## Project Overview
-This project provides solutions for SemEval 2026 Task - Dimensional ABSA, Track A Subtask 1 (DimASR).
+This project provides solutions for [SemEval 2026 Task 3](https://github.com/DimABSA/DimABSA2026) - Dimensional ABSA, Track A Subtask 1 (DimASR).
 
 ## Methodologies
 
-This project implements two complementary approaches for Valence-Arousal prediction:
-
-### Method 1: Fine-tuning 
+### Main Method: Fine-tuning
 Fine-tuning approach based on pretrained language model (XLM-RoBERTa).
 
-### Method 2: Prompt-based LLM 
-Large Language Models with prompting - no training required.
+### Prompt-based LLM
+Large Language Models with prompting for comparison.
 
 ## Project Structure
 ```
-src/
-├── method_fine_tuning/     # Fine-tuning method implementation
-│   ├── config.sh           # Shared configuration
-│   ├── train.sh            # Training shell script 
-│   ├── predict.sh          # Prediction shell script 
-│   ├── train.py            # Training script
-│   ├── predict.py          # Prediction script
-│   ├── model.py            # Model definition
-│   ├── data_loader.py      # Data loading
-│   └── requirements.txt    # Dependencies
-├── method_prompt_llm/      # Prompt-based LLM method
-│   ├── method_openai.py    # OpenAI API implementation
-│   ├── method_bulkchain.py # Wrapper for Batched LLM querying (OpenAI, Replicate)
-│   ├── ollama.py           # Ollama local implementation
-│   ├── run_test.sh         # Simplified test script
-│   └── README.md           # Method documentation
-└── task-dataset-split/     # Split training data 
-```
-
----
-
-# Method 1: Fine-tuning Approach
-
-## Model Architecture
-```
-Input: [CLS] Text [SEP] Aspect [SEP]
-  ↓
-XLM-RoBERTa Encoder
-  ↓
-[CLS] Representation
-  ↓
-├─ Valence Head (Linear + Sigmoid*8 + 1)
-└─ Arousal Head (Linear + Sigmoid*8 + 1)
+├── evaluation_script/          # Evaluation metrics
+├── task-dataset/               # Task dataset
+│   └── track_a/subtask_1/     
+├── src/
+│   ├── method_fine_tuning/     # Fine-tuning method
+│   │   ├── config.sh           # Shared configuration
+│   │   ├── train.sh            # Training shell script
+│   │   ├── train.py            
+│   │   ├── predict.sh          # Prediction shell script
+│   │   ├── predict.py          
+│   │   ├── model.py            # Model definition
+│   │   ├── data_loader.py      # Data loading
+│   │   ├── outputs/            # Full predictions (dev / test)
+│   │   └── requirements.txt
+│   ├── method_prompt_llm/      # Prompt-based LLM (for comparison)
+│   │   ├── method_openai.py    # OpenAI API implementation
+│   │   ├── method_bulkchain.py # Bulk chain LLM implementation
+│   │   ├── utils_data.py       # Data utilities
+│   │   ├── utils_fewshot.py    # Few-shot utilities
+│   │   ├── providers/          # LLM provider adapters
+│   │   ├── run_*.sh            # Run scripts (GPT-5.2, LLaMA variants)
+│   │   └── requirements.txt
+│   ├── compare_methods.py      # Compare fine-tuning vs LLM results
+│   └── task-dataset-split/     # Split training data
+└── README.md
 ```
 
 ## Quick Start
 
-### 1. Install Dependencies
+### Fine-tuning
+
 ```bash
 cd src/method_fine_tuning
 pip install -r requirements.txt
-```
 
-### 2. Configure Model Settings (Optional)
-Edit [config.sh](src/method_fine_tuning/config.sh) to change model or parameters:
-```bash
-# Switch to large model for better performance
-MODEL_NAME="xlm-roberta-large"  # Change from xlm-roberta-base
-
-# Adjust max sequence length
-MAX_LENGTH=512  # Increase if needed
-```
-
-### 3. Train Model
-
-**Recommended: Use Shell Script (Ensures Consistency)**
-```bash
-cd src/method_fine_tuning
+# Train
 ./train.sh <language> <dataset> [task_suffix]
+# e.g. ./train.sh eng restaurant train_alltasks
 
-# Examples:
-./train.sh eng restaurant train_alltasks    
-./train.sh zho laptop train_alltasks        
-./train.sh zho finance train_task1          
-```
-
-**Alternative: Direct Python Command**
-```bash
-python train.py \
-    --data_dir ../task-dataset/track_a/subtask_1/<LANG> \
-    --train_file <LANG>_<DOMAIN>_train_<task_type>.jsonl \
-    --model_name xlm-roberta-base \
-    --max_length 256 \
-    --output_dir ./checkpoints/<LANG>_<DOMAIN> \
-    --batch_size 16 \
-    --num_epochs 10 \
-    --val_split 0.1
-```
-
-### 4. Generate Predictions
-
-**Recommended: Use Shell Script (Auto-matches Training Config)**
-```bash
-cd src/method_fine_tuning
+# Predict
 ./predict.sh <language> <dataset> [test_suffix] [gold_file]
-
-# Examples:
-./predict.sh eng restaurant dev_task1                           # Predict only
-./predict.sh zho laptop test_task1 <path_to_gold_file>         # Predict + Evaluate
+# e.g. ./predict.sh eng restaurant dev_task1
 ```
 
-**Alternative: Direct Python Command**
-```bash
-python predict.py \
-    --checkpoint ./checkpoints/<LANG>_<DOMAIN>/best_model.pt \
-    --test_file ../task-dataset/track_a/subtask_1/<LANG>/<LANG>_<DOMAIN>_dev_task1.jsonl \
-    --model_name xlm-roberta-base \
-    --max_length 256 \
-    --output_file ./outputs/<LANG>/pred_<LANG>_<DOMAIN>.jsonl
-```
+### Prompt-based LLM 
 
-## Experimental Settings
-- **Pretrained Model**: xlm-roberta-base
-- **Learning Rate**: 2e-5
-- **Batch Size**: 16
-- **Training Epochs**: 10
-- **Optimizer**: AdamW
-- **Loss Function**: MSE Loss
-
-**Note**: Val RMSE_VA is the result on validation set during training, Codabench RMSE is the official score after submission.
-
----
-
-# Method 2: Prompt-based LLM Approach
-
-## Overview
-
-Use Large Language Models (LLM) with prompting for Valence-Arousal prediction, no training required.
-
-### Two Implementations
-
-- **Ollama**: Local LLM 
-- **OpenAI API**: Cloud LLM 
-
-## Quick Start
-
-### Option 1: Simplified Script (Recommended)
+Models used: GPT-5.2, LLaMA-3-70B, LLaMA-3.3-70B, LLaMA-4-Maverick.
 
 ```bash
 cd src/method_prompt_llm
+pip install -r requirements.txt
 
-# Test with Ollama (free, local)
-./run_test.sh ollama eng laptop dev
-
-# Test with GPT-4o-mini (cheap)
-./run_test.sh gpt-4o-mini eng laptop dev 50
-
-# Full prediction with GPT-4o
-./run_test.sh gpt-4o eng laptop dev
-
-# Other examples
-./run_test.sh gpt-4o zho restaurant dev       # Chinese restaurant
-./run_test.sh ollama jpn hotel train 100      # Japanese hotel, 100 samples
-```
-
-### Option 2: Direct Python Command
-
-#### Method 1: Ollama Local Test
-
-```bash
-# 1. Install Ollama
-brew install ollama
-ollama pull llama3.2
-
-# 2. Run prediction (output filename auto-generated)
-cd src/method_prompt_llm
-
-# Simplified version (auto-generate output filename)
-python3 ollama.py \
-  --input ../../task-dataset/track_a/subtask_1/eng/eng_laptop_dev_task1.jsonl
-# Output: ./outputs/pred_eng_laptop_ollama.jsonl
-
-# Full version (manual specification)
-python3 ollama.py \
-  --input ../../task-dataset/track_a/subtask_1/eng/eng_laptop_dev_task1.jsonl \
-  --output ./outputs/pred_eng_laptop_ollama.jsonl \
-  --model llama3.2 \
-  --log_file ./log_ollama_eng_laptop.txt
-```
-
-#### Method 2: OpenAI API
-
-```bash
-# 1. Set API Key
-export OPENAI_API_KEY='sk-your-key-here'
-
-# 2. Run prediction (auto-add method suffix)
+# OpenAI API
+export OPENAI_API_KEY='your-api-key-here'
 python3 method_openai.py \
   --input ../../task-dataset/track_a/subtask_1/eng/eng_laptop_dev_task1.jsonl \
-  --model gpt-4o-mini
-# Output: ./outputs/pred_eng_laptop_gpt_4o_mini.jsonl
+  --model gpt-5.2
 
-# Use GPT-4o
-python3 method_openai.py \
-  --input ../../task-dataset/track_a/subtask_1/eng/eng_laptop_dev_task1.jsonl \
-  --model gpt-4o
-# Output: ./outputs/pred_eng_laptop_gpt_4o.jsonl
-```
-
-
-#### Method 3: bulk-chain API
-
-[Bulk-chain](https://github.com/nicolay-r/bulk-chain) features Time-efficient Querying by providing **native support for `batched` LLM querying**. [[video]](http://youtube.com/watch?v=pa8jGOhHViI)
-
-This repository support the following providers:
-* OpenAI
-* Replicate
-
-> **NOTE**: To use API, you have to provide `API_KEY`
-
-**Quick start:** Install dependencies:
-```bash
-pip3 install -r dependencies.txt
-```
-
-**Usage:** Proceed with the following example of applying  `LLaMA-3-70B-Instruct` hosted by [Replicate](https://replicate.com/) for querying data from `eval_20` dataset with batch-size `10`:
-
-```bash
-# Use LLama-3-70b-instruct
-python3 method_bulkchain.py \
-    --model_name meta/meta-llama-3-70b-instruct  \
-    --provider_path providers/replicate_104.py  \
-    --langs eng zho \
-    --batch_size 10 \
-    --dataset_name eval_20 \
-    --api_token API_KEY
-# Output: ./eval_20/ folder content
-```
-
-Or via `.sh`:
-```bash
+# Bulk Chain (LLaMA)
 ./run_llama3_70B_instruct.sh
 ```
-
-### Custom Method Name
-
-```bash
-# Custom method suffix
-python3 ollama.py \
-  --input ../../task-dataset/track_a/subtask_1/eng/eng_laptop_dev_task1.jsonl \
-  --method_suffix my_custom_method
-# Output: ./outputs/pred_eng_laptop_my_custom_method.jsonl
-```
-
-## Output Files
-
-All prediction results saved in `./outputs/` directory:
-- `pred_eng_laptop_ollama.jsonl` - Ollama predictions
-- `pred_eng_laptop_gpt_4o.jsonl` - GPT-4o predictions
-- `pred_eng_laptop_gpt_4o_mini.jsonl` - GPT-4o-mini predictions
 
