@@ -50,7 +50,23 @@ def predict(model, tokenizer, test_data, device, max_length=256, batch_size=32):
     
     for item in test_data:
         text = item['Text']
-        for aspect in item['Aspect']:
+        
+        # Extract aspects from different formats
+        aspects = []
+        if 'Aspect' in item:
+            # Task 1 format: {"Aspect": ["aspect1", "aspect2"]}
+            aspects = item['Aspect']
+        elif 'Aspect_VA' in item:
+            # Task 1 format with VA: {"Aspect_VA": [{"Aspect": "...", "VA": "..."}]}
+            aspects = [a['Aspect'] for a in item['Aspect_VA']]
+        elif 'Quadruplet' in item:
+            # Task 3 format: {"Quadruplet": [{"Aspect": "...", ...}]}
+            aspects = [q['Aspect'] for q in item['Quadruplet']]
+        elif 'Triplet' in item:
+            # Task 2 format: {"Triplet": [{"Aspect": "...", ...}]}
+            aspects = [t['Aspect'] for t in item['Triplet']]
+        
+        for aspect in aspects:
             # Tokenize
             encoding = tokenizer(
                 text,

@@ -5,7 +5,7 @@ import logging
 from datetime import datetime
 import torch
 import torch.nn as nn
-from torch.utils.data import DataLoader
+from torch.utils.data import DataLoader, Dataset
 from transformers import AutoTokenizer, get_linear_schedule_with_warmup
 from tqdm import tqdm
 import numpy as np
@@ -14,6 +14,62 @@ from scipy.stats import pearsonr
 
 from model import create_model
 from data_loader import DimASRDataset
+
+class MergedDimASRDataset(Dataset):
+    """Merged Dataset from multiple JSONL files"""
+    
+    def __init__(self, data_paths: list, tokenizer, max_length: int = 256):
+        """
+        Args:
+            data_paths: List of JSONL file paths
+            tokenizer: HuggingFace tokenizer
+            max_length: Maximum sequence length
+        """
+        self.tokenizer = tokenizer
+        self.max_length = max_length
+        self.samples = []
+        
+        for path in data_paths:
+            if os.path.exists(path):
+                dataset = DimASRDataset(path, tokenizer, max_length)
+                self.samples.extend(dataset.samples)
+                logging.info(f"  Loaded {len(dataset)} samples from {path}")
+            else:
+                logging.warning(f"  File not found: {path}")
+        
+        logging.info(f"  Total merged samples: {len(self.samples)}")
+    
+    def __len__(self):
+        return len(self.samples)
+    
+    def __getitem__(self, idx):
+        sample = self.samples[idx]
+        text = sample['text']
+        aspect = sample['aspect']
+        
+        encoding = self.tokenizer(
+            text,
+            aspect,
+            max_length=self.max_length,
+            padding='max_length',
+            truncation=True,
+            return_tensors='pt'
+        )
+        
+        result = {
+            'input_ids': encoding['input_ids'].squeeze(0),
+            'attention_mask': encoding['attention_mask'].squeeze(0),
+            'id': sample['id'],
+            'aspect': aspect
+        }
+        
+        if 'va' in sample:
+            valence, arousal = map(float, sample['va'].split('#'))
+            result['valence'] = valence
+            result['arousal'] = arousal
+        
+        return result
+
 
 def calculate_rmse(pred_valence, pred_arousal, gold_valence, gold_arousal):
     """Fast RMSE calculation for quick monitoring during training"""
@@ -92,6 +148,9 @@ class Trainer:
         self.patience = patience
         self.model_name = model_name
         self.max_length = max_length
+        
+        # Extract model prefix from output_dir (e.g., "eng_laptop_80" from "./checkpoints/eng_laptop_80")
+        self.model_prefix = os.path.basename(output_dir)
         
         # MSE loss function
         self.criterion = nn.MSELoss()
@@ -208,8 +267,9 @@ class Trainer:
                 self.best_epoch = epoch
                 self.patience_counter = 0
                 
-                # Save model
-                model_path = os.path.join(self.output_dir, 'best_model.pt')
+                # Save model with prefix (e.g., eng_laptop_80_best_model.pt)
+                model_filename = f'{self.model_prefix}_best_model.pt'
+                model_path = os.path.join(self.output_dir, model_filename)
                 torch.save({
                     'epoch': epoch,
                     'model_state_dict': self.model.state_dict(),
@@ -239,6 +299,8 @@ def main():
                        help='Data directory path')
     parser.add_argument('--train_file', type=str, default='eng_restaurant_train_alltasks.jsonl',
                        help='Training file name')
+    parser.add_argument('--dev_file', type=str, default=None,
+                       help='Dev file name (optional, for train+dev merged training)')
     parser.add_argument('--model_name', type=str, default='xlm-roberta-base',
                        help='Pretrained model name')
     parser.add_argument('--output_dir', type=str, default='./checkpoints',
@@ -261,6 +323,8 @@ def main():
     if args.log_file is None:
         # Extract dataset name from train_file (e.g., zho_restaurant_train_alltasks.jsonl -> zho_restaurant_train_alltasks)
         dataset_name = os.path.splitext(args.train_file)[0]
+        if args.dev_file:
+            dataset_name = dataset_name.replace('_train_alltasks', '_traindev').replace('_train_task1', '_traindev')
         args.log_file = f'training_log_{dataset_name}.txt'
     
     # Configure logging: output to both file and console
@@ -282,6 +346,9 @@ def main():
     logging.info(f"Training Configuration - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     logging.info("="*50)
     logging.info(f"Data: {args.data_dir}/{args.train_file}")
+    if args.dev_file:
+        logging.info(f"Dev: {args.data_dir}/{args.dev_file}")
+        logging.info(f"Mode: Train+Dev merged training (for test set prediction)")
     logging.info(f"Model: {args.model_name}")
     logging.info(f"Output: {args.output_dir}")
     logging.info(f"Epochs: {args.num_epochs}, Batch size: {args.batch_size}")
@@ -303,8 +370,14 @@ def main():
     logging.info("Loading data...")
     train_path = os.path.join(args.data_dir, args.train_file)
     
-    # Load complete training data
-    full_train_dataset = DimASRDataset(train_path, tokenizer, args.max_length)
+    # Load complete training data (optionally merge with dev set)
+    if args.dev_file:
+        # Merge train + dev for test prediction
+        dev_path = os.path.join(args.data_dir, args.dev_file)
+        logging.info(f"Merging train + dev datasets:")
+        full_train_dataset = MergedDimASRDataset([train_path, dev_path], tokenizer, args.max_length)
+    else:
+        full_train_dataset = DimASRDataset(train_path, tokenizer, args.max_length)
     
     # Split training and validation sets
     from torch.utils.data import random_split
@@ -351,10 +424,14 @@ def main():
     
     best_rmse = trainer.train(args.num_epochs)
     
+    # Get model prefix from output_dir
+    model_prefix = os.path.basename(args.output_dir)
+    model_filename = f'{model_prefix}_best_model.pt'
+    
     logging.info("\n" + "="*50)
     logging.info(f"Training completed!")
     logging.info(f"Best RMSE_VA: {best_rmse:.4f}")
-    logging.info(f"Model saved to: {args.output_dir}/best_model.pt")
+    logging.info(f"Model saved to: {args.output_dir}/{model_filename}")
     logging.info("="*50)
 
 

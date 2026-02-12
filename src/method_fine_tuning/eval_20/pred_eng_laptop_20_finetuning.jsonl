@@ -1,0 +1,816 @@
+{"ID": "laptop_quad_test_292", "Aspect_VA": [{"Aspect": "os x", "VA": "6.39#6.39"}, {"Aspect": "display", "VA": "6.64#6.69"}]}
+{"ID": "laptop_quad_train_2765", "Aspect_VA": [{"Aspect": "body of the chromebook", "VA": "7.01#6.95"}]}
+{"ID": "laptop_quad_test_5", "Aspect_VA": [{"Aspect": "chrome os", "VA": "5.35#5.53"}]}
+{"ID": "laptop_quad_train_1071", "Aspect_VA": [{"Aspect": "hardware", "VA": "7.11#7.02"}, {"Aspect": "hardware", "VA": "7.11#7.02"}, {"Aspect": "software", "VA": "7.19#7.13"}, {"Aspect": "software", "VA": "7.19#7.13"}]}
+{"ID": "laptop_quad_train_168", "Aspect_VA": [{"Aspect": "computer", "VA": "2.69#6.94"}]}
+{"ID": "laptop_quad_train_234", "Aspect_VA": [{"Aspect": "hd screen", "VA": "7.30#7.07"}]}
+{"ID": "laptop_quad_test_787", "Aspect_VA": [{"Aspect": "c302ca - dh54", "VA": "6.27#5.89"}]}
+{"ID": "laptop_quad_test_635", "Aspect_VA": [{"Aspect": "screen", "VA": "3.96#5.81"}]}
+{"ID": "laptop_quad_train_29", "Aspect_VA": [{"Aspect": "replacements", "VA": "4.06#5.74"}]}
+{"ID": "laptop_quad_train_1781", "Aspect_VA": [{"Aspect": "laptop", "VA": "4.50#5.42"}]}
+{"ID": "laptop_quad_dev_318", "Aspect_VA": [{"Aspect": "machine", "VA": "6.34#6.15"}, {"Aspect": "machine", "VA": "6.34#6.15"}]}
+{"ID": "laptop_quad_train_660", "Aspect_VA": [{"Aspect": "lenovo laptops", "VA": "7.19#7.14"}]}
+{"ID": "laptop_quad_test_799", "Aspect_VA": [{"Aspect": "screen", "VA": "7.36#7.31"}, {"Aspect": "keyboard", "VA": "7.19#7.14"}, {"Aspect": "form factor", "VA": "7.20#7.15"}]}
+{"ID": "laptop_quad_test_654", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.22#7.18"}, {"Aspect": "NULL", "VA": "7.22#7.18"}]}
+{"ID": "laptop_quad_train_1426", "Aspect_VA": [{"Aspect": "c302", "VA": "6.68#6.80"}, {"Aspect": "c302", "VA": "6.68#6.80"}]}
+{"ID": "laptop_quad_train_843", "Aspect_VA": [{"Aspect": "stylus", "VA": "2.98#6.59"}, {"Aspect": "stylus", "VA": "2.98#6.59"}]}
+{"ID": "laptop_quad_train_994", "Aspect_VA": [{"Aspect": "screen", "VA": "4.67#5.35"}]}
+{"ID": "laptop_quad_train_2044", "Aspect_VA": [{"Aspect": "hdmi port on my chromebook", "VA": "3.56#6.17"}]}
+{"ID": "laptop_quad_train_2670", "Aspect_VA": [{"Aspect": "sound", "VA": "6.16#5.90"}]}
+{"ID": "laptop_quad_test_810", "Aspect_VA": [{"Aspect": "battery", "VA": "7.00#6.83"}]}
+{"ID": "laptop_quad_train_1470", "Aspect_VA": [{"Aspect": "asus", "VA": "4.90#5.69"}, {"Aspect": "asus", "VA": "4.90#5.69"}]}
+{"ID": "laptop_quad_test_687", "Aspect_VA": [{"Aspect": "screen", "VA": "7.56#7.51"}, {"Aspect": "screen", "VA": "7.56#7.51"}, {"Aspect": "screen", "VA": "7.56#7.51"}]}
+{"ID": "laptop_quad_train_2466", "Aspect_VA": [{"Aspect": "touchscreen", "VA": "7.65#7.59"}, {"Aspect": "touchscreen", "VA": "7.65#7.59"}]}
+{"ID": "laptop_quad_test_736", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.96#6.95"}, {"Aspect": "NULL", "VA": "6.96#6.95"}]}
+{"ID": "laptop_quad_train_702", "Aspect_VA": [{"Aspect": "battery", "VA": "4.98#5.66"}]}
+{"ID": "laptop_quad_train_803", "Aspect_VA": [{"Aspect": "keyboard", "VA": "5.27#6.20"}]}
+{"ID": "laptop_quad_train_1905", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.06#6.98"}]}
+{"ID": "laptop_quad_test_326", "Aspect_VA": [{"Aspect": "mac book", "VA": "6.53#6.55"}, {"Aspect": "internals", "VA": "4.09#5.98"}]}
+{"ID": "laptop_quad_train_685", "Aspect_VA": [{"Aspect": "ac wireless", "VA": "7.18#7.00"}]}
+{"ID": "laptop_quad_train_2239", "Aspect_VA": [{"Aspect": "delete button", "VA": "4.82#5.39"}]}
+{"ID": "laptop_quad_train_606", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.77#7.71"}]}
+{"ID": "laptop_quad_train_926", "Aspect_VA": [{"Aspect": "screen quality", "VA": "7.84#7.77"}]}
+{"ID": "laptop_quad_train_2276", "Aspect_VA": [{"Aspect": "sound went", "VA": "4.77#5.38"}]}
+{"ID": "laptop_quad_train_1368", "Aspect_VA": [{"Aspect": "product", "VA": "4.98#5.67"}]}
+{"ID": "laptop_quad_train_671", "Aspect_VA": [{"Aspect": "memory", "VA": "7.07#6.94"}, {"Aspect": "storage", "VA": "7.03#6.84"}]}
+{"ID": "laptop_quad_train_2656", "Aspect_VA": [{"Aspect": "asus chromebook", "VA": "7.37#7.33"}]}
+{"ID": "laptop_quad_train_158", "Aspect_VA": [{"Aspect": "set up", "VA": "4.63#5.35"}]}
+{"ID": "laptop_quad_train_1297", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.95#6.91"}]}
+{"ID": "laptop_quad_train_1148", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.54#7.50"}]}
+{"ID": "laptop_quad_train_2508", "Aspect_VA": [{"Aspect": "keyboard", "VA": "7.01#6.95"}]}
+{"ID": "laptop_quad_train_1593", "Aspect_VA": [{"Aspect": "battery", "VA": "4.17#5.82"}]}
+{"ID": "laptop_quad_train_762", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.96#6.89"}]}
+{"ID": "laptop_quad_train_2141", "Aspect_VA": [{"Aspect": "unit", "VA": "4.27#5.48"}]}
+{"ID": "laptop_quad_test_221", "Aspect_VA": [{"Aspect": "pixel", "VA": "4.36#5.58"}]}
+{"ID": "laptop_quad_train_728", "Aspect_VA": [{"Aspect": "streaming video applications", "VA": "3.60#6.10"}]}
+{"ID": "laptop_quad_test_172", "Aspect_VA": [{"Aspect": "first person shooters", "VA": "7.06#6.91"}]}
+{"ID": "laptop_quad_test_695", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.79#6.70"}]}
+{"ID": "laptop_quad_train_1142", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.20#5.50"}]}
+{"ID": "laptop_quad_train_2922", "Aspect_VA": [{"Aspect": "track pad", "VA": "4.11#5.92"}]}
+{"ID": "laptop_quad_train_761", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.88#6.80"}, {"Aspect": "NULL", "VA": "6.88#6.80"}, {"Aspect": "NULL", "VA": "6.88#6.80"}, {"Aspect": "video card", "VA": "5.72#5.78"}]}
+{"ID": "laptop_quad_train_980", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.49#5.44"}]}
+{"ID": "laptop_quad_train_1709", "Aspect_VA": [{"Aspect": "speakers", "VA": "2.87#6.69"}]}
+{"ID": "laptop_quad_train_2152", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.62#5.41"}]}
+{"ID": "laptop_quad_test_395", "Aspect_VA": [{"Aspect": "amazon", "VA": "4.53#5.36"}, {"Aspect": "laptops", "VA": "4.31#5.55"}]}
+{"ID": "laptop_quad_test_571", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.88#6.87"}, {"Aspect": "NULL", "VA": "6.88#6.87"}, {"Aspect": "NULL", "VA": "6.88#6.87"}]}
+{"ID": "laptop_quad_train_600", "Aspect_VA": [{"Aspect": "lapto", "VA": "7.83#7.77"}]}
+{"ID": "laptop_quad_train_2047", "Aspect_VA": [{"Aspect": "screen", "VA": "4.07#5.71"}, {"Aspect": "chrome browser", "VA": "4.47#5.50"}]}
+{"ID": "laptop_quad_test_111", "Aspect_VA": [{"Aspect": "size", "VA": "7.80#7.73"}, {"Aspect": "NULL", "VA": "7.36#7.31"}]}
+{"ID": "laptop_quad_train_2013", "Aspect_VA": [{"Aspect": "monitor", "VA": "7.18#7.12"}]}
+{"ID": "laptop_quad_train_2733", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.75#7.67"}]}
+{"ID": "laptop_quad_dev_23", "Aspect_VA": [{"Aspect": "external speakers", "VA": "6.16#6.24"}, {"Aspect": "external speakers", "VA": "6.16#6.24"}]}
+{"ID": "laptop_quad_train_1675", "Aspect_VA": [{"Aspect": "bluetooth", "VA": "2.53#7.20"}]}
+{"ID": "laptop_quad_train_1546", "Aspect_VA": [{"Aspect": "sound", "VA": "3.67#6.04"}, {"Aspect": "screen quality", "VA": "3.54#6.20"}]}
+{"ID": "laptop_quad_test_279", "Aspect_VA": [{"Aspect": "battery", "VA": "6.68#6.48"}]}
+{"ID": "laptop_quad_test_674", "Aspect_VA": [{"Aspect": "android youtube app", "VA": "3.50#6.23"}, {"Aspect": "android youtube app", "VA": "3.50#6.23"}]}
+{"ID": "laptop_quad_train_495", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.26#7.24"}]}
+{"ID": "laptop_quad_train_883", "Aspect_VA": [{"Aspect": "apps", "VA": "2.69#7.06"}]}
+{"ID": "laptop_quad_train_431", "Aspect_VA": [{"Aspect": "chromebooks", "VA": "7.98#7.91"}]}
+{"ID": "laptop_quad_train_1711", "Aspect_VA": [{"Aspect": "computer", "VA": "7.40#7.39"}, {"Aspect": "charger", "VA": "4.58#5.89"}]}
+{"ID": "laptop_quad_train_2527", "Aspect_VA": [{"Aspect": "trackbad", "VA": "4.42#5.79"}, {"Aspect": "trackbad", "VA": "4.42#5.79"}]}
+{"ID": "laptop_quad_test_471", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.99#7.90"}]}
+{"ID": "laptop_quad_train_1216", "Aspect_VA": [{"Aspect": "model", "VA": "7.44#7.41"}]}
+{"ID": "laptop_quad_train_1438", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.93#6.87"}]}
+{"ID": "laptop_quad_train_556", "Aspect_VA": [{"Aspect": "computer", "VA": "3.20#6.53"}, {"Aspect": "computer", "VA": "3.20#6.53"}]}
+{"ID": "laptop_quad_train_724", "Aspect_VA": [{"Aspect": "battery life", "VA": "3.07#6.60"}]}
+{"ID": "laptop_quad_dev_299", "Aspect_VA": [{"Aspect": "setup", "VA": "7.28#7.23"}, {"Aspect": "setup", "VA": "7.28#7.23"}]}
+{"ID": "laptop_quad_train_2807", "Aspect_VA": [{"Aspect": "battery life", "VA": "7.21#7.14"}]}
+{"ID": "laptop_quad_train_1362", "Aspect_VA": [{"Aspect": "thunderbolt ports", "VA": "3.86#5.76"}]}
+{"ID": "laptop_quad_train_2666", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.64#7.55"}]}
+{"ID": "laptop_quad_train_2820", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.85#7.74"}, {"Aspect": "travel", "VA": "8.11#7.95"}]}
+{"ID": "laptop_quad_dev_190", "Aspect_VA": [{"Aspect": "computer", "VA": "3.79#5.77"}]}
+{"ID": "laptop_quad_dev_101", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.62#6.41"}]}
+{"ID": "laptop_quad_test_278", "Aspect_VA": [{"Aspect": "chromebook", "VA": "4.58#5.34"}]}
+{"ID": "laptop_quad_test_490", "Aspect_VA": [{"Aspect": "touchpad", "VA": "4.01#5.76"}]}
+{"ID": "laptop_quad_train_2279", "Aspect_VA": [{"Aspect": "specs", "VA": "6.87#6.76"}, {"Aspect": "laptop", "VA": "6.95#6.85"}]}
+{"ID": "laptop_quad_train_2640", "Aspect_VA": [{"Aspect": "machine", "VA": "3.59#6.18"}, {"Aspect": "gmail accounts", "VA": "3.61#6.17"}]}
+{"ID": "laptop_quad_train_130", "Aspect_VA": [{"Aspect": "amazon", "VA": "7.52#7.48"}, {"Aspect": "return policy", "VA": "7.68#7.63"}]}
+{"ID": "laptop_quad_train_1614", "Aspect_VA": [{"Aspect": "asus unit", "VA": "6.77#6.70"}, {"Aspect": "keyboard", "VA": "4.05#6.00"}]}
+{"ID": "laptop_quad_test_637", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.35#5.47"}]}
+{"ID": "laptop_quad_train_1935", "Aspect_VA": [{"Aspect": "power button", "VA": "4.71#5.38"}, {"Aspect": "delete button", "VA": "4.75#5.38"}]}
+{"ID": "laptop_quad_train_2554", "Aspect_VA": [{"Aspect": "keyboard", "VA": "7.49#7.46"}]}
+{"ID": "laptop_quad_train_231", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.92#6.87"}]}
+{"ID": "laptop_quad_train_2488", "Aspect_VA": [{"Aspect": "keyboard", "VA": "7.16#7.08"}, {"Aspect": "layout", "VA": "7.37#7.31"}, {"Aspect": "layout", "VA": "7.37#7.31"}]}
+{"ID": "laptop_quad_train_1451", "Aspect_VA": [{"Aspect": "machinery", "VA": "2.71#6.99"}]}
+{"ID": "laptop_quad_train_1578", "Aspect_VA": [{"Aspect": "wifi connectivity", "VA": "5.33#5.47"}]}
+{"ID": "laptop_quad_train_970", "Aspect_VA": [{"Aspect": "keyboard", "VA": "6.96#6.90"}, {"Aspect": "track pad", "VA": "7.01#6.94"}]}
+{"ID": "laptop_quad_train_21", "Aspect_VA": [{"Aspect": "chromebook", "VA": "4.50#5.45"}]}
+{"ID": "laptop_quad_test_22", "Aspect_VA": [{"Aspect": "sound", "VA": "6.88#6.77"}]}
+{"ID": "laptop_quad_train_1557", "Aspect_VA": [{"Aspect": "computer", "VA": "6.92#6.92"}, {"Aspect": "NULL", "VA": "6.17#6.22"}, {"Aspect": "NULL", "VA": "6.17#6.22"}]}
+{"ID": "laptop_quad_test_370", "Aspect_VA": [{"Aspect": "model", "VA": "6.91#6.81"}]}
+{"ID": "laptop_quad_train_1873", "Aspect_VA": [{"Aspect": "product", "VA": "6.32#5.95"}]}
+{"ID": "laptop_quad_train_2372", "Aspect_VA": [{"Aspect": "storage", "VA": "4.24#5.85"}, {"Aspect": "battery life", "VA": "3.82#6.06"}, {"Aspect": "backlit keyboard", "VA": "4.37#5.70"}]}
+{"ID": "laptop_quad_train_2110", "Aspect_VA": [{"Aspect": "screen", "VA": "4.18#5.68"}]}
+{"ID": "laptop_quad_train_797", "Aspect_VA": [{"Aspect": "screen", "VA": "3.46#6.15"}]}
+{"ID": "laptop_quad_train_952", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.25#7.19"}]}
+{"ID": "laptop_quad_train_2546", "Aspect_VA": [{"Aspect": "device", "VA": "7.99#7.88"}]}
+{"ID": "laptop_quad_train_1626", "Aspect_VA": [{"Aspect": "laptop", "VA": "4.22#5.50"}]}
+{"ID": "laptop_quad_train_670", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.94#6.88"}]}
+{"ID": "laptop_quad_train_2394", "Aspect_VA": [{"Aspect": "usb c", "VA": "7.15#7.02"}]}
+{"ID": "laptop_quad_train_763", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.99#6.95"}]}
+{"ID": "laptop_quad_train_178", "Aspect_VA": [{"Aspect": "asus support", "VA": "4.30#5.51"}]}
+{"ID": "laptop_quad_train_1540", "Aspect_VA": [{"Aspect": "build quality", "VA": "7.65#7.59"}, {"Aspect": "screen", "VA": "7.73#7.68"}, {"Aspect": "keyboard", "VA": "7.89#7.82"}]}
+{"ID": "laptop_quad_train_2660", "Aspect_VA": [{"Aspect": "netflix app", "VA": "5.09#5.39"}]}
+{"ID": "laptop_quad_train_1234", "Aspect_VA": [{"Aspect": "macbook", "VA": "7.62#7.58"}, {"Aspect": "macbook", "VA": "7.62#7.58"}]}
+{"ID": "laptop_quad_train_2077", "Aspect_VA": [{"Aspect": "trackpad", "VA": "2.70#7.10"}, {"Aspect": "acer trackpads", "VA": "2.75#7.07"}]}
+{"ID": "laptop_quad_train_2377", "Aspect_VA": [{"Aspect": "default scaling", "VA": "7.69#7.64"}, {"Aspect": "default scaling", "VA": "7.69#7.64"}]}
+{"ID": "laptop_quad_train_2369", "Aspect_VA": [{"Aspect": "build quality", "VA": "7.14#7.13"}, {"Aspect": "hinge", "VA": "6.87#6.83"}]}
+{"ID": "laptop_quad_train_34", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.83#5.87"}]}
+{"ID": "laptop_quad_train_103", "Aspect_VA": [{"Aspect": "NULL", "VA": "2.70#6.81"}]}
+{"ID": "laptop_quad_dev_2", "Aspect_VA": [{"Aspect": "device", "VA": "6.67#6.45"}]}
+{"ID": "laptop_quad_train_1103", "Aspect_VA": [{"Aspect": "apps", "VA": "4.11#5.79"}, {"Aspect": "google docs / drive", "VA": "4.33#5.64"}, {"Aspect": "chrome", "VA": "4.08#5.81"}]}
+{"ID": "laptop_quad_train_522", "Aspect_VA": [{"Aspect": "mobility", "VA": "7.51#7.46"}]}
+{"ID": "laptop_quad_train_91", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.90#6.99"}]}
+{"ID": "laptop_quad_train_1190", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.34#7.30"}]}
+{"ID": "laptop_quad_train_1380", "Aspect_VA": [{"Aspect": "apple", "VA": "5.90#5.64"}]}
+{"ID": "laptop_quad_test_387", "Aspect_VA": [{"Aspect": "macbook pro", "VA": "7.35#7.31"}]}
+{"ID": "laptop_quad_train_1923", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.96#6.90"}, {"Aspect": "NULL", "VA": "6.96#6.90"}]}
+{"ID": "laptop_quad_train_1633", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.04#7.07"}, {"Aspect": "sound", "VA": "4.85#5.78"}]}
+{"ID": "laptop_quad_train_2541", "Aspect_VA": [{"Aspect": "asus flip", "VA": "7.70#7.62"}]}
+{"ID": "laptop_quad_train_1582", "Aspect_VA": [{"Aspect": "machine", "VA": "7.75#7.67"}]}
+{"ID": "laptop_quad_train_581", "Aspect_VA": [{"Aspect": "graphics", "VA": "3.68#6.14"}]}
+{"ID": "laptop_quad_test_460", "Aspect_VA": [{"Aspect": "product", "VA": "7.28#7.20"}, {"Aspect": "product", "VA": "7.28#7.20"}]}
+{"ID": "laptop_quad_test_196", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.92#7.82"}]}
+{"ID": "laptop_quad_train_1129", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.00#6.93"}]}
+{"ID": "laptop_quad_train_70", "Aspect_VA": [{"Aspect": "hd touch", "VA": "5.97#5.74"}, {"Aspect": "intel celeron n3150", "VA": "5.79#5.62"}, {"Aspect": "chrome", "VA": "5.56#5.54"}, {"Aspect": "cb5 - 132t - c1lk", "VA": "5.72#5.61"}]}
+{"ID": "laptop_quad_train_1714", "Aspect_VA": [{"Aspect": "computer", "VA": "3.14#6.35"}]}
+{"ID": "laptop_quad_train_507", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.73#5.59"}, {"Aspect": "NULL", "VA": "4.73#5.59"}]}
+{"ID": "laptop_quad_train_195", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.29#5.55"}]}
+{"ID": "laptop_quad_train_531", "Aspect_VA": [{"Aspect": "lenovo", "VA": "7.34#7.35"}, {"Aspect": "products", "VA": "7.27#7.29"}]}
+{"ID": "laptop_quad_train_2366", "Aspect_VA": [{"Aspect": "machine", "VA": "7.42#7.42"}, {"Aspect": "touch screen", "VA": "4.80#6.59"}]}
+{"ID": "laptop_quad_train_125", "Aspect_VA": [{"Aspect": "asus vivobook", "VA": "7.02#6.95"}, {"Aspect": "hdd", "VA": "7.02#7.00"}, {"Aspect": "ram", "VA": "6.98#6.95"}, {"Aspect": "specs", "VA": "6.95#6.90"}]}
+{"ID": "laptop_quad_train_936", "Aspect_VA": [{"Aspect": "ips display", "VA": "7.76#7.70"}]}
+{"ID": "laptop_quad_train_89", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.14#5.64"}]}
+{"ID": "laptop_quad_train_1807", "Aspect_VA": [{"Aspect": "computer", "VA": "6.46#6.57"}, {"Aspect": "description", "VA": "3.91#6.21"}]}
+{"ID": "laptop_quad_test_185", "Aspect_VA": [{"Aspect": "ports", "VA": "6.85#6.42"}]}
+{"ID": "laptop_quad_train_2433", "Aspect_VA": [{"Aspect": "keyboard", "VA": "7.79#7.72"}]}
+{"ID": "laptop_quad_train_144", "Aspect_VA": [{"Aspect": "m key", "VA": "4.75#5.29"}]}
+{"ID": "laptop_quad_train_1411", "Aspect_VA": [{"Aspect": "display", "VA": "3.87#6.00"}]}
+{"ID": "laptop_quad_train_211", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.16#7.05"}]}
+{"ID": "laptop_quad_train_1579", "Aspect_VA": [{"Aspect": "asus unit", "VA": "4.34#5.55"}]}
+{"ID": "laptop_quad_dev_287", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.78#7.70"}]}
+{"ID": "laptop_quad_train_625", "Aspect_VA": [{"Aspect": "computer", "VA": "6.25#5.92"}]}
+{"ID": "laptop_quad_train_350", "Aspect_VA": [{"Aspect": "plastic", "VA": "6.70#6.59"}, {"Aspect": "keys", "VA": "5.82#5.76"}, {"Aspect": "mousepad", "VA": "7.08#7.04"}]}
+{"ID": "laptop_quad_test_482", "Aspect_VA": [{"Aspect": "trackpad", "VA": "2.73#6.92"}]}
+{"ID": "laptop_quad_train_1605", "Aspect_VA": [{"Aspect": "wifi", "VA": "4.21#5.69"}]}
+{"ID": "laptop_quad_train_1877", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.42#6.28"}]}
+{"ID": "laptop_quad_train_1898", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.85#6.73"}]}
+{"ID": "laptop_quad_train_1805", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.19#5.81"}, {"Aspect": "NULL", "VA": "5.19#5.81"}]}
+{"ID": "laptop_quad_train_1672", "Aspect_VA": [{"Aspect": "screen", "VA": "7.07#7.01"}, {"Aspect": "backlit keyboard", "VA": "6.92#6.82"}, {"Aspect": "memory", "VA": "6.95#6.88"}]}
+{"ID": "laptop_quad_train_1064", "Aspect_VA": [{"Aspect": "model", "VA": "3.88#5.84"}]}
+{"ID": "laptop_quad_train_2162", "Aspect_VA": [{"Aspect": "computer", "VA": "5.43#5.45"}]}
+{"ID": "laptop_quad_train_988", "Aspect_VA": [{"Aspect": "keyboard", "VA": "4.10#5.67"}]}
+{"ID": "laptop_quad_dev_7", "Aspect_VA": [{"Aspect": "screen", "VA": "3.05#6.64"}]}
+{"ID": "laptop_quad_train_645", "Aspect_VA": [{"Aspect": "audio", "VA": "6.69#6.54"}]}
+{"ID": "laptop_quad_train_1762", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.32#6.34"}]}
+{"ID": "laptop_quad_dev_182", "Aspect_VA": [{"Aspect": "asus model", "VA": "4.40#5.44"}]}
+{"ID": "laptop_quad_test_718", "Aspect_VA": [{"Aspect": "trackpad", "VA": "7.88#7.81"}, {"Aspect": "touchscreen", "VA": "7.92#7.84"}]}
+{"ID": "laptop_quad_test_453", "Aspect_VA": [{"Aspect": "crap", "VA": "3.27#6.41"}]}
+{"ID": "laptop_quad_train_1220", "Aspect_VA": [{"Aspect": "mac", "VA": "7.35#7.31"}]}
+{"ID": "laptop_quad_train_436", "Aspect_VA": [{"Aspect": "screen", "VA": "3.37#6.22"}, {"Aspect": "amazon", "VA": "4.20#5.64"}]}
+{"ID": "laptop_quad_test_148", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.38#7.34"}]}
+{"ID": "laptop_quad_train_953", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.45#6.19"}]}
+{"ID": "laptop_quad_train_1342", "Aspect_VA": [{"Aspect": "model", "VA": "3.97#5.87"}]}
+{"ID": "laptop_quad_train_646", "Aspect_VA": [{"Aspect": "better", "VA": "6.19#6.19"}]}
+{"ID": "laptop_quad_train_2515", "Aspect_VA": [{"Aspect": "battery life", "VA": "7.28#7.16"}, {"Aspect": "battery life", "VA": "7.28#7.16"}]}
+{"ID": "laptop_quad_train_2080", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.44#6.18"}, {"Aspect": "screen", "VA": "3.57#6.10"}]}
+{"ID": "laptop_quad_train_1843", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.37#7.29"}]}
+{"ID": "laptop_quad_train_274", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.74#7.65"}]}
+{"ID": "laptop_quad_train_638", "Aspect_VA": [{"Aspect": "keyboard", "VA": "6.92#6.90"}]}
+{"ID": "laptop_quad_train_1302", "Aspect_VA": [{"Aspect": "laptop", "VA": "6.05#5.70"}]}
+{"ID": "laptop_quad_test_119", "Aspect_VA": [{"Aspect": "samsung chromebook", "VA": "5.78#5.57"}, {"Aspect": "brand", "VA": "5.73#5.58"}]}
+{"ID": "laptop_quad_dev_157", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.03#6.79"}]}
+{"ID": "laptop_quad_train_2474", "Aspect_VA": [{"Aspect": "usb - c ports", "VA": "6.84#6.86"}, {"Aspect": "charged time", "VA": "4.95#5.59"}]}
+{"ID": "laptop_quad_train_1237", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.34#5.53"}]}
+{"ID": "laptop_quad_train_2716", "Aspect_VA": [{"Aspect": "chrome os", "VA": "7.03#6.95"}, {"Aspect": "chrome os", "VA": "7.03#6.95"}]}
+{"ID": "laptop_quad_test_744", "Aspect_VA": [{"Aspect": "computer", "VA": "6.95#6.67"}]}
+{"ID": "laptop_quad_train_2429", "Aspect_VA": [{"Aspect": "touchpad", "VA": "2.99#6.71"}]}
+{"ID": "laptop_quad_dev_114", "Aspect_VA": [{"Aspect": "google", "VA": "5.26#5.39"}]}
+{"ID": "laptop_quad_train_215", "Aspect_VA": [{"Aspect": "screen quality", "VA": "7.85#7.79"}]}
+{"ID": "laptop_quad_train_2575", "Aspect_VA": [{"Aspect": "sound", "VA": "3.82#6.01"}]}
+{"ID": "laptop_quad_train_1642", "Aspect_VA": [{"Aspect": "NULL", "VA": "2.56#7.04"}]}
+{"ID": "laptop_quad_train_496", "Aspect_VA": [{"Aspect": "wi - fi", "VA": "7.16#7.05"}]}
+{"ID": "laptop_quad_train_945", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.00#6.96"}, {"Aspect": "build", "VA": "7.26#7.23"}, {"Aspect": "screen", "VA": "7.11#7.07"}, {"Aspect": "resolution", "VA": "7.24#7.19"}, {"Aspect": "keyboard", "VA": "6.98#6.92"}]}
+{"ID": "laptop_quad_train_1486", "Aspect_VA": [{"Aspect": "asus", "VA": "7.57#7.53"}]}
+{"ID": "laptop_quad_train_297", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.71#5.59"}]}
+{"ID": "laptop_quad_train_2", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.75#5.46"}]}
+{"ID": "laptop_quad_train_2026", "Aspect_VA": [{"Aspect": "computer", "VA": "7.45#7.38"}]}
+{"ID": "laptop_quad_train_2853", "Aspect_VA": [{"Aspect": "games", "VA": "3.90#5.90"}]}
+{"ID": "laptop_quad_test_816", "Aspect_VA": [{"Aspect": "screen display", "VA": "7.60#7.55"}, {"Aspect": "graphics", "VA": "7.81#7.75"}]}
+{"ID": "laptop_quad_train_203", "Aspect_VA": [{"Aspect": "device", "VA": "3.17#6.43"}, {"Aspect": "item", "VA": "3.07#6.55"}]}
+{"ID": "laptop_quad_train_491", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.75#7.68"}]}
+{"ID": "laptop_quad_test_466", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.35#5.58"}]}
+{"ID": "laptop_quad_train_1562", "Aspect_VA": [{"Aspect": "asus chromebook", "VA": "3.40#6.48"}]}
+{"ID": "laptop_quad_dev_97", "Aspect_VA": [{"Aspect": "mouse keypad", "VA": "3.53#6.31"}, {"Aspect": "mouse keypad", "VA": "3.53#6.31"}]}
+{"ID": "laptop_quad_test_588", "Aspect_VA": [{"Aspect": "NULL", "VA": "2.55#7.16"}]}
+{"ID": "laptop_quad_test_607", "Aspect_VA": [{"Aspect": "keyboard", "VA": "2.76#6.99"}, {"Aspect": "keyboard", "VA": "2.76#6.99"}]}
+{"ID": "laptop_quad_train_2116", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.01#5.80"}]}
+{"ID": "laptop_quad_train_2219", "Aspect_VA": [{"Aspect": "acer computer", "VA": "3.20#6.35"}]}
+{"ID": "laptop_quad_train_109", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.86#7.78"}]}
+{"ID": "laptop_quad_train_291", "Aspect_VA": [{"Aspect": "acer monitors", "VA": "7.30#7.25"}, {"Aspect": "computer", "VA": "7.26#7.18"}]}
+{"ID": "laptop_quad_train_744", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.95#6.87"}]}
+{"ID": "laptop_quad_train_2203", "Aspect_VA": [{"Aspect": "cpu", "VA": "3.08#6.60"}]}
+{"ID": "laptop_quad_test_492", "Aspect_VA": [{"Aspect": "screen", "VA": "3.67#5.95"}]}
+{"ID": "laptop_quad_test_586", "Aspect_VA": [{"Aspect": "acer product", "VA": "4.94#5.42"}]}
+{"ID": "laptop_quad_train_786", "Aspect_VA": [{"Aspect": "samsung", "VA": "5.11#5.42"}]}
+{"ID": "laptop_quad_dev_159", "Aspect_VA": [{"Aspect": "device", "VA": "7.85#7.76"}]}
+{"ID": "laptop_quad_train_425", "Aspect_VA": [{"Aspect": "battery", "VA": "6.79#6.61"}]}
+{"ID": "laptop_quad_test_117", "Aspect_VA": [{"Aspect": "powers up", "VA": "7.58#7.49"}, {"Aspect": "battery life", "VA": "7.65#7.58"}, {"Aspect": "keyboard", "VA": "7.69#7.62"}, {"Aspect": "NULL", "VA": "7.49#7.43"}]}
+{"ID": "laptop_quad_train_2905", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.97#6.82"}]}
+{"ID": "laptop_quad_train_2084", "Aspect_VA": [{"Aspect": "product", "VA": "5.82#5.88"}, {"Aspect": "product", "VA": "5.82#5.88"}]}
+{"ID": "laptop_quad_test_327", "Aspect_VA": [{"Aspect": "this computer", "VA": "7.63#7.59"}]}
+{"ID": "laptop_quad_train_2732", "Aspect_VA": [{"Aspect": "screen quality", "VA": "7.04#6.97"}, {"Aspect": "i3 processor", "VA": "7.11#7.04"}, {"Aspect": "battery life", "VA": "6.93#6.84"}]}
+{"ID": "laptop_quad_test_691", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.27#7.25"}, {"Aspect": "screen", "VA": "7.54#7.50"}, {"Aspect": "memory", "VA": "7.31#7.25"}, {"Aspect": "drive space", "VA": "7.30#7.24"}]}
+{"ID": "laptop_quad_train_2354", "Aspect_VA": [{"Aspect": "operating system", "VA": "7.41#7.39"}, {"Aspect": "operating system", "VA": "7.41#7.39"}, {"Aspect": "operating system", "VA": "7.41#7.39"}, {"Aspect": "specs", "VA": "7.18#7.15"}]}
+{"ID": "laptop_quad_train_1869", "Aspect_VA": [{"Aspect": "game card", "VA": "2.94#6.60"}, {"Aspect": "youtube", "VA": "3.58#6.01"}, {"Aspect": "search bar", "VA": "3.77#5.86"}]}
+{"ID": "laptop_quad_train_2478", "Aspect_VA": [{"Aspect": "keyboard", "VA": "8.10#7.95"}]}
+{"ID": "laptop_quad_train_2144", "Aspect_VA": [{"Aspect": "keyboard", "VA": "4.37#5.53"}]}
+{"ID": "laptop_quad_train_545", "Aspect_VA": [{"Aspect": "item", "VA": "7.77#7.68"}]}
+{"ID": "laptop_quad_train_2063", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.16#7.08"}, {"Aspect": "NULL", "VA": "7.16#7.08"}]}
+{"ID": "laptop_quad_train_219", "Aspect_VA": [{"Aspect": "ports", "VA": "7.34#7.28"}, {"Aspect": "dvd burner", "VA": "7.33#7.28"}, {"Aspect": "keyboard", "VA": "7.32#7.29"}, {"Aspect": "keyboard", "VA": "7.32#7.29"}, {"Aspect": "key strokes", "VA": "7.25#7.22"}, {"Aspect": "key strokes", "VA": "7.25#7.22"}, {"Aspect": "trackpad", "VA": "7.52#7.48"}, {"Aspect": "trackpad", "VA": "7.52#7.48"}]}
+{"ID": "laptop_quad_train_2926", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.49#7.42"}]}
+{"ID": "laptop_quad_test_409", "Aspect_VA": [{"Aspect": "chrome apps", "VA": "6.94#6.82"}]}
+{"ID": "laptop_quad_dev_102", "Aspect_VA": [{"Aspect": "look", "VA": "7.54#7.48"}]}
+{"ID": "laptop_quad_train_547", "Aspect_VA": [{"Aspect": "mem", "VA": "7.10#6.89"}, {"Aspect": "mem", "VA": "7.10#6.89"}, {"Aspect": "hdd", "VA": "7.05#6.83"}, {"Aspect": "hdd", "VA": "7.05#6.83"}, {"Aspect": "screed", "VA": "7.01#6.78"}, {"Aspect": "screed", "VA": "7.01#6.78"}, {"Aspect": "dvd drive", "VA": "7.13#7.00"}, {"Aspect": "dvd drive", "VA": "7.13#7.00"}]}
+{"ID": "laptop_quad_test_400", "Aspect_VA": [{"Aspect": "NULL", "VA": "2.66#7.00"}]}
+{"ID": "laptop_quad_train_2179", "Aspect_VA": [{"Aspect": "laptop build", "VA": "6.78#6.71"}, {"Aspect": "laptop build", "VA": "6.78#6.71"}, {"Aspect": "laptop build", "VA": "6.78#6.71"}]}
+{"ID": "laptop_quad_train_2135", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.79#5.95"}]}
+{"ID": "laptop_quad_test_340", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.23#7.23"}, {"Aspect": "charger", "VA": "4.88#5.66"}]}
+{"ID": "laptop_quad_test_644", "Aspect_VA": [{"Aspect": "laptop", "VA": "2.49#7.18"}]}
+{"ID": "laptop_quad_test_308", "Aspect_VA": [{"Aspect": "ports", "VA": "7.44#7.27"}]}
+{"ID": "laptop_quad_train_1928", "Aspect_VA": [{"Aspect": "products from this company", "VA": "3.38#6.33"}]}
+{"ID": "laptop_quad_train_1401", "Aspect_VA": [{"Aspect": "wifi", "VA": "2.94#6.58"}]}
+{"ID": "laptop_quad_train_2549", "Aspect_VA": [{"Aspect": "usb - c charger", "VA": "7.02#6.87"}]}
+{"ID": "laptop_quad_train_1152", "Aspect_VA": [{"Aspect": "pro model", "VA": "7.14#7.13"}, {"Aspect": "pro model", "VA": "7.14#7.13"}, {"Aspect": "pro model", "VA": "7.14#7.13"}]}
+{"ID": "laptop_quad_train_2054", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.66#6.55"}]}
+{"ID": "laptop_quad_train_307", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.20#7.14"}]}
+{"ID": "laptop_quad_test_96", "Aspect_VA": [{"Aspect": "system", "VA": "7.64#7.56"}]}
+{"ID": "laptop_quad_train_1590", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.06#6.87"}]}
+{"ID": "laptop_quad_test_697", "Aspect_VA": [{"Aspect": "battery", "VA": "4.12#5.71"}]}
+{"ID": "laptop_quad_train_1652", "Aspect_VA": [{"Aspect": "screen", "VA": "4.24#5.65"}]}
+{"ID": "laptop_quad_test_535", "Aspect_VA": [{"Aspect": "product", "VA": "3.43#6.20"}]}
+{"ID": "laptop_quad_train_324", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.49#7.44"}]}
+{"ID": "laptop_quad_dev_164", "Aspect_VA": [{"Aspect": "mylaptop", "VA": "7.45#7.38"}]}
+{"ID": "laptop_quad_train_2119", "Aspect_VA": [{"Aspect": "acer products", "VA": "4.25#5.72"}, {"Aspect": "acer products", "VA": "4.25#5.72"}]}
+{"ID": "laptop_quad_train_352", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.78#6.06"}]}
+{"ID": "laptop_quad_train_121", "Aspect_VA": [{"Aspect": "laptop", "VA": "6.64#6.46"}]}
+{"ID": "laptop_quad_dev_172", "Aspect_VA": [{"Aspect": "design", "VA": "7.73#7.66"}, {"Aspect": "screen", "VA": "7.66#7.60"}]}
+{"ID": "laptop_quad_test_197", "Aspect_VA": [{"Aspect": "computer", "VA": "6.95#6.86"}, {"Aspect": "laptop", "VA": "6.94#6.84"}]}
+{"ID": "laptop_quad_train_619", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.26#7.21"}]}
+{"ID": "laptop_quad_test_281", "Aspect_VA": [{"Aspect": "chromebook", "VA": "5.44#5.53"}]}
+{"ID": "laptop_quad_train_1122", "Aspect_VA": [{"Aspect": "trackpad", "VA": "7.38#7.36"}]}
+{"ID": "laptop_quad_train_1244", "Aspect_VA": [{"Aspect": "battery", "VA": "5.69#5.60"}]}
+{"ID": "laptop_quad_train_371", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.93#6.93"}]}
+{"ID": "laptop_quad_train_2277", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.65#6.06"}]}
+{"ID": "laptop_quad_dev_148", "Aspect_VA": [{"Aspect": "hardware", "VA": "7.01#7.01"}]}
+{"ID": "laptop_quad_train_1093", "Aspect_VA": [{"Aspect": "product", "VA": "7.77#7.68"}]}
+{"ID": "laptop_quad_test_285", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.30#7.15"}]}
+{"ID": "laptop_quad_train_1689", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.15#5.66"}]}
+{"ID": "laptop_quad_train_2566", "Aspect_VA": [{"Aspect": "screen", "VA": "7.62#7.55"}, {"Aspect": "computer", "VA": "7.45#7.40"}, {"Aspect": "aluminum case", "VA": "7.41#7.35"}]}
+{"ID": "laptop_quad_train_2690", "Aspect_VA": [{"Aspect": "display", "VA": "7.51#7.48"}]}
+{"ID": "laptop_quad_dev_40", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.89#6.62"}]}
+{"ID": "laptop_quad_train_1156", "Aspect_VA": [{"Aspect": "laptop", "VA": "6.92#6.78"}]}
+{"ID": "laptop_quad_train_610", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.35#7.31"}, {"Aspect": "spec", "VA": "7.24#7.19"}]}
+{"ID": "laptop_quad_train_1749", "Aspect_VA": [{"Aspect": "capacitor", "VA": "3.84#5.91"}, {"Aspect": "conductor", "VA": "3.86#5.84"}]}
+{"ID": "laptop_quad_train_1118", "Aspect_VA": [{"Aspect": "mac os x", "VA": "7.34#7.26"}]}
+{"ID": "laptop_quad_train_668", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.33#7.27"}]}
+{"ID": "laptop_quad_train_1895", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.13#5.64"}]}
+{"ID": "laptop_quad_train_2701", "Aspect_VA": [{"Aspect": "touch screen", "VA": "7.53#7.44"}, {"Aspect": "zoom", "VA": "7.81#7.72"}]}
+{"ID": "laptop_quad_test_747", "Aspect_VA": [{"Aspect": "plugs", "VA": "4.91#5.87"}]}
+{"ID": "laptop_quad_train_1468", "Aspect_VA": [{"Aspect": "screen", "VA": "7.43#7.40"}, {"Aspect": "screen", "VA": "7.43#7.40"}]}
+{"ID": "laptop_quad_test_210", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.81#7.74"}]}
+{"ID": "laptop_quad_train_2017", "Aspect_VA": [{"Aspect": "processer", "VA": "7.69#7.64"}]}
+{"ID": "laptop_quad_train_225", "Aspect_VA": [{"Aspect": "machine", "VA": "4.61#5.66"}]}
+{"ID": "laptop_quad_dev_15", "Aspect_VA": [{"Aspect": "it", "VA": "5.90#5.88"}]}
+{"ID": "laptop_quad_dev_181", "Aspect_VA": [{"Aspect": "screen", "VA": "6.90#6.82"}]}
+{"ID": "laptop_quad_test_808", "Aspect_VA": [{"Aspect": "keyboard", "VA": "6.90#6.73"}]}
+{"ID": "laptop_quad_train_2862", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.22#7.18"}, {"Aspect": "NULL", "VA": "7.22#7.18"}, {"Aspect": "NULL", "VA": "7.22#7.18"}, {"Aspect": "NULL", "VA": "7.22#7.18"}]}
+{"ID": "laptop_quad_train_2595", "Aspect_VA": [{"Aspect": "302", "VA": "7.34#7.26"}, {"Aspect": "chromebook", "VA": "7.39#7.31"}, {"Aspect": "bezels", "VA": "6.96#6.83"}]}
+{"ID": "laptop_quad_train_1457", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.58#7.52"}, {"Aspect": "chromebook", "VA": "7.58#7.52"}]}
+{"ID": "laptop_quad_test_53", "Aspect_VA": [{"Aspect": "backlight", "VA": "5.03#5.38"}]}
+{"ID": "laptop_quad_dev_209", "Aspect_VA": [{"Aspect": "NULL", "VA": "2.88#6.83"}, {"Aspect": "NULL", "VA": "2.88#6.83"}]}
+{"ID": "laptop_quad_train_2324", "Aspect_VA": [{"Aspect": "screen", "VA": "3.75#5.91"}]}
+{"ID": "laptop_quad_test_703", "Aspect_VA": [{"Aspect": "screen", "VA": "4.54#5.54"}]}
+{"ID": "laptop_quad_train_2692", "Aspect_VA": [{"Aspect": "chrome os", "VA": "7.49#7.44"}, {"Aspect": "screen", "VA": "7.43#7.39"}, {"Aspect": "screen", "VA": "7.43#7.39"}]}
+{"ID": "laptop_quad_train_929", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.75#7.71"}, {"Aspect": "battery life", "VA": "7.36#7.31"}]}
+{"ID": "laptop_quad_test_756", "Aspect_VA": [{"Aspect": "picture quality", "VA": "7.51#7.47"}, {"Aspect": "book", "VA": "7.45#7.39"}, {"Aspect": "book", "VA": "7.45#7.39"}]}
+{"ID": "laptop_quad_train_2352", "Aspect_VA": [{"Aspect": "chromeos", "VA": "4.04#5.70"}]}
+{"ID": "laptop_quad_train_1456", "Aspect_VA": [{"Aspect": "touchscreen", "VA": "4.58#5.46"}]}
+{"ID": "laptop_quad_train_1674", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.01#6.98"}, {"Aspect": "NULL", "VA": "7.01#6.98"}]}
+{"ID": "laptop_quad_test_508", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.24#7.18"}]}
+{"ID": "laptop_quad_train_263", "Aspect_VA": [{"Aspect": "screen", "VA": "5.60#5.54"}]}
+{"ID": "laptop_quad_train_1798", "Aspect_VA": [{"Aspect": "computer", "VA": "6.90#7.05"}, {"Aspect": "computer", "VA": "6.90#7.05"}, {"Aspect": "computer", "VA": "6.90#7.05"}, {"Aspect": "computer", "VA": "6.90#7.05"}]}
+{"ID": "laptop_quad_test_537", "Aspect_VA": [{"Aspect": "NULL", "VA": "2.55#7.13"}]}
+{"ID": "laptop_quad_train_1336", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.20#5.59"}]}
+{"ID": "laptop_quad_train_13", "Aspect_VA": [{"Aspect": "device", "VA": "5.09#5.52"}]}
+{"ID": "laptop_quad_test_790", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.67#6.75"}, {"Aspect": "NULL", "VA": "6.67#6.75"}]}
+{"ID": "laptop_quad_train_2888", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.06#6.89"}]}
+{"ID": "laptop_quad_train_2743", "Aspect_VA": [{"Aspect": "battery", "VA": "4.29#5.51"}]}
+{"ID": "laptop_quad_train_1899", "Aspect_VA": [{"Aspect": "laptop", "VA": "4.31#5.73"}]}
+{"ID": "laptop_quad_test_113", "Aspect_VA": [{"Aspect": "battery life", "VA": "6.73#6.53"}]}
+{"ID": "laptop_quad_test_147", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.77#6.58"}]}
+{"ID": "laptop_quad_train_2875", "Aspect_VA": [{"Aspect": "websites", "VA": "7.42#7.36"}]}
+{"ID": "laptop_quad_test_225", "Aspect_VA": [{"Aspect": "hardware", "VA": "2.60#7.18"}]}
+{"ID": "laptop_quad_test_99", "Aspect_VA": [{"Aspect": "screen", "VA": "6.30#6.25"}, {"Aspect": "screen", "VA": "6.30#6.25"}]}
+{"ID": "laptop_quad_train_1576", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.36#7.30"}, {"Aspect": "chromebook", "VA": "7.36#7.30"}]}
+{"ID": "laptop_quad_train_85", "Aspect_VA": [{"Aspect": "amazon", "VA": "3.51#6.21"}]}
+{"ID": "laptop_quad_train_1130", "Aspect_VA": [{"Aspect": "computer", "VA": "7.87#7.79"}]}
+{"ID": "laptop_quad_train_2205", "Aspect_VA": [{"Aspect": "company", "VA": "2.60#7.08"}]}
+{"ID": "laptop_quad_train_1594", "Aspect_VA": [{"Aspect": "computer", "VA": "6.97#6.95"}, {"Aspect": "computer", "VA": "6.97#6.95"}]}
+{"ID": "laptop_quad_dev_33", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.06#5.73"}]}
+{"ID": "laptop_quad_train_1025", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.54#6.18"}]}
+{"ID": "laptop_quad_train_1537", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.90#6.15"}, {"Aspect": "hinge", "VA": "4.32#5.96"}]}
+{"ID": "laptop_quad_train_2874", "Aspect_VA": [{"Aspect": "devices", "VA": "7.56#7.49"}]}
+{"ID": "laptop_quad_train_1364", "Aspect_VA": [{"Aspect": "machine", "VA": "7.75#7.65"}]}
+{"ID": "laptop_quad_train_98", "Aspect_VA": [{"Aspect": "item", "VA": "2.52#7.15"}, {"Aspect": "company", "VA": "2.49#7.17"}]}
+{"ID": "laptop_quad_train_1740", "Aspect_VA": [{"Aspect": "product", "VA": "6.47#6.12"}]}
+{"ID": "laptop_quad_train_1084", "Aspect_VA": [{"Aspect": "display", "VA": "8.12#7.99"}]}
+{"ID": "laptop_quad_train_2274", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.13#6.54"}]}
+{"ID": "laptop_quad_train_2646", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.71#7.61"}, {"Aspect": "NULL", "VA": "7.71#7.61"}]}
+{"ID": "laptop_quad_test_321", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.97#6.97"}, {"Aspect": "NULL", "VA": "6.97#6.97"}]}
+{"ID": "laptop_quad_train_26", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.30#7.26"}]}
+{"ID": "laptop_quad_train_372", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.85#6.74"}]}
+{"ID": "laptop_quad_test_675", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.99#6.90"}]}
+{"ID": "laptop_quad_dev_282", "Aspect_VA": [{"Aspect": "device", "VA": "7.45#7.41"}, {"Aspect": "device", "VA": "7.45#7.41"}]}
+{"ID": "laptop_quad_train_288", "Aspect_VA": [{"Aspect": "pads", "VA": "2.45#7.16"}]}
+{"ID": "laptop_quad_test_217", "Aspect_VA": [{"Aspect": "graphics", "VA": "6.97#6.86"}]}
+{"ID": "laptop_quad_train_2538", "Aspect_VA": [{"Aspect": "64gb ssd", "VA": "7.36#7.32"}, {"Aspect": "lpddr3 memory", "VA": "7.18#7.09"}]}
+{"ID": "laptop_quad_train_931", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.00#6.98"}]}
+{"ID": "laptop_quad_test_548", "Aspect_VA": [{"Aspect": "ethernet port", "VA": "4.48#5.40"}]}
+{"ID": "laptop_quad_train_1061", "Aspect_VA": [{"Aspect": "feature", "VA": "6.92#6.57"}]}
+{"ID": "laptop_quad_dev_301", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.22#7.14"}]}
+{"ID": "laptop_quad_test_84", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.48#7.45"}]}
+{"ID": "laptop_quad_train_1165", "Aspect_VA": [{"Aspect": "macbook", "VA": "6.09#5.87"}]}
+{"ID": "laptop_quad_train_1403", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.87#5.95"}]}
+{"ID": "laptop_quad_train_736", "Aspect_VA": [{"Aspect": "programs", "VA": "7.43#7.38"}]}
+{"ID": "laptop_quad_dev_39", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.83#6.79"}]}
+{"ID": "laptop_quad_dev_298", "Aspect_VA": [{"Aspect": "machine", "VA": "2.85#6.72"}]}
+{"ID": "laptop_quad_train_1938", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.88#6.89"}]}
+{"ID": "laptop_quad_train_2481", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.99#6.99"}, {"Aspect": "NULL", "VA": "6.99#6.99"}]}
+{"ID": "laptop_quad_train_731", "Aspect_VA": [{"Aspect": "computer", "VA": "6.93#6.83"}]}
+{"ID": "laptop_quad_train_87", "Aspect_VA": [{"Aspect": "design", "VA": "7.69#7.62"}, {"Aspect": "processor", "VA": "7.64#7.57"}]}
+{"ID": "laptop_quad_train_1502", "Aspect_VA": [{"Aspect": "product", "VA": "5.29#5.61"}, {"Aspect": "product", "VA": "5.29#5.61"}]}
+{"ID": "laptop_quad_train_2815", "Aspect_VA": [{"Aspect": "bluetooth connection", "VA": "4.00#5.89"}]}
+{"ID": "laptop_quad_test_211", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.82#6.58"}]}
+{"ID": "laptop_quad_train_480", "Aspect_VA": [{"Aspect": "computer", "VA": "7.58#7.49"}]}
+{"ID": "laptop_quad_test_762", "Aspect_VA": [{"Aspect": "sound", "VA": "3.71#6.14"}, {"Aspect": "aux speaker / headphone", "VA": "3.99#5.86"}]}
+{"ID": "laptop_quad_test_652", "Aspect_VA": [{"Aspect": "boot up", "VA": "2.79#6.78"}]}
+{"ID": "laptop_quad_train_145", "Aspect_VA": [{"Aspect": "amazon", "VA": "5.07#5.35"}]}
+{"ID": "laptop_quad_train_1792", "Aspect_VA": [{"Aspect": "battery", "VA": "3.70#6.06"}]}
+{"ID": "laptop_quad_train_1602", "Aspect_VA": [{"Aspect": "power", "VA": "7.29#7.20"}, {"Aspect": "app store", "VA": "7.31#7.22"}, {"Aspect": "screen resolution", "VA": "7.42#7.37"}]}
+{"ID": "laptop_quad_test_511", "Aspect_VA": [{"Aspect": "battery", "VA": "5.39#5.49"}]}
+{"ID": "laptop_quad_test_743", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.09#6.97"}]}
+{"ID": "laptop_quad_train_154", "Aspect_VA": [{"Aspect": "ssd", "VA": "7.11#7.05"}]}
+{"ID": "laptop_quad_train_1000", "Aspect_VA": [{"Aspect": "tablet", "VA": "6.38#5.92"}]}
+{"ID": "laptop_quad_train_1174", "Aspect_VA": [{"Aspect": "product", "VA": "7.91#7.82"}]}
+{"ID": "laptop_quad_train_2769", "Aspect_VA": [{"Aspect": "battery", "VA": "6.34#6.02"}]}
+{"ID": "laptop_quad_train_1551", "Aspect_VA": [{"Aspect": "device", "VA": "7.54#7.48"}]}
+{"ID": "laptop_quad_train_576", "Aspect_VA": [{"Aspect": "computer", "VA": "6.93#6.85"}, {"Aspect": "memory", "VA": "6.89#6.80"}]}
+{"ID": "laptop_quad_test_10", "Aspect_VA": [{"Aspect": "touchscreen chromebook", "VA": "7.22#7.18"}]}
+{"ID": "laptop_quad_train_1395", "Aspect_VA": [{"Aspect": "laptop", "VA": "3.07#6.52"}, {"Aspect": "apple", "VA": "3.58#6.08"}]}
+{"ID": "laptop_quad_dev_163", "Aspect_VA": [{"Aspect": "printer", "VA": "4.84#5.74"}]}
+{"ID": "laptop_quad_train_1294", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.96#6.89"}]}
+{"ID": "laptop_quad_train_1230", "Aspect_VA": [{"Aspect": "device", "VA": "7.83#7.76"}, {"Aspect": "display", "VA": "7.78#7.72"}]}
+{"ID": "laptop_quad_test_683", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.90#6.88"}]}
+{"ID": "laptop_quad_train_1192", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.76#6.88"}, {"Aspect": "NULL", "VA": "6.76#6.88"}, {"Aspect": "screen", "VA": "7.08#7.11"}, {"Aspect": "NULL", "VA": "6.76#6.88"}, {"Aspect": "battery", "VA": "6.89#6.98"}]}
+{"ID": "laptop_quad_test_166", "Aspect_VA": [{"Aspect": "battery", "VA": "6.43#6.08"}]}
+{"ID": "laptop_quad_train_512", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.29#7.25"}]}
+{"ID": "laptop_quad_test_638", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.28#5.58"}]}
+{"ID": "laptop_quad_train_2389", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.88#7.79"}]}
+{"ID": "laptop_quad_train_1624", "Aspect_VA": [{"Aspect": "display", "VA": "3.88#5.81"}]}
+{"ID": "laptop_quad_dev_279", "Aspect_VA": [{"Aspect": "task tray area", "VA": "4.84#5.31"}]}
+{"ID": "laptop_quad_train_1296", "Aspect_VA": [{"Aspect": "touchscreen", "VA": "5.45#5.63"}, {"Aspect": "hotkeys", "VA": "5.16#5.49"}]}
+{"ID": "laptop_quad_dev_281", "Aspect_VA": [{"Aspect": "device", "VA": "7.80#7.72"}, {"Aspect": "device", "VA": "7.80#7.72"}]}
+{"ID": "laptop_quad_test_436", "Aspect_VA": [{"Aspect": "product", "VA": "3.03#6.75"}, {"Aspect": "product", "VA": "3.03#6.75"}]}
+{"ID": "laptop_quad_train_2346", "Aspect_VA": [{"Aspect": "battery life", "VA": "7.80#7.70"}]}
+{"ID": "laptop_quad_test_3", "Aspect_VA": [{"Aspect": "ssd drive", "VA": "5.00#5.35"}]}
+{"ID": "laptop_quad_train_939", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.93#5.76"}]}
+{"ID": "laptop_quad_dev_233", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.98#6.97"}, {"Aspect": "NULL", "VA": "6.98#6.97"}]}
+{"ID": "laptop_quad_test_319", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.35#7.31"}, {"Aspect": "NULL", "VA": "7.29#7.25"}, {"Aspect": "running speed", "VA": "7.45#7.40"}]}
+{"ID": "laptop_quad_train_1034", "Aspect_VA": [{"Aspect": "boot", "VA": "7.50#7.44"}]}
+{"ID": "laptop_quad_train_2351", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.03#5.92"}]}
+{"ID": "laptop_quad_train_918", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.74#6.73"}, {"Aspect": "NULL", "VA": "6.74#6.73"}]}
+{"ID": "laptop_quad_train_811", "Aspect_VA": [{"Aspect": "trackpad", "VA": "6.77#6.40"}]}
+{"ID": "laptop_quad_train_1251", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.59#7.55"}]}
+{"ID": "laptop_quad_dev_206", "Aspect_VA": [{"Aspect": "machine", "VA": "6.75#6.57"}]}
+{"ID": "laptop_quad_dev_235", "Aspect_VA": [{"Aspect": "components", "VA": "6.92#6.82"}]}
+{"ID": "laptop_quad_train_143", "Aspect_VA": [{"Aspect": "amazon", "VA": "4.80#5.42"}]}
+{"ID": "laptop_quad_train_1922", "Aspect_VA": [{"Aspect": "performance", "VA": "8.03#7.91"}]}
+{"ID": "laptop_quad_dev_250", "Aspect_VA": [{"Aspect": "screen", "VA": "4.08#5.94"}]}
+{"ID": "laptop_quad_train_1079", "Aspect_VA": [{"Aspect": "this unit", "VA": "6.72#6.45"}]}
+{"ID": "laptop_quad_train_1872", "Aspect_VA": [{"Aspect": "hardware", "VA": "3.08#6.49"}]}
+{"ID": "laptop_quad_train_1231", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.19#7.12"}]}
+{"ID": "laptop_quad_dev_240", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.18#7.17"}]}
+{"ID": "laptop_quad_test_566", "Aspect_VA": [{"Aspect": "fingerprint reader", "VA": "5.66#5.55"}]}
+{"ID": "laptop_quad_train_74", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.49#5.48"}]}
+{"ID": "laptop_quad_test_452", "Aspect_VA": [{"Aspect": "amazon", "VA": "4.44#5.43"}, {"Aspect": "asus", "VA": "4.43#5.44"}]}
+{"ID": "laptop_quad_test_309", "Aspect_VA": [{"Aspect": "laptop", "VA": "6.95#6.84"}, {"Aspect": "laptop", "VA": "6.95#6.84"}]}
+{"ID": "laptop_quad_train_852", "Aspect_VA": [{"Aspect": "display", "VA": "7.33#7.28"}]}
+{"ID": "laptop_quad_train_1801", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.01#5.73"}]}
+{"ID": "laptop_quad_train_1570", "Aspect_VA": [{"Aspect": "touch screen", "VA": "3.88#5.90"}]}
+{"ID": "laptop_quad_train_1135", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.66#7.59"}]}
+{"ID": "laptop_quad_train_2067", "Aspect_VA": [{"Aspect": "touchpad", "VA": "3.29#6.50"}, {"Aspect": "touchpad", "VA": "3.29#6.50"}]}
+{"ID": "laptop_quad_train_1851", "Aspect_VA": [{"Aspect": "machine", "VA": "6.95#6.81"}]}
+{"ID": "laptop_quad_train_1712", "Aspect_VA": [{"Aspect": "touch screen", "VA": "4.25#6.04"}, {"Aspect": "touch screen", "VA": "4.25#6.04"}]}
+{"ID": "laptop_quad_train_591", "Aspect_VA": [{"Aspect": "lenovo laptop", "VA": "7.60#7.56"}]}
+{"ID": "laptop_quad_train_27", "Aspect_VA": [{"Aspect": "screen", "VA": "4.43#5.85"}]}
+{"ID": "laptop_quad_train_722", "Aspect_VA": [{"Aspect": "camera", "VA": "6.69#6.67"}, {"Aspect": "NULL", "VA": "6.66#6.63"}]}
+{"ID": "laptop_quad_train_2074", "Aspect_VA": [{"Aspect": "ssd", "VA": "4.69#5.34"}]}
+{"ID": "laptop_quad_train_2070", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.15#7.12"}, {"Aspect": "NULL", "VA": "7.15#7.12"}]}
+{"ID": "laptop_quad_test_761", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.10#7.06"}, {"Aspect": "NULL", "VA": "7.10#7.06"}]}
+{"ID": "laptop_quad_train_458", "Aspect_VA": [{"Aspect": "computer", "VA": "7.16#7.10"}, {"Aspect": "computer", "VA": "7.16#7.10"}]}
+{"ID": "laptop_quad_dev_9", "Aspect_VA": [{"Aspect": "keyboard", "VA": "3.24#6.52"}, {"Aspect": "keyboard", "VA": "3.24#6.52"}]}
+{"ID": "laptop_quad_train_411", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.78#6.67"}]}
+{"ID": "laptop_quad_test_349", "Aspect_VA": [{"Aspect": "shipping", "VA": "7.23#7.15"}, {"Aspect": "product", "VA": "7.08#6.92"}]}
+{"ID": "laptop_quad_dev_241", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.94#7.83"}]}
+{"ID": "laptop_quad_train_501", "Aspect_VA": [{"Aspect": "machine", "VA": "7.78#7.71"}]}
+{"ID": "laptop_quad_train_2400", "Aspect_VA": [{"Aspect": "touch screen", "VA": "7.80#7.73"}, {"Aspect": "keyboard", "VA": "8.02#7.93"}]}
+{"ID": "laptop_quad_test_550", "Aspect_VA": [{"Aspect": "power", "VA": "7.00#6.84"}]}
+{"ID": "laptop_quad_train_830", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.30#5.65"}, {"Aspect": "operating system", "VA": "4.81#5.50"}]}
+{"ID": "laptop_quad_train_848", "Aspect_VA": [{"Aspect": "keyboard", "VA": "2.66#7.07"}]}
+{"ID": "laptop_quad_train_523", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.03#7.00"}]}
+{"ID": "laptop_quad_test_356", "Aspect_VA": [{"Aspect": "screen", "VA": "6.62#6.25"}]}
+{"ID": "laptop_quad_test_643", "Aspect_VA": [{"Aspect": "track pad", "VA": "4.16#5.75"}]}
+{"ID": "laptop_quad_train_2335", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.79#7.72"}]}
+{"ID": "laptop_quad_train_1945", "Aspect_VA": [{"Aspect": "screen", "VA": "3.17#6.47"}]}
+{"ID": "laptop_quad_test_57", "Aspect_VA": [{"Aspect": "hard drive", "VA": "5.94#5.81"}]}
+{"ID": "laptop_quad_dev_61", "Aspect_VA": [{"Aspect": "battery life", "VA": "7.83#7.78"}, {"Aspect": "battery life", "VA": "7.83#7.78"}]}
+{"ID": "laptop_quad_train_2283", "Aspect_VA": [{"Aspect": "laptop screen", "VA": "3.83#5.92"}]}
+{"ID": "laptop_quad_train_1073", "Aspect_VA": [{"Aspect": "product", "VA": "7.62#7.55"}]}
+{"ID": "laptop_quad_train_1530", "Aspect_VA": [{"Aspect": "netflix", "VA": "5.68#5.63"}, {"Aspect": "hulu seem", "VA": "5.73#5.63"}, {"Aspect": "amazon prime", "VA": "5.30#5.47"}, {"Aspect": "xfinity stream", "VA": "5.21#5.46"}]}
+{"ID": "laptop_quad_dev_208", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.18#5.57"}]}
+{"ID": "laptop_quad_test_76", "Aspect_VA": [{"Aspect": "ports", "VA": "6.85#6.70"}, {"Aspect": "ports", "VA": "6.85#6.70"}]}
+{"ID": "laptop_quad_train_1113", "Aspect_VA": [{"Aspect": "dent", "VA": "3.18#6.47"}]}
+{"ID": "laptop_quad_train_2365", "Aspect_VA": [{"Aspect": "usb - c adaptor", "VA": "4.02#5.78"}]}
+{"ID": "laptop_quad_train_2387", "Aspect_VA": [{"Aspect": "flip 2", "VA": "7.76#7.68"}, {"Aspect": "chromebook", "VA": "7.80#7.72"}, {"Aspect": "android apps", "VA": "6.23#6.37"}]}
+{"ID": "laptop_quad_train_2168", "Aspect_VA": [{"Aspect": "design", "VA": "2.76#6.81"}]}
+{"ID": "laptop_quad_train_674", "Aspect_VA": [{"Aspect": "screen", "VA": "7.00#6.86"}]}
+{"ID": "laptop_quad_dev_309", "Aspect_VA": [{"Aspect": "screen", "VA": "6.94#6.86"}]}
+{"ID": "laptop_quad_train_2440", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.23#7.22"}, {"Aspect": "NULL", "VA": "7.23#7.22"}, {"Aspect": "battery life", "VA": "7.49#7.45"}]}
+{"ID": "laptop_quad_test_698", "Aspect_VA": [{"Aspect": "machine", "VA": "7.70#7.63"}, {"Aspect": "machine", "VA": "7.70#7.63"}]}
+{"ID": "laptop_quad_train_753", "Aspect_VA": [{"Aspect": "laptop", "VA": "6.88#6.83"}]}
+{"ID": "laptop_quad_train_2617", "Aspect_VA": [{"Aspect": "4 gb of memory", "VA": "6.65#6.23"}]}
+{"ID": "laptop_quad_test_426", "Aspect_VA": [{"Aspect": "device", "VA": "3.42#6.38"}]}
+{"ID": "laptop_quad_train_2918", "Aspect_VA": [{"Aspect": "computer", "VA": "7.34#7.26"}]}
+{"ID": "laptop_quad_test_249", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.58#7.51"}]}
+{"ID": "laptop_quad_train_696", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.64#7.57"}]}
+{"ID": "laptop_quad_train_2870", "Aspect_VA": [{"Aspect": "asus chromebook flip c302ca", "VA": "7.74#7.67"}, {"Aspect": "asus chromebook flip c302ca", "VA": "7.74#7.67"}]}
+{"ID": "laptop_quad_train_2601", "Aspect_VA": [{"Aspect": "keyboard", "VA": "7.04#6.96"}]}
+{"ID": "laptop_quad_test_459", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.13#7.15"}, {"Aspect": "chromebook", "VA": "7.13#7.15"}]}
+{"ID": "laptop_quad_test_693", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.65#5.75"}]}
+{"ID": "laptop_quad_test_122", "Aspect_VA": [{"Aspect": "book", "VA": "7.10#7.04"}, {"Aspect": "book", "VA": "7.10#7.04"}]}
+{"ID": "laptop_quad_train_2858", "Aspect_VA": [{"Aspect": "touchpad", "VA": "7.40#7.38"}, {"Aspect": "touchpad", "VA": "7.40#7.38"}]}
+{"ID": "laptop_quad_train_2138", "Aspect_VA": [{"Aspect": "wix", "VA": "4.15#5.64"}]}
+{"ID": "laptop_quad_train_248", "Aspect_VA": [{"Aspect": "keys", "VA": "4.83#5.62"}]}
+{"ID": "laptop_quad_train_1841", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.05#6.67"}]}
+{"ID": "laptop_quad_train_508", "Aspect_VA": [{"Aspect": "chromebooks", "VA": "7.22#7.21"}]}
+{"ID": "laptop_quad_dev_249", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.10#5.76"}]}
+{"ID": "laptop_quad_test_78", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.56#7.49"}]}
+{"ID": "laptop_quad_train_1505", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.16#7.12"}]}
+{"ID": "laptop_quad_train_1535", "Aspect_VA": [{"Aspect": "computer", "VA": "6.01#5.62"}, {"Aspect": "charger", "VA": "5.57#5.42"}, {"Aspect": "customer support", "VA": "5.46#5.40"}]}
+{"ID": "laptop_quad_train_1617", "Aspect_VA": [{"Aspect": "customer service", "VA": "2.86#6.68"}]}
+{"ID": "laptop_quad_dev_222", "Aspect_VA": [{"Aspect": "laptop", "VA": "3.80#6.00"}]}
+{"ID": "laptop_quad_train_2821", "Aspect_VA": [{"Aspect": "speakers", "VA": "3.08#6.61"}, {"Aspect": "speakers", "VA": "3.08#6.61"}, {"Aspect": "speakers", "VA": "3.08#6.61"}]}
+{"ID": "laptop_quad_train_2397", "Aspect_VA": [{"Aspect": "track pad", "VA": "7.02#6.95"}, {"Aspect": "trackpad", "VA": "7.02#6.94"}]}
+{"ID": "laptop_quad_train_771", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.53#7.48"}, {"Aspect": "laptop", "VA": "7.53#7.48"}, {"Aspect": "laptop", "VA": "7.53#7.48"}]}
+{"ID": "laptop_quad_train_542", "Aspect_VA": [{"Aspect": "charge cord", "VA": "3.80#5.95"}]}
+{"ID": "laptop_quad_train_593", "Aspect_VA": [{"Aspect": "set up", "VA": "7.17#7.07"}]}
+{"ID": "laptop_quad_train_310", "Aspect_VA": [{"Aspect": "4gb model", "VA": "6.85#6.75"}, {"Aspect": "4gb model", "VA": "6.85#6.75"}, {"Aspect": "4gb model", "VA": "6.85#6.75"}]}
+{"ID": "laptop_quad_train_624", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.93#5.88"}]}
+{"ID": "laptop_quad_train_1558", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.03#5.79"}]}
+{"ID": "laptop_quad_test_72", "Aspect_VA": [{"Aspect": "boots up", "VA": "4.80#5.47"}, {"Aspect": "shuts down", "VA": "4.10#5.75"}]}
+{"ID": "laptop_quad_test_61", "Aspect_VA": [{"Aspect": "asus warranty", "VA": "5.07#5.46"}]}
+{"ID": "laptop_quad_test_454", "Aspect_VA": [{"Aspect": "chrome extensions", "VA": "2.83#6.82"}]}
+{"ID": "laptop_quad_train_526", "Aspect_VA": [{"Aspect": "notebook", "VA": "7.00#6.96"}]}
+{"ID": "laptop_quad_train_2166", "Aspect_VA": [{"Aspect": "computer", "VA": "6.43#6.50"}, {"Aspect": "fan", "VA": "4.17#5.97"}]}
+{"ID": "laptop_quad_train_796", "Aspect_VA": [{"Aspect": "qc", "VA": "2.75#6.86"}, {"Aspect": "qc", "VA": "2.75#6.86"}]}
+{"ID": "laptop_quad_train_2072", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.88#6.88"}, {"Aspect": "NULL", "VA": "6.88#6.88"}, {"Aspect": "NULL", "VA": "6.88#6.88"}, {"Aspect": "NULL", "VA": "6.88#6.88"}, {"Aspect": "NULL", "VA": "6.88#6.88"}, {"Aspect": "NULL", "VA": "6.88#6.88"}, {"Aspect": "NULL", "VA": "6.88#6.88"}]}
+{"ID": "laptop_quad_test_670", "Aspect_VA": [{"Aspect": "machine", "VA": "7.63#7.58"}, {"Aspect": "machine", "VA": "7.63#7.58"}, {"Aspect": "NULL", "VA": "7.37#7.35"}, {"Aspect": "NULL", "VA": "7.37#7.35"}, {"Aspect": "computer", "VA": "7.61#7.56"}, {"Aspect": "computer", "VA": "7.61#7.56"}]}
+{"ID": "laptop_quad_train_795", "Aspect_VA": [{"Aspect": "screen", "VA": "7.00#7.07"}, {"Aspect": "keyboard", "VA": "5.17#6.07"}]}
+{"ID": "laptop_quad_train_1219", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.60#7.54"}, {"Aspect": "seller", "VA": "7.72#7.65"}]}
+{"ID": "laptop_quad_train_1197", "Aspect_VA": [{"Aspect": "battery", "VA": "7.40#7.37"}]}
+{"ID": "laptop_quad_train_2473", "Aspect_VA": [{"Aspect": "display", "VA": "7.93#7.82"}, {"Aspect": "display", "VA": "7.93#7.82"}, {"Aspect": "resolution", "VA": "7.72#7.64"}]}
+{"ID": "laptop_quad_train_1821", "Aspect_VA": [{"Aspect": "screen", "VA": "2.59#7.03"}]}
+{"ID": "laptop_quad_test_216", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.56#7.48"}]}
+{"ID": "laptop_quad_train_2657", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.40#7.37"}]}
+{"ID": "laptop_quad_test_552", "Aspect_VA": [{"Aspect": "weight", "VA": "7.08#7.05"}, {"Aspect": "NULL", "VA": "7.17#7.14"}, {"Aspect": "NULL", "VA": "7.17#7.14"}]}
+{"ID": "laptop_quad_train_847", "Aspect_VA": [{"Aspect": "keyboard", "VA": "2.60#7.09"}]}
+{"ID": "laptop_quad_train_1599", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.16#5.70"}]}
+{"ID": "laptop_quad_test_815", "Aspect_VA": [{"Aspect": "keyboard", "VA": "3.97#5.86"}]}
+{"ID": "laptop_quad_test_649", "Aspect_VA": [{"Aspect": "keyboard", "VA": "2.61#7.22"}]}
+{"ID": "laptop_quad_train_964", "Aspect_VA": [{"Aspect": "machine", "VA": "7.47#7.39"}, {"Aspect": "battery", "VA": "7.08#6.98"}]}
+{"ID": "laptop_quad_train_2630", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.73#7.67"}]}
+{"ID": "laptop_quad_train_212", "Aspect_VA": [{"Aspect": "battery life", "VA": "7.47#7.43"}, {"Aspect": "matte screen", "VA": "7.09#7.00"}]}
+{"ID": "laptop_quad_train_2380", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.10#7.05"}, {"Aspect": "NULL", "VA": "7.10#7.05"}]}
+{"ID": "laptop_quad_dev_129", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.35#7.28"}, {"Aspect": "NULL", "VA": "7.35#7.28"}]}
+{"ID": "laptop_quad_train_2567", "Aspect_VA": [{"Aspect": "openvpn support", "VA": "4.70#5.40"}]}
+{"ID": "laptop_quad_dev_277", "Aspect_VA": [{"Aspect": "intel i5", "VA": "3.77#6.19"}, {"Aspect": "hard drive", "VA": "2.68#7.16"}, {"Aspect": "ram", "VA": "3.04#6.77"}]}
+{"ID": "laptop_quad_test_612", "Aspect_VA": [{"Aspect": "laptop", "VA": "3.61#6.15"}]}
+{"ID": "laptop_quad_dev_242", "Aspect_VA": [{"Aspect": "8th gen i5 cpu", "VA": "8.03#7.92"}]}
+{"ID": "laptop_quad_train_1443", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.09#7.08"}]}
+{"ID": "laptop_quad_train_1758", "Aspect_VA": [{"Aspect": "laptop", "VA": "4.46#5.38"}]}
+{"ID": "laptop_quad_dev_291", "Aspect_VA": [{"Aspect": "c302", "VA": "6.57#6.14"}]}
+{"ID": "laptop_quad_dev_30", "Aspect_VA": [{"Aspect": "asus", "VA": "7.80#7.72"}, {"Aspect": "machines", "VA": "7.95#7.85"}]}
+{"ID": "laptop_quad_train_2902", "Aspect_VA": [{"Aspect": "volume", "VA": "3.90#5.91"}, {"Aspect": "NULL", "VA": "3.58#6.15"}]}
+{"ID": "laptop_quad_train_1269", "Aspect_VA": [{"Aspect": "computer", "VA": "8.15#7.98"}]}
+{"ID": "laptop_quad_test_617", "Aspect_VA": [{"Aspect": "keypad", "VA": "5.13#5.60"}]}
+{"ID": "laptop_quad_train_1127", "Aspect_VA": [{"Aspect": "computer", "VA": "7.82#7.76"}, {"Aspect": "computer", "VA": "7.82#7.76"}]}
+{"ID": "laptop_quad_train_1268", "Aspect_VA": [{"Aspect": "retina display", "VA": "8.11#7.98"}]}
+{"ID": "laptop_quad_dev_87", "Aspect_VA": [{"Aspect": "screen resolution", "VA": "7.41#7.37"}]}
+{"ID": "laptop_quad_train_243", "Aspect_VA": [{"Aspect": "number pad", "VA": "7.05#6.91"}]}
+{"ID": "laptop_quad_dev_263", "Aspect_VA": [{"Aspect": "manufacturer", "VA": "3.44#6.20"}]}
+{"ID": "laptop_quad_test_595", "Aspect_VA": [{"Aspect": "laptop", "VA": "6.86#6.81"}]}
+{"ID": "laptop_quad_test_690", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.96#7.87"}]}
+{"ID": "laptop_quad_test_170", "Aspect_VA": [{"Aspect": "graphics", "VA": "7.18#7.09"}]}
+{"ID": "laptop_quad_train_708", "Aspect_VA": [{"Aspect": "brand", "VA": "6.95#6.72"}]}
+{"ID": "laptop_quad_train_978", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.82#7.76"}, {"Aspect": "chromebook", "VA": "7.82#7.76"}]}
+{"ID": "laptop_quad_train_2543", "Aspect_VA": [{"Aspect": "unit", "VA": "7.39#7.36"}, {"Aspect": "screen", "VA": "7.93#7.86"}]}
+{"ID": "laptop_quad_train_653", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.81#6.84"}, {"Aspect": "NULL", "VA": "6.81#6.84"}]}
+{"ID": "laptop_quad_train_388", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.93#7.84"}]}
+{"ID": "laptop_quad_train_2906", "Aspect_VA": [{"Aspect": "keyboard", "VA": "7.29#7.24"}, {"Aspect": "keyboard", "VA": "7.29#7.24"}, {"Aspect": "backlit keyboard", "VA": "7.30#7.25"}]}
+{"ID": "laptop_quad_train_1610", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.44#7.40"}]}
+{"ID": "laptop_quad_train_493", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.50#7.44"}]}
+{"ID": "laptop_quad_train_135", "Aspect_VA": [{"Aspect": "asus", "VA": "3.74#6.00"}]}
+{"ID": "laptop_quad_train_1779", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.11#7.10"}, {"Aspect": "NULL", "VA": "7.11#7.10"}]}
+{"ID": "laptop_quad_test_498", "Aspect_VA": [{"Aspect": "laptop", "VA": "4.02#5.71"}]}
+{"ID": "laptop_quad_train_1684", "Aspect_VA": [{"Aspect": "guest account", "VA": "4.95#5.65"}]}
+{"ID": "laptop_quad_train_1848", "Aspect_VA": [{"Aspect": "laptop", "VA": "5.52#5.69"}, {"Aspect": "optane drive", "VA": "4.68#5.65"}]}
+{"ID": "laptop_quad_train_1952", "Aspect_VA": [{"Aspect": "hdd", "VA": "3.86#5.89"}]}
+{"ID": "laptop_quad_train_1067", "Aspect_VA": [{"Aspect": "keys", "VA": "7.74#7.66"}]}
+{"ID": "laptop_quad_test_542", "Aspect_VA": [{"Aspect": "bootup", "VA": "7.40#7.35"}, {"Aspect": "optane memory", "VA": "7.35#7.30"}]}
+{"ID": "laptop_quad_train_592", "Aspect_VA": [{"Aspect": "set up", "VA": "7.29#7.23"}]}
+{"ID": "laptop_quad_train_1343", "Aspect_VA": [{"Aspect": "screen", "VA": "3.61#6.04"}, {"Aspect": "apple", "VA": "3.83#5.83"}]}
+{"ID": "laptop_quad_train_2432", "Aspect_VA": [{"Aspect": "boot up", "VA": "6.60#6.12"}]}
+{"ID": "laptop_quad_train_1020", "Aspect_VA": [{"Aspect": "model", "VA": "7.17#7.20"}]}
+{"ID": "laptop_quad_test_760", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.15#7.07"}]}
+{"ID": "laptop_quad_test_351", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.44#7.37"}, {"Aspect": "NULL", "VA": "7.44#7.37"}]}
+{"ID": "laptop_quad_train_1110", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.50#7.44"}]}
+{"ID": "laptop_quad_train_805", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.54#6.46"}]}
+{"ID": "laptop_quad_train_1561", "Aspect_VA": [{"Aspect": "warranty service", "VA": "2.97#6.63"}]}
+{"ID": "laptop_quad_test_200", "Aspect_VA": [{"Aspect": "computer", "VA": "7.63#7.57"}]}
+{"ID": "laptop_quad_test_190", "Aspect_VA": [{"Aspect": "cpu", "VA": "6.90#6.74"}]}
+{"ID": "laptop_quad_train_1995", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.92#6.86"}, {"Aspect": "NULL", "VA": "6.92#6.86"}]}
+{"ID": "laptop_quad_train_1040", "Aspect_VA": [{"Aspect": "firewire 800 port", "VA": "4.53#5.38"}]}
+{"ID": "laptop_quad_train_1974", "Aspect_VA": [{"Aspect": "computer", "VA": "7.92#7.81"}]}
+{"ID": "laptop_quad_dev_284", "Aspect_VA": [{"Aspect": "ram", "VA": "6.95#6.86"}, {"Aspect": "ram", "VA": "6.95#6.86"}]}
+{"ID": "laptop_quad_train_2201", "Aspect_VA": [{"Aspect": "laptop", "VA": "2.61#6.95"}]}
+{"ID": "laptop_quad_train_849", "Aspect_VA": [{"Aspect": "keyboard", "VA": "4.71#5.39"}]}
+{"ID": "laptop_quad_train_1856", "Aspect_VA": [{"Aspect": "speakers", "VA": "4.21#5.57"}]}
+{"ID": "laptop_quad_test_25", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.79#5.90"}]}
+{"ID": "laptop_quad_train_2865", "Aspect_VA": [{"Aspect": "keyboard", "VA": "6.97#6.92"}, {"Aspect": "keyboard", "VA": "6.97#6.92"}]}
+{"ID": "laptop_quad_train_2793", "Aspect_VA": [{"Aspect": "footprint 1080p chromebook", "VA": "6.79#6.57"}]}
+{"ID": "laptop_quad_train_2455", "Aspect_VA": [{"Aspect": "speakers", "VA": "5.61#5.59"}]}
+{"ID": "laptop_quad_test_661", "Aspect_VA": [{"Aspect": "spec", "VA": "7.22#7.21"}, {"Aspect": "hardware", "VA": "7.31#7.30"}, {"Aspect": "hard drive", "VA": "5.74#5.82"}]}
+{"ID": "laptop_quad_dev_238", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.70#7.61"}]}
+{"ID": "laptop_quad_test_655", "Aspect_VA": [{"Aspect": "computer", "VA": "4.46#5.43"}]}
+{"ID": "laptop_quad_train_118", "Aspect_VA": [{"Aspect": "screen", "VA": "3.21#6.38"}, {"Aspect": "NULL", "VA": "3.22#6.36"}]}
+{"ID": "laptop_quad_train_2163", "Aspect_VA": [{"Aspect": "NULL", "VA": "2.55#6.97"}]}
+{"ID": "laptop_quad_train_2265", "Aspect_VA": [{"Aspect": "flex", "VA": "6.56#6.23"}]}
+{"ID": "laptop_quad_train_2458", "Aspect_VA": [{"Aspect": "chromebooks", "VA": "6.66#6.77"}, {"Aspect": "chromebooks", "VA": "6.66#6.77"}, {"Aspect": "chromebooks", "VA": "6.66#6.77"}]}
+{"ID": "laptop_quad_train_345", "Aspect_VA": [{"Aspect": "memory", "VA": "4.49#5.43"}]}
+{"ID": "laptop_quad_train_2664", "Aspect_VA": [{"Aspect": "product", "VA": "7.20#7.17"}, {"Aspect": "product", "VA": "7.20#7.17"}]}
+{"ID": "laptop_quad_test_133", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.11#7.06"}, {"Aspect": "chromebook", "VA": "7.11#7.06"}, {"Aspect": "chromebook", "VA": "7.11#7.06"}]}
+{"ID": "laptop_quad_dev_80", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.05#6.99"}]}
+{"ID": "laptop_quad_train_860", "Aspect_VA": [{"Aspect": "product", "VA": "5.74#5.82"}]}
+{"ID": "laptop_quad_train_186", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.72#6.07"}]}
+{"ID": "laptop_quad_train_1312", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.14#5.68"}]}
+{"ID": "laptop_quad_dev_3", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.09#5.45"}]}
+{"ID": "laptop_quad_train_2621", "Aspect_VA": [{"Aspect": "android experience", "VA": "3.51#6.15"}]}
+{"ID": "laptop_quad_train_1031", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.04#5.40"}]}
+{"ID": "laptop_quad_train_2637", "Aspect_VA": [{"Aspect": "keyboard", "VA": "7.70#7.64"}, {"Aspect": "backlit", "VA": "7.30#7.22"}]}
+{"ID": "laptop_quad_train_2048", "Aspect_VA": [{"Aspect": "device", "VA": "6.94#6.96"}, {"Aspect": "device", "VA": "6.94#6.96"}, {"Aspect": "device", "VA": "6.94#6.96"}]}
+{"ID": "laptop_quad_train_1068", "Aspect_VA": [{"Aspect": "design", "VA": "7.39#7.34"}, {"Aspect": "design", "VA": "7.39#7.34"}]}
+{"ID": "laptop_quad_test_336", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.29#5.81"}]}
+{"ID": "laptop_quad_train_1982", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.91#6.80"}]}
+{"ID": "laptop_quad_train_390", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.34#7.30"}]}
+{"ID": "laptop_quad_train_2757", "Aspect_VA": [{"Aspect": "360 degrees flipping", "VA": "6.96#6.74"}]}
+{"ID": "laptop_quad_train_2908", "Aspect_VA": [{"Aspect": "product", "VA": "7.22#7.17"}]}
+{"ID": "laptop_quad_train_1353", "Aspect_VA": [{"Aspect": "computer", "VA": "3.12#6.46"}]}
+{"ID": "laptop_quad_train_2715", "Aspect_VA": [{"Aspect": "android features", "VA": "7.01#6.84"}]}
+{"ID": "laptop_quad_train_1476", "Aspect_VA": [{"Aspect": "charging", "VA": "4.07#5.93"}]}
+{"ID": "laptop_quad_train_2306", "Aspect_VA": [{"Aspect": "NULL", "VA": "2.97#6.76"}]}
+{"ID": "laptop_quad_train_81", "Aspect_VA": [{"Aspect": "mousepad", "VA": "3.40#6.21"}]}
+{"ID": "laptop_quad_train_1420", "Aspect_VA": [{"Aspect": "asus", "VA": "4.63#5.63"}]}
+{"ID": "laptop_quad_train_2424", "Aspect_VA": [{"Aspect": "speakers", "VA": "4.66#5.62"}, {"Aspect": "speakers", "VA": "4.66#5.62"}]}
+{"ID": "laptop_quad_test_110", "Aspect_VA": [{"Aspect": "screen hinge", "VA": "7.65#7.60"}]}
+{"ID": "laptop_quad_train_2597", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.57#7.53"}]}
+{"ID": "laptop_quad_train_938", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.33#5.65"}]}
+{"ID": "laptop_quad_test_406", "Aspect_VA": [{"Aspect": "1080p", "VA": "7.83#7.74"}, {"Aspect": "1080p", "VA": "7.83#7.74"}]}
+{"ID": "laptop_quad_train_1979", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.37#7.32"}, {"Aspect": "NULL", "VA": "7.37#7.32"}]}
+{"ID": "laptop_quad_train_909", "Aspect_VA": [{"Aspect": "chromebook", "VA": "5.19#5.39"}]}
+{"ID": "laptop_quad_test_753", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.17#7.15"}, {"Aspect": "NULL", "VA": "7.17#7.15"}]}
+{"ID": "laptop_quad_train_1806", "Aspect_VA": [{"Aspect": "hard drive", "VA": "3.47#6.26"}]}
+{"ID": "laptop_quad_train_2446", "Aspect_VA": [{"Aspect": "android apps", "VA": "6.06#5.81"}]}
+{"ID": "laptop_quad_train_1816", "Aspect_VA": [{"Aspect": "laptop", "VA": "2.58#7.22"}]}
+{"ID": "laptop_quad_dev_14", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.45#5.44"}]}
+{"ID": "laptop_quad_train_717", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.79#6.63"}]}
+{"ID": "laptop_quad_test_322", "Aspect_VA": [{"Aspect": "computer", "VA": "7.92#7.81"}]}
+{"ID": "laptop_quad_train_639", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.94#6.76"}]}
+{"ID": "laptop_quad_train_61", "Aspect_VA": [{"Aspect": "microphone", "VA": "3.90#5.83"}]}
+{"ID": "laptop_quad_train_2933", "Aspect_VA": [{"Aspect": "backlit keyboard", "VA": "7.58#7.54"}, {"Aspect": "NULL", "VA": "7.32#7.29"}, {"Aspect": "NULL", "VA": "7.32#7.29"}]}
+{"ID": "laptop_quad_train_2890", "Aspect_VA": [{"Aspect": "support of the play store", "VA": "7.11#6.92"}]}
+{"ID": "laptop_quad_train_1484", "Aspect_VA": [{"Aspect": "chromeos", "VA": "6.85#6.75"}, {"Aspect": "chromeos", "VA": "6.85#6.75"}]}
+{"ID": "laptop_quad_train_2007", "Aspect_VA": [{"Aspect": "asus support", "VA": "2.50#7.24"}]}
+{"ID": "laptop_quad_test_767", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.83#7.77"}, {"Aspect": "computers", "VA": "7.90#7.83"}]}
+{"ID": "laptop_quad_train_1934", "Aspect_VA": [{"Aspect": "fingerprint sensor", "VA": "7.29#7.22"}]}
+{"ID": "laptop_quad_train_1058", "Aspect_VA": [{"Aspect": "trackpad", "VA": "7.70#7.63"}]}
+{"ID": "laptop_quad_train_2483", "Aspect_VA": [{"Aspect": "customer / warranty service", "VA": "7.65#7.57"}, {"Aspect": "asus", "VA": "7.78#7.70"}]}
+{"ID": "laptop_quad_train_1651", "Aspect_VA": [{"Aspect": "laptop", "VA": "2.89#6.55"}]}
+{"ID": "laptop_quad_test_144", "Aspect_VA": [{"Aspect": "NULL", "VA": "8.03#7.92"}]}
+{"ID": "laptop_quad_train_1811", "Aspect_VA": [{"Aspect": "responses", "VA": "3.41#6.25"}]}
+{"ID": "laptop_quad_train_1645", "Aspect_VA": [{"Aspect": "play store", "VA": "6.86#6.44"}]}
+{"ID": "laptop_quad_dev_48", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.78#7.72"}]}
+{"ID": "laptop_quad_train_2719", "Aspect_VA": [{"Aspect": "battery life", "VA": "4.02#5.74"}, {"Aspect": "screen", "VA": "4.51#5.45"}, {"Aspect": "processor", "VA": "4.67#5.46"}]}
+{"ID": "laptop_quad_train_2384", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.08#6.98"}, {"Aspect": "NULL", "VA": "7.08#6.98"}]}
+{"ID": "laptop_quad_train_1125", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.39#7.35"}, {"Aspect": "NULL", "VA": "7.39#7.35"}]}
+{"ID": "laptop_quad_test_704", "Aspect_VA": [{"Aspect": "asus", "VA": "7.32#7.25"}]}
+{"ID": "laptop_quad_train_1026", "Aspect_VA": [{"Aspect": "machine", "VA": "7.64#7.60"}, {"Aspect": "machine", "VA": "7.64#7.60"}]}
+{"ID": "laptop_quad_train_776", "Aspect_VA": [{"Aspect": "samsung ' s warranty", "VA": "3.87#5.84"}]}
+{"ID": "laptop_quad_train_1299", "Aspect_VA": [{"Aspect": "apps", "VA": "5.08#5.41"}]}
+{"ID": "laptop_quad_train_422", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.99#6.88"}]}
+{"ID": "laptop_quad_train_435", "Aspect_VA": [{"Aspect": "computer", "VA": "7.51#7.42"}, {"Aspect": "start up", "VA": "7.44#7.37"}]}
+{"ID": "laptop_quad_dev_261", "Aspect_VA": [{"Aspect": "product", "VA": "6.89#6.78"}]}
+{"ID": "laptop_quad_train_1301", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.68#7.60"}]}
+{"ID": "laptop_quad_train_588", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.24#7.20"}, {"Aspect": "laptop", "VA": "7.24#7.20"}]}
+{"ID": "laptop_quad_train_1646", "Aspect_VA": [{"Aspect": "some apps", "VA": "3.87#5.99"}]}
+{"ID": "laptop_quad_train_2103", "Aspect_VA": [{"Aspect": "computer", "VA": "6.53#6.31"}]}
+{"ID": "laptop_quad_test_330", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.33#7.31"}]}
+{"ID": "laptop_quad_train_1429", "Aspect_VA": [{"Aspect": "product", "VA": "4.94#5.54"}, {"Aspect": "software", "VA": "4.16#5.77"}]}
+{"ID": "laptop_quad_test_301", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.94#7.86"}]}
+{"ID": "laptop_quad_test_124", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.38#7.33"}]}
+{"ID": "laptop_quad_train_2386", "Aspect_VA": [{"Aspect": "microsd slot", "VA": "7.41#7.33"}]}
+{"ID": "laptop_quad_dev_193", "Aspect_VA": [{"Aspect": "charge", "VA": "3.62#6.03"}]}
+{"ID": "laptop_quad_train_1954", "Aspect_VA": [{"Aspect": "cd / dvd reader", "VA": "4.58#5.36"}]}
+{"ID": "laptop_quad_test_47", "Aspect_VA": [{"Aspect": "keypad", "VA": "2.59#7.19"}, {"Aspect": "keypad", "VA": "2.59#7.19"}]}
+{"ID": "laptop_quad_train_880", "Aspect_VA": [{"Aspect": "chromeos", "VA": "4.30#5.70"}]}
+{"ID": "laptop_quad_train_946", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.18#5.70"}]}
+{"ID": "laptop_quad_test_241", "Aspect_VA": [{"Aspect": "android app", "VA": "3.39#6.28"}]}
+{"ID": "laptop_quad_test_573", "Aspect_VA": [{"Aspect": "speakers", "VA": "5.75#5.98"}]}
+{"ID": "laptop_quad_train_341", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.97#6.94"}, {"Aspect": "NULL", "VA": "6.97#6.94"}, {"Aspect": "NULL", "VA": "6.97#6.94"}]}
+{"ID": "laptop_quad_train_494", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.46#7.34"}]}
+{"ID": "laptop_quad_train_1249", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.34#7.30"}]}
+{"ID": "laptop_quad_train_2536", "Aspect_VA": [{"Aspect": "chromebook", "VA": "8.14#8.00"}]}
+{"ID": "laptop_quad_train_613", "Aspect_VA": [{"Aspect": "battery life", "VA": "3.89#5.98"}]}
+{"ID": "laptop_quad_train_1253", "Aspect_VA": [{"Aspect": "keyboard", "VA": "5.22#5.44"}, {"Aspect": "os", "VA": "5.25#5.49"}]}
+{"ID": "laptop_quad_train_1918", "Aspect_VA": [{"Aspect": "laptop", "VA": "3.47#6.22"}, {"Aspect": "laptop", "VA": "3.47#6.22"}]}
+{"ID": "laptop_quad_test_751", "Aspect_VA": [{"Aspect": "size", "VA": "7.47#7.39"}, {"Aspect": "size", "VA": "7.47#7.39"}, {"Aspect": "size", "VA": "7.47#7.39"}]}
+{"ID": "laptop_quad_train_1066", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.20#7.17"}, {"Aspect": "NULL", "VA": "7.20#7.17"}, {"Aspect": "NULL", "VA": "7.20#7.17"}, {"Aspect": "sd port", "VA": "7.41#7.34"}]}
+{"ID": "laptop_quad_train_1158", "Aspect_VA": [{"Aspect": "battery life", "VA": "7.30#7.21"}]}
+{"ID": "laptop_quad_train_1910", "Aspect_VA": [{"Aspect": "computer", "VA": "2.58#7.07"}]}
+{"ID": "laptop_quad_test_685", "Aspect_VA": [{"Aspect": "speakers", "VA": "7.36#7.34"}]}
+{"ID": "laptop_quad_train_2927", "Aspect_VA": [{"Aspect": "asus customer service", "VA": "7.09#6.98"}]}
+{"ID": "laptop_quad_test_759", "Aspect_VA": [{"Aspect": "touchscreen", "VA": "7.01#6.90"}]}
+{"ID": "laptop_quad_test_260", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.08#7.01"}]}
+{"ID": "laptop_quad_train_738", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.81#5.98"}, {"Aspect": "storage", "VA": "3.93#5.80"}]}
+{"ID": "laptop_quad_train_1492", "Aspect_VA": [{"Aspect": "google", "VA": "3.54#6.09"}]}
+{"ID": "laptop_quad_train_2604", "Aspect_VA": [{"Aspect": "keypad", "VA": "7.18#7.16"}, {"Aspect": "back light", "VA": "6.81#6.76"}]}
+{"ID": "laptop_quad_train_2482", "Aspect_VA": [{"Aspect": "touchscreen", "VA": "7.67#7.63"}, {"Aspect": "storage", "VA": "7.54#7.50"}]}
+{"ID": "laptop_quad_train_479", "Aspect_VA": [{"Aspect": "package", "VA": "7.20#7.11"}]}
+{"ID": "laptop_quad_train_903", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.74#6.61"}]}
+{"ID": "laptop_quad_train_1543", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.38#7.33"}]}
+{"ID": "laptop_quad_test_545", "Aspect_VA": [{"Aspect": "hard drive", "VA": "3.26#6.40"}]}
+{"ID": "laptop_quad_train_147", "Aspect_VA": [{"Aspect": "laptop", "VA": "4.18#5.55"}]}
+{"ID": "laptop_quad_train_1799", "Aspect_VA": [{"Aspect": "keyboard / mousepad", "VA": "3.82#6.01"}]}
+{"ID": "laptop_quad_train_2448", "Aspect_VA": [{"Aspect": "keyboard", "VA": "7.35#7.28"}, {"Aspect": "keyboard", "VA": "7.35#7.28"}, {"Aspect": "key travel", "VA": "7.26#7.21"}, {"Aspect": "key travel", "VA": "7.26#7.21"}, {"Aspect": "backlighting", "VA": "7.10#7.02"}, {"Aspect": "backlighting", "VA": "7.10#7.02"}]}
+{"ID": "laptop_quad_train_1182", "Aspect_VA": [{"Aspect": "item", "VA": "6.95#6.83"}]}
+{"ID": "laptop_quad_train_2721", "Aspect_VA": [{"Aspect": "device", "VA": "5.54#5.55"}]}
+{"ID": "laptop_quad_train_2599", "Aspect_VA": [{"Aspect": "touch screen", "VA": "7.61#7.56"}]}
+{"ID": "laptop_quad_test_539", "Aspect_VA": [{"Aspect": "laptop", "VA": "2.97#6.54"}]}
+{"ID": "laptop_quad_dev_272", "Aspect_VA": [{"Aspect": "one of the keys", "VA": "3.77#6.10"}]}
+{"ID": "laptop_quad_test_771", "Aspect_VA": [{"Aspect": "screen brightness", "VA": "4.62#5.48"}, {"Aspect": "keyboard backlight", "VA": "4.32#5.57"}]}
+{"ID": "laptop_quad_train_502", "Aspect_VA": [{"Aspect": "battery", "VA": "6.98#6.87"}]}
+{"ID": "laptop_quad_train_151", "Aspect_VA": [{"Aspect": "fingerprint scanner", "VA": "7.00#6.88"}]}
+{"ID": "laptop_quad_train_2156", "Aspect_VA": [{"Aspect": "laptop", "VA": "3.79#5.86"}]}
+{"ID": "laptop_quad_dev_132", "Aspect_VA": [{"Aspect": "ports", "VA": "5.09#5.46"}]}
+{"ID": "laptop_quad_train_2225", "Aspect_VA": [{"Aspect": "laptop", "VA": "6.82#6.67"}]}
+{"ID": "laptop_quad_test_613", "Aspect_VA": [{"Aspect": "power management", "VA": "3.58#6.17"}]}
+{"ID": "laptop_quad_dev_230", "Aspect_VA": [{"Aspect": "keyboard", "VA": "3.70#6.20"}]}
+{"ID": "laptop_quad_train_2037", "Aspect_VA": [{"Aspect": "hdd", "VA": "4.74#5.61"}]}
+{"ID": "laptop_quad_train_2006", "Aspect_VA": [{"Aspect": "notebook", "VA": "7.26#7.22"}, {"Aspect": "machine", "VA": "7.10#7.04"}]}
+{"ID": "laptop_quad_train_2311", "Aspect_VA": [{"Aspect": "win 8", "VA": "2.88#6.80"}]}
+{"ID": "laptop_quad_train_187", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.49#6.19"}]}
+{"ID": "laptop_quad_train_1663", "Aspect_VA": [{"Aspect": "keyboard", "VA": "7.22#7.18"}, {"Aspect": "screen quality", "VA": "7.07#7.00"}]}
+{"ID": "laptop_quad_test_574", "Aspect_VA": [{"Aspect": "screen", "VA": "7.08#7.02"}, {"Aspect": "screen", "VA": "7.08#7.02"}, {"Aspect": "screen", "VA": "7.08#7.02"}, {"Aspect": "ram", "VA": "7.14#7.06"}]}
+{"ID": "laptop_quad_train_1140", "Aspect_VA": [{"Aspect": "macbook pros", "VA": "7.01#7.04"}]}
+{"ID": "laptop_quad_train_1677", "Aspect_VA": [{"Aspect": "screen", "VA": "7.09#7.03"}, {"Aspect": "tablet mode", "VA": "7.06#6.99"}, {"Aspect": "keyboard", "VA": "6.95#6.87"}]}
+{"ID": "laptop_quad_train_1480", "Aspect_VA": [{"Aspect": "display", "VA": "7.52#7.46"}]}
+{"ID": "laptop_quad_train_2649", "Aspect_VA": [{"Aspect": "chromebooks", "VA": "7.21#7.20"}]}
+{"ID": "laptop_quad_test_780", "Aspect_VA": [{"Aspect": "usb - c", "VA": "5.54#5.53"}]}
+{"ID": "laptop_quad_train_413", "Aspect_VA": [{"Aspect": "ram", "VA": "5.31#5.55"}]}
+{"ID": "laptop_quad_train_752", "Aspect_VA": [{"Aspect": "windows 10", "VA": "4.21#5.61"}]}
+{"ID": "laptop_quad_test_344", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.20#7.18"}]}
+{"ID": "laptop_quad_test_677", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.61#7.55"}]}
+{"ID": "laptop_quad_train_1845", "Aspect_VA": [{"Aspect": "pc", "VA": "3.83#6.01"}]}
+{"ID": "laptop_quad_train_1046", "Aspect_VA": [{"Aspect": "keyboard keys", "VA": "4.43#5.59"}]}
+{"ID": "laptop_quad_test_375", "Aspect_VA": [{"Aspect": "android apps", "VA": "5.28#5.63"}]}
+{"ID": "laptop_quad_train_1459", "Aspect_VA": [{"Aspect": "build quality", "VA": "8.09#7.96"}]}
+{"ID": "laptop_quad_train_1354", "Aspect_VA": [{"Aspect": "wifi", "VA": "3.92#5.75"}]}
+{"ID": "laptop_quad_dev_293", "Aspect_VA": [{"Aspect": "sound", "VA": "6.69#6.54"}, {"Aspect": "speakers", "VA": "6.77#6.64"}]}
+{"ID": "laptop_quad_train_1513", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.41#6.32"}]}
+{"ID": "laptop_quad_train_1658", "Aspect_VA": [{"Aspect": "aluminum body", "VA": "7.30#7.27"}, {"Aspect": "aluminum body", "VA": "7.30#7.27"}, {"Aspect": "aluminum body", "VA": "7.30#7.27"}]}
+{"ID": "laptop_quad_train_2695", "Aspect_VA": [{"Aspect": "keyboard", "VA": "7.47#7.43"}]}
+{"ID": "laptop_quad_train_1733", "Aspect_VA": [{"Aspect": "display glass", "VA": "3.68#6.06"}]}
+{"ID": "laptop_quad_test_768", "Aspect_VA": [{"Aspect": "asus chromebook flip 302ca", "VA": "7.67#7.65"}, {"Aspect": "asus chromebook flip 302ca", "VA": "7.67#7.65"}, {"Aspect": "asus chromebook flip 302ca", "VA": "7.67#7.65"}, {"Aspect": "asus chromebook flip 302ca", "VA": "7.67#7.65"}]}
+{"ID": "laptop_quad_train_1604", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.05#6.94"}, {"Aspect": "device", "VA": "7.12#7.04"}]}
+{"ID": "laptop_quad_test_533", "Aspect_VA": [{"Aspect": "laptop", "VA": "5.43#5.96"}, {"Aspect": "laptop", "VA": "5.43#5.96"}]}
+{"ID": "laptop_quad_train_314", "Aspect_VA": [{"Aspect": "google play", "VA": "3.17#6.41"}]}
+{"ID": "laptop_quad_train_375", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.31#7.28"}]}
+{"ID": "laptop_quad_test_341", "Aspect_VA": [{"Aspect": "machine", "VA": "7.94#7.82"}]}
+{"ID": "laptop_quad_train_353", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.51#5.39"}]}
+{"ID": "laptop_quad_train_2275", "Aspect_VA": [{"Aspect": "junky", "VA": "7.00#6.95"}]}
+{"ID": "laptop_quad_train_1462", "Aspect_VA": [{"Aspect": "trackpad", "VA": "4.24#5.60"}]}
+{"ID": "laptop_quad_train_716", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.02#6.85"}]}
+{"ID": "laptop_quad_train_2889", "Aspect_VA": [{"Aspect": "keyboard", "VA": "7.59#7.53"}, {"Aspect": "keyboard", "VA": "7.59#7.53"}]}
+{"ID": "laptop_quad_train_2881", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.22#5.43"}]}
+{"ID": "laptop_quad_test_88", "Aspect_VA": [{"Aspect": "touchpad", "VA": "5.84#5.90"}, {"Aspect": "keyboard", "VA": "6.87#6.76"}]}
+{"ID": "laptop_quad_train_2408", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.10#6.98"}]}
+{"ID": "laptop_quad_test_628", "Aspect_VA": [{"Aspect": "key", "VA": "3.69#6.13"}]}
+{"ID": "laptop_quad_train_2362", "Aspect_VA": [{"Aspect": "desktop / application options", "VA": "7.15#6.98"}]}
+{"ID": "laptop_quad_test_1", "Aspect_VA": [{"Aspect": "unit", "VA": "3.44#6.17"}]}
+{"ID": "laptop_quad_train_44", "Aspect_VA": [{"Aspect": "chromebook", "VA": "5.46#5.47"}]}
+{"ID": "laptop_quad_train_2025", "Aspect_VA": [{"Aspect": "laptop", "VA": "6.66#6.45"}]}
+{"ID": "laptop_quad_test_608", "Aspect_VA": [{"Aspect": "laptop", "VA": "5.34#6.12"}, {"Aspect": "laptop", "VA": "5.34#6.12"}]}
+{"ID": "laptop_quad_train_1567", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.26#5.57"}]}
+{"ID": "laptop_quad_dev_188", "Aspect_VA": [{"Aspect": "native chrome os media player", "VA": "4.12#5.66"}]}
+{"ID": "laptop_quad_dev_285", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.25#5.82"}, {"Aspect": "NULL", "VA": "4.25#5.82"}]}
+{"ID": "laptop_quad_train_1744", "Aspect_VA": [{"Aspect": "product", "VA": "6.99#6.99"}]}
+{"ID": "laptop_quad_test_462", "Aspect_VA": [{"Aspect": "machine", "VA": "7.66#7.58"}, {"Aspect": "machine", "VA": "7.66#7.58"}]}
+{"ID": "laptop_quad_train_1223", "Aspect_VA": [{"Aspect": "display", "VA": "7.60#7.55"}, {"Aspect": "NULL", "VA": "7.45#7.42"}]}
+{"ID": "laptop_quad_train_340", "Aspect_VA": [{"Aspect": "scrivener", "VA": "4.65#5.39"}]}
+{"ID": "laptop_quad_train_2388", "Aspect_VA": [{"Aspect": "computer", "VA": "7.68#7.64"}, {"Aspect": "tablet device", "VA": "7.68#7.63"}]}
+{"ID": "laptop_quad_train_2485", "Aspect_VA": [{"Aspect": "flip", "VA": "7.37#7.29"}]}
+{"ID": "laptop_quad_train_1392", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.02#5.87"}]}
+{"ID": "laptop_quad_train_1433", "Aspect_VA": [{"Aspect": "m3 processor", "VA": "6.98#6.78"}]}
+{"ID": "laptop_quad_train_2256", "Aspect_VA": [{"Aspect": "audio", "VA": "3.26#6.48"}]}
+{"ID": "laptop_quad_train_59", "Aspect_VA": [{"Aspect": "fingerprints", "VA": "3.27#6.42"}]}
+{"ID": "laptop_quad_train_1120", "Aspect_VA": [{"Aspect": "model", "VA": "6.42#6.03"}]}
+{"ID": "laptop_quad_dev_323", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.38#7.35"}]}
+{"ID": "laptop_quad_train_409", "Aspect_VA": [{"Aspect": "touchpad", "VA": "3.30#6.61"}, {"Aspect": "touchpad", "VA": "3.30#6.61"}, {"Aspect": "touchpad", "VA": "3.30#6.61"}]}
+{"ID": "laptop_quad_train_2636", "Aspect_VA": [{"Aspect": "screen", "VA": "5.25#5.75"}, {"Aspect": "screen", "VA": "5.25#5.75"}, {"Aspect": "screen", "VA": "5.25#5.75"}]}
+{"ID": "laptop_quad_train_2844", "Aspect_VA": [{"Aspect": "backlit keyboard", "VA": "7.03#7.04"}, {"Aspect": "screen ratio", "VA": "6.29#6.17"}, {"Aspect": "screen ratio", "VA": "6.29#6.17"}]}
+{"ID": "laptop_quad_test_186", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.39#7.36"}]}
+{"ID": "laptop_quad_train_1055", "Aspect_VA": [{"Aspect": "trackpad", "VA": "7.20#7.15"}]}
+{"ID": "laptop_quad_train_740", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.22#7.18"}, {"Aspect": "NULL", "VA": "7.22#7.18"}, {"Aspect": "screen", "VA": "7.27#7.23"}]}
+{"ID": "laptop_quad_train_1847", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.93#5.74"}, {"Aspect": "support", "VA": "3.96#5.69"}]}
+{"ID": "laptop_quad_dev_178", "Aspect_VA": [{"Aspect": "usb port", "VA": "3.22#6.38"}]}
+{"ID": "laptop_quad_train_2164", "Aspect_VA": [{"Aspect": "mouse", "VA": "4.85#5.98"}]}
+{"ID": "laptop_quad_test_758", "Aspect_VA": [{"Aspect": "keyboard", "VA": "4.08#5.72"}]}
+{"ID": "laptop_quad_train_1331", "Aspect_VA": [{"Aspect": "screen resolution", "VA": "3.22#6.47"}, {"Aspect": "mouse pad", "VA": "3.23#6.50"}]}
+{"ID": "laptop_quad_train_267", "Aspect_VA": [{"Aspect": "laptop", "VA": "7.28#7.23"}]}
+{"ID": "laptop_quad_train_2330", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.38#5.58"}]}
+{"ID": "laptop_quad_train_329", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.15#5.72"}]}
+{"ID": "laptop_quad_test_71", "Aspect_VA": [{"Aspect": "computer", "VA": "3.64#6.00"}]}
+{"ID": "laptop_quad_train_415", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.02#5.93"}]}
+{"ID": "laptop_quad_test_54", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.99#6.89"}]}
+{"ID": "laptop_quad_test_93", "Aspect_VA": [{"Aspect": "solid state drive", "VA": "7.31#7.28"}]}
+{"ID": "laptop_quad_train_237", "Aspect_VA": [{"Aspect": "memory", "VA": "5.69#5.79"}]}
+{"ID": "laptop_quad_train_1986", "Aspect_VA": [{"Aspect": "wifi", "VA": "7.13#7.02"}]}
+{"ID": "laptop_quad_train_2779", "Aspect_VA": [{"Aspect": "asus speakers", "VA": "4.84#5.62"}]}
+{"ID": "laptop_quad_test_556", "Aspect_VA": [{"Aspect": "windows 10", "VA": "7.36#7.32"}, {"Aspect": "display", "VA": "7.53#7.50"}, {"Aspect": "card slot", "VA": "7.15#7.01"}]}
+{"ID": "laptop_quad_test_311", "Aspect_VA": [{"Aspect": "shipping", "VA": "7.18#7.13"}, {"Aspect": "product", "VA": "7.04#6.96"}]}
+{"ID": "laptop_quad_test_813", "Aspect_VA": [{"Aspect": "switch", "VA": "8.14#7.97"}]}
+{"ID": "laptop_quad_train_252", "Aspect_VA": [{"Aspect": "hdd", "VA": "7.11#7.05"}, {"Aspect": "512 ssd", "VA": "6.97#6.88"}]}
+{"ID": "laptop_quad_train_590", "Aspect_VA": [{"Aspect": "memory", "VA": "7.45#7.36"}]}
+{"ID": "laptop_quad_train_1718", "Aspect_VA": [{"Aspect": "tech support", "VA": "2.60#6.95"}, {"Aspect": "tech support", "VA": "2.60#6.95"}]}
+{"ID": "laptop_quad_test_328", "Aspect_VA": [{"Aspect": "trackpad", "VA": "7.50#7.42"}]}
+{"ID": "laptop_quad_train_2159", "Aspect_VA": [{"Aspect": "laptop", "VA": "6.57#6.31"}]}
+{"ID": "laptop_quad_train_1967", "Aspect_VA": [{"Aspect": "computer", "VA": "7.15#7.06"}, {"Aspect": "gaming laptop", "VA": "7.06#6.98"}, {"Aspect": "computer", "VA": "7.15#7.06"}, {"Aspect": "gaming laptop", "VA": "7.06#6.98"}]}
+{"ID": "laptop_quad_dev_27", "Aspect_VA": [{"Aspect": "bezels", "VA": "6.24#5.88"}]}
+{"ID": "laptop_quad_train_2419", "Aspect_VA": [{"Aspect": "display", "VA": "8.03#7.91"}, {"Aspect": "display", "VA": "8.03#7.91"}]}
+{"ID": "laptop_quad_train_2174", "Aspect_VA": [{"Aspect": "laptop ' s construction", "VA": "3.31#6.54"}, {"Aspect": "laptop ' s construction", "VA": "3.31#6.54"}, {"Aspect": "battery", "VA": "3.58#6.08"}, {"Aspect": "back case", "VA": "3.06#6.60"}]}
+{"ID": "laptop_quad_test_814", "Aspect_VA": [{"Aspect": "backlit keyboard", "VA": "7.94#7.82"}]}
+{"ID": "laptop_quad_train_1272", "Aspect_VA": [{"Aspect": "keyboard", "VA": "4.33#5.56"}]}
+{"ID": "laptop_quad_train_698", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.68#5.62"}]}
+{"ID": "laptop_quad_test_577", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.23#7.15"}]}
+{"ID": "laptop_quad_train_577", "Aspect_VA": [{"Aspect": "laptop", "VA": "8.06#7.92"}]}
+{"ID": "laptop_quad_train_1091", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.61#6.64"}, {"Aspect": "NULL", "VA": "6.61#6.64"}]}
+{"ID": "laptop_quad_train_1731", "Aspect_VA": [{"Aspect": "company", "VA": "3.10#6.51"}, {"Aspect": "units", "VA": "2.87#6.72"}]}
+{"ID": "laptop_quad_train_1520", "Aspect_VA": [{"Aspect": "space bar", "VA": "3.53#6.22"}]}
+{"ID": "laptop_quad_train_1791", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.14#5.74"}]}
+{"ID": "laptop_quad_test_489", "Aspect_VA": [{"Aspect": "keyboard", "VA": "7.21#7.19"}]}
+{"ID": "laptop_quad_train_1157", "Aspect_VA": [{"Aspect": "computer", "VA": "6.87#6.93"}, {"Aspect": "memory", "VA": "5.13#5.69"}]}
+{"ID": "laptop_quad_dev_109", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.29#5.46"}]}
+{"ID": "laptop_quad_train_1324", "Aspect_VA": [{"Aspect": "product", "VA": "7.74#7.68"}]}
+{"ID": "laptop_quad_train_928", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.83#5.46"}]}
+{"ID": "laptop_quad_test_627", "Aspect_VA": [{"Aspect": "backlight", "VA": "4.61#5.37"}, {"Aspect": "keyboard", "VA": "4.87#5.37"}]}
+{"ID": "laptop_quad_test_570", "Aspect_VA": [{"Aspect": "15 inch screen", "VA": "7.28#7.26"}]}
+{"ID": "laptop_quad_test_58", "Aspect_VA": [{"Aspect": "touchpad", "VA": "4.02#5.75"}]}
+{"ID": "laptop_quad_dev_123", "Aspect_VA": [{"Aspect": "device", "VA": "3.75#6.23"}]}
+{"ID": "laptop_quad_dev_131", "Aspect_VA": [{"Aspect": "macbook pro", "VA": "7.18#7.14"}, {"Aspect": "macbook pro", "VA": "7.18#7.14"}]}
+{"ID": "laptop_quad_train_587", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.15#5.77"}]}
+{"ID": "laptop_quad_train_1277", "Aspect_VA": [{"Aspect": "track pad", "VA": "5.66#5.61"}]}
+{"ID": "laptop_quad_test_31", "Aspect_VA": [{"Aspect": "screen", "VA": "7.43#7.33"}]}
+{"ID": "laptop_quad_train_1092", "Aspect_VA": [{"Aspect": "computer", "VA": "7.95#7.84"}]}
+{"ID": "laptop_quad_train_2513", "Aspect_VA": [{"Aspect": "chromebook", "VA": "7.22#7.20"}, {"Aspect": "chromebook", "VA": "7.22#7.20"}]}
+{"ID": "laptop_quad_train_1892", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.11#6.45"}, {"Aspect": "monitor", "VA": "3.54#6.06"}]}
+{"ID": "laptop_quad_train_1630", "Aspect_VA": [{"Aspect": "screen", "VA": "4.25#5.62"}]}
+{"ID": "laptop_quad_test_94", "Aspect_VA": [{"Aspect": "laptop", "VA": "4.60#5.36"}]}
+{"ID": "laptop_quad_train_1875", "Aspect_VA": [{"Aspect": "inside", "VA": "6.88#6.89"}]}
+{"ID": "laptop_quad_test_246", "Aspect_VA": [{"Aspect": "chromeos", "VA": "3.22#6.49"}, {"Aspect": "samsung", "VA": "2.96#6.72"}, {"Aspect": "samsung", "VA": "2.96#6.72"}]}
+{"ID": "laptop_quad_test_589", "Aspect_VA": [{"Aspect": "keyboard", "VA": "7.91#7.82"}, {"Aspect": "touchpad", "VA": "7.73#7.67"}]}
+{"ID": "laptop_quad_test_678", "Aspect_VA": [{"Aspect": "battery", "VA": "7.35#7.30"}, {"Aspect": "battery life", "VA": "7.57#7.51"}]}
+{"ID": "laptop_quad_test_801", "Aspect_VA": [{"Aspect": "computer", "VA": "6.70#6.53"}, {"Aspect": "360 rotation", "VA": "6.88#6.72"}, {"Aspect": "touch screen", "VA": "6.88#6.74"}]}
+{"ID": "laptop_quad_train_1896", "Aspect_VA": [{"Aspect": "computer", "VA": "6.64#6.59"}, {"Aspect": "battery", "VA": "4.52#5.85"}]}
+{"ID": "laptop_quad_dev_103", "Aspect_VA": [{"Aspect": "microsoft program", "VA": "4.74#5.31"}]}
+{"ID": "laptop_quad_test_131", "Aspect_VA": [{"Aspect": "notebook", "VA": "6.92#6.91"}, {"Aspect": "notebook", "VA": "6.92#6.91"}, {"Aspect": "notebook", "VA": "6.92#6.91"}]}
+{"ID": "laptop_quad_train_1478", "Aspect_VA": [{"Aspect": "design", "VA": "7.52#7.47"}]}

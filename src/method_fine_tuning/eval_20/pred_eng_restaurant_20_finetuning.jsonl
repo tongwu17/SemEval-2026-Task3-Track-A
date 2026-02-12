@@ -1,0 +1,457 @@
+{"ID": "rest16_quad_train_1365", "Aspect_VA": [{"Aspect": "service", "VA": "2.75#6.25"}]}
+{"ID": "rest16_quad_train_919", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.87#6.73"}]}
+{"ID": "rest16_quad_test_238", "Aspect_VA": [{"Aspect": "chinese food", "VA": "8.00#8.04"}]}
+{"ID": "rest16_quad_test_285", "Aspect_VA": [{"Aspect": "steak", "VA": "4.72#5.08"}]}
+{"ID": "rest16_quad_train_210", "Aspect_VA": [{"Aspect": "meal", "VA": "8.08#8.11"}]}
+{"ID": "rest16_quad_train_1005", "Aspect_VA": [{"Aspect": "mussels", "VA": "8.16#8.17"}, {"Aspect": "dessert", "VA": "7.89#7.89"}, {"Aspect": "NULL", "VA": "7.60#7.58"}]}
+{"ID": "rest16_quad_train_1396", "Aspect_VA": [{"Aspect": "service", "VA": "1.69#8.26"}, {"Aspect": "drinks", "VA": "1.85#7.89"}, {"Aspect": "pita bread", "VA": "1.86#7.97"}, {"Aspect": "NULL", "VA": "1.81#8.07"}]}
+{"ID": "rest16_quad_train_1033", "Aspect_VA": [{"Aspect": "sake", "VA": "7.91#7.92"}]}
+{"ID": "rest16_quad_train_30", "Aspect_VA": [{"Aspect": "spot", "VA": "8.01#8.06"}]}
+{"ID": "rest16_quad_train_1337", "Aspect_VA": [{"Aspect": "indian food", "VA": "6.14#6.03"}, {"Aspect": "indian food", "VA": "6.14#6.03"}]}
+{"ID": "rest16_quad_train_683", "Aspect_VA": [{"Aspect": "place", "VA": "7.71#7.75"}, {"Aspect": "place", "VA": "7.71#7.75"}]}
+{"ID": "rest16_quad_train_859", "Aspect_VA": [{"Aspect": "patio", "VA": "7.71#7.74"}]}
+{"ID": "rest16_quad_train_1512", "Aspect_VA": [{"Aspect": "NULL", "VA": "1.75#8.30"}]}
+{"ID": "rest16_quad_test_376", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.27#5.60"}]}
+{"ID": "rest16_quad_test_338", "Aspect_VA": [{"Aspect": "menu selection", "VA": "7.15#7.11"}]}
+{"ID": "rest16_quad_train_1103", "Aspect_VA": [{"Aspect": "food", "VA": "7.06#7.03"}, {"Aspect": "place", "VA": "7.08#7.10"}, {"Aspect": "place", "VA": "7.08#7.10"}]}
+{"ID": "rest16_quad_train_752", "Aspect_VA": [{"Aspect": "terrace", "VA": "6.84#6.67"}]}
+{"ID": "rest16_quad_train_1016", "Aspect_VA": [{"Aspect": "food", "VA": "7.71#7.74"}]}
+{"ID": "rest16_quad_train_1246", "Aspect_VA": [{"Aspect": "hot dogs", "VA": "7.05#7.03"}, {"Aspect": "hot dogs", "VA": "7.05#7.03"}]}
+{"ID": "rest16_quad_train_1309", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.40#5.00"}]}
+{"ID": "rest16_quad_train_90", "Aspect_VA": [{"Aspect": "zucchero pomodori", "VA": "3.60#5.62"}]}
+{"ID": "rest16_quad_train_849", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.78#6.84"}]}
+{"ID": "rest16_quad_test_510", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.87#5.67"}]}
+{"ID": "rest16_quad_train_755", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.49#5.56"}]}
+{"ID": "rest16_quad_test_197", "Aspect_VA": [{"Aspect": "regular menu", "VA": "5.06#5.41"}, {"Aspect": "regular menu", "VA": "5.06#5.41"}, {"Aspect": "NULL", "VA": "4.44#5.27"}]}
+{"ID": "rest16_quad_dev_51", "Aspect_VA": [{"Aspect": "decor", "VA": "6.73#6.75"}, {"Aspect": "service", "VA": "7.11#7.10"}]}
+{"ID": "rest16_quad_train_91", "Aspect_VA": [{"Aspect": "place", "VA": "8.14#8.17"}]}
+{"ID": "rest16_quad_train_1052", "Aspect_VA": [{"Aspect": "place", "VA": "4.61#5.25"}]}
+{"ID": "rest16_quad_test_192", "Aspect_VA": [{"Aspect": "fish", "VA": "7.91#7.95"}, {"Aspect": "service", "VA": "8.04#8.08"}]}
+{"ID": "rest16_quad_train_907", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.45#4.91"}]}
+{"ID": "rest16_quad_train_885", "Aspect_VA": [{"Aspect": "food", "VA": "2.60#6.52"}, {"Aspect": "sauces", "VA": "2.98#6.10"}, {"Aspect": "sauces", "VA": "2.98#6.10"}]}
+{"ID": "rest16_quad_test_162", "Aspect_VA": [{"Aspect": "restaurant", "VA": "7.59#7.72"}]}
+{"ID": "rest16_quad_train_1017", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.94#7.99"}]}
+{"ID": "rest16_quad_test_314", "Aspect_VA": [{"Aspect": "place", "VA": "2.57#6.50"}]}
+{"ID": "rest16_quad_test_146", "Aspect_VA": [{"Aspect": "food", "VA": "7.13#7.14"}, {"Aspect": "food", "VA": "7.13#7.14"}]}
+{"ID": "rest16_quad_train_781", "Aspect_VA": [{"Aspect": "NULL", "VA": "2.26#7.24"}]}
+{"ID": "rest16_quad_train_518", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.56#5.53"}]}
+{"ID": "rest16_quad_train_79", "Aspect_VA": [{"Aspect": "pastrami", "VA": "7.99#8.03"}, {"Aspect": "portion", "VA": "7.92#7.96"}]}
+{"ID": "rest16_quad_train_1038", "Aspect_VA": [{"Aspect": "delivery guy", "VA": "3.41#5.62"}]}
+{"ID": "rest16_quad_train_1057", "Aspect_VA": [{"Aspect": "space", "VA": "5.26#5.59"}, {"Aspect": "indo - chinese food", "VA": "7.61#7.65"}]}
+{"ID": "rest16_quad_train_393", "Aspect_VA": [{"Aspect": "iced tea", "VA": "5.55#5.63"}]}
+{"ID": "rest16_quad_train_844", "Aspect_VA": [{"Aspect": "porcini mushroom pasta special", "VA": "3.01#5.71"}, {"Aspect": "seafood tagliatelle", "VA": "3.71#5.30"}]}
+{"ID": "rest16_quad_test_554", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.95#6.96"}]}
+{"ID": "rest16_quad_test_40", "Aspect_VA": [{"Aspect": "waiter", "VA": "1.62#8.33"}, {"Aspect": "staff members", "VA": "2.01#7.65"}]}
+{"ID": "rest16_quad_train_612", "Aspect_VA": [{"Aspect": "thai restaurant", "VA": "4.38#5.23"}]}
+{"ID": "rest16_quad_train_1489", "Aspect_VA": [{"Aspect": "food", "VA": "7.84#7.88"}, {"Aspect": "environment", "VA": "7.76#7.81"}]}
+{"ID": "rest16_quad_train_643", "Aspect_VA": [{"Aspect": "food", "VA": "7.49#7.68"}, {"Aspect": "service", "VA": "7.16#7.42"}]}
+{"ID": "rest16_quad_test_260", "Aspect_VA": [{"Aspect": "fish", "VA": "6.69#6.67"}, {"Aspect": "fish", "VA": "6.69#6.67"}]}
+{"ID": "rest16_quad_test_562", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.46#5.16"}]}
+{"ID": "rest16_quad_train_1087", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.97#5.54"}]}
+{"ID": "rest16_quad_train_1258", "Aspect_VA": [{"Aspect": "indian chinese", "VA": "8.01#8.03"}]}
+{"ID": "rest16_quad_train_1009", "Aspect_VA": [{"Aspect": "place", "VA": "7.77#7.83"}]}
+{"ID": "rest16_quad_train_877", "Aspect_VA": [{"Aspect": "chicken", "VA": "5.16#5.12"}, {"Aspect": "beef", "VA": "5.25#5.15"}, {"Aspect": "lamb dishes", "VA": "5.18#5.21"}]}
+{"ID": "rest16_quad_train_1088", "Aspect_VA": [{"Aspect": "seafood dynamite", "VA": "7.93#7.95"}]}
+{"ID": "rest16_quad_test_576", "Aspect_VA": [{"Aspect": "place", "VA": "7.96#7.97"}]}
+{"ID": "rest16_quad_test_461", "Aspect_VA": [{"Aspect": "spot", "VA": "7.03#6.95"}]}
+{"ID": "rest16_quad_dev_86", "Aspect_VA": [{"Aspect": "place", "VA": "8.04#8.07"}]}
+{"ID": "rest16_quad_test_91", "Aspect_VA": [{"Aspect": "delivery", "VA": "7.29#7.34"}]}
+{"ID": "rest16_quad_train_127", "Aspect_VA": [{"Aspect": "menu", "VA": "4.50#5.11"}]}
+{"ID": "rest16_quad_test_133", "Aspect_VA": [{"Aspect": "place", "VA": "2.67#5.88"}]}
+{"ID": "rest16_quad_train_378", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.74#6.66"}]}
+{"ID": "rest16_quad_train_439", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.97#5.27"}]}
+{"ID": "rest16_quad_train_1213", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.20#7.22"}]}
+{"ID": "rest16_quad_train_956", "Aspect_VA": [{"Aspect": "drinks", "VA": "7.16#7.17"}, {"Aspect": "service", "VA": "7.03#7.02"}]}
+{"ID": "rest16_quad_dev_74", "Aspect_VA": [{"Aspect": "NULL", "VA": "2.88#6.20"}]}
+{"ID": "rest16_quad_train_364", "Aspect_VA": [{"Aspect": "place", "VA": "4.85#5.50"}, {"Aspect": "place", "VA": "4.85#5.50"}, {"Aspect": "place", "VA": "4.85#5.50"}, {"Aspect": "service", "VA": "7.62#7.68"}]}
+{"ID": "rest16_quad_test_135", "Aspect_VA": [{"Aspect": "owners", "VA": "1.71#8.23"}]}
+{"ID": "rest16_quad_train_1098", "Aspect_VA": [{"Aspect": "margaritas", "VA": "5.14#5.25"}]}
+{"ID": "rest16_quad_train_662", "Aspect_VA": [{"Aspect": "wait staff", "VA": "7.58#7.62"}, {"Aspect": "wait staff", "VA": "7.58#7.62"}]}
+{"ID": "rest16_quad_train_1055", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.44#7.57"}]}
+{"ID": "rest16_quad_dev_155", "Aspect_VA": [{"Aspect": "family seafood entree", "VA": "7.53#7.56"}]}
+{"ID": "rest16_quad_train_1457", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.19#5.98"}]}
+{"ID": "rest16_quad_train_1230", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.07#5.06"}]}
+{"ID": "rest16_quad_train_395", "Aspect_VA": [{"Aspect": "delivery", "VA": "7.39#7.40"}]}
+{"ID": "rest16_quad_train_1310", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.91#4.98"}]}
+{"ID": "rest16_quad_train_692", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.55#5.13"}]}
+{"ID": "rest16_quad_train_376", "Aspect_VA": [{"Aspect": "staff", "VA": "7.80#7.85"}]}
+{"ID": "rest16_quad_train_151", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.68#5.13"}]}
+{"ID": "rest16_quad_train_765", "Aspect_VA": [{"Aspect": "dim sum", "VA": "5.97#5.90"}, {"Aspect": "dim sum", "VA": "5.97#5.90"}]}
+{"ID": "rest16_quad_test_160", "Aspect_VA": [{"Aspect": "oyster roll", "VA": "6.92#6.93"}]}
+{"ID": "rest16_quad_test_366", "Aspect_VA": [{"Aspect": "views", "VA": "7.92#7.95"}, {"Aspect": "ray ' s", "VA": "7.90#7.94"}]}
+{"ID": "rest16_quad_train_551", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.12#5.22"}]}
+{"ID": "rest16_quad_test_97", "Aspect_VA": [{"Aspect": "chickpeas", "VA": "6.91#6.99"}]}
+{"ID": "rest16_quad_train_826", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.28#7.24"}]}
+{"ID": "rest16_quad_test_513", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.92#5.15"}, {"Aspect": "NULL", "VA": "3.92#5.15"}]}
+{"ID": "rest16_quad_dev_8", "Aspect_VA": [{"Aspect": "food", "VA": "6.90#6.91"}, {"Aspect": "NULL", "VA": "6.10#6.12"}]}
+{"ID": "rest16_quad_dev_91", "Aspect_VA": [{"Aspect": "rice dishes", "VA": "7.06#7.11"}, {"Aspect": "congee ( rice porridge )", "VA": "6.99#6.97"}]}
+{"ID": "rest16_quad_train_1435", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.01#5.20"}]}
+{"ID": "rest16_quad_train_945", "Aspect_VA": [{"Aspect": "food", "VA": "7.57#7.61"}, {"Aspect": "NULL", "VA": "7.12#7.14"}]}
+{"ID": "rest16_quad_train_1379", "Aspect_VA": [{"Aspect": "crust", "VA": "7.51#7.55"}, {"Aspect": "crust", "VA": "7.51#7.55"}, {"Aspect": "sauce", "VA": "6.95#7.00"}, {"Aspect": "sauce", "VA": "6.95#7.00"}, {"Aspect": "cheese", "VA": "7.54#7.60"}]}
+{"ID": "rest16_quad_train_546", "Aspect_VA": [{"Aspect": "gentleman", "VA": "3.91#5.20"}]}
+{"ID": "rest16_quad_test_19", "Aspect_VA": [{"Aspect": "italian food", "VA": "8.13#8.17"}]}
+{"ID": "rest16_quad_dev_105", "Aspect_VA": [{"Aspect": "food", "VA": "5.83#5.79"}, {"Aspect": "NULL", "VA": "5.18#5.37"}]}
+{"ID": "rest16_quad_train_1300", "Aspect_VA": [{"Aspect": "hostess", "VA": "7.67#7.73"}]}
+{"ID": "rest16_quad_train_1106", "Aspect_VA": [{"Aspect": "staff", "VA": "7.26#7.29"}]}
+{"ID": "rest16_quad_train_1101", "Aspect_VA": [{"Aspect": "indian food", "VA": "7.94#7.99"}]}
+{"ID": "rest16_quad_test_344", "Aspect_VA": [{"Aspect": "table", "VA": "7.25#7.24"}, {"Aspect": "table", "VA": "7.25#7.24"}, {"Aspect": "NULL", "VA": "6.72#6.58"}]}
+{"ID": "rest16_quad_train_247", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.92#5.61"}]}
+{"ID": "rest16_quad_train_282", "Aspect_VA": [{"Aspect": "food", "VA": "3.93#5.60"}, {"Aspect": "service", "VA": "4.39#5.50"}, {"Aspect": "good", "VA": "5.23#5.62"}, {"Aspect": "service", "VA": "4.39#5.50"}]}
+{"ID": "rest16_quad_test_370", "Aspect_VA": [{"Aspect": "scallops", "VA": "7.36#7.36"}, {"Aspect": "scallops", "VA": "7.36#7.36"}]}
+{"ID": "rest16_quad_train_1281", "Aspect_VA": [{"Aspect": "dessert", "VA": "2.17#7.57"}]}
+{"ID": "rest16_quad_train_545", "Aspect_VA": [{"Aspect": "customer service", "VA": "1.71#8.23"}]}
+{"ID": "rest16_quad_train_654", "Aspect_VA": [{"Aspect": "view", "VA": "8.00#8.01"}, {"Aspect": "food", "VA": "8.01#8.03"}]}
+{"ID": "rest16_quad_test_246", "Aspect_VA": [{"Aspect": "sushi", "VA": "7.06#7.13"}, {"Aspect": "sushi", "VA": "7.06#7.13"}, {"Aspect": "sushi", "VA": "7.06#7.13"}, {"Aspect": "restaurant", "VA": "6.63#6.68"}]}
+{"ID": "rest16_quad_test_532", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.62#5.46"}]}
+{"ID": "rest16_quad_train_716", "Aspect_VA": [{"Aspect": "fish", "VA": "6.26#6.33"}, {"Aspect": "fish", "VA": "6.26#6.33"}]}
+{"ID": "rest16_quad_test_261", "Aspect_VA": [{"Aspect": "service", "VA": "7.73#7.77"}]}
+{"ID": "rest16_quad_train_485", "Aspect_VA": [{"Aspect": "svc", "VA": "3.78#6.40"}, {"Aspect": "restaurant", "VA": "7.26#7.52"}]}
+{"ID": "rest16_quad_test_407", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.16#7.12"}, {"Aspect": "NULL", "VA": "7.16#7.12"}]}
+{"ID": "rest16_quad_test_387", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.42#5.72"}]}
+{"ID": "rest16_quad_test_148", "Aspect_VA": [{"Aspect": "atmosphere", "VA": "7.41#7.46"}]}
+{"ID": "rest16_quad_train_380", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.85#7.87"}]}
+{"ID": "rest16_quad_train_767", "Aspect_VA": [{"Aspect": "turnip cake", "VA": "3.52#5.43"}, {"Aspect": "roast pork buns", "VA": "4.30#5.10"}, {"Aspect": "egg custards", "VA": "4.41#5.10"}]}
+{"ID": "rest16_quad_test_49", "Aspect_VA": [{"Aspect": "service", "VA": "7.95#8.00"}]}
+{"ID": "rest16_quad_train_1069", "Aspect_VA": [{"Aspect": "vitello alla marsala", "VA": "7.97#8.02"}]}
+{"ID": "rest16_quad_test_66", "Aspect_VA": [{"Aspect": "upstairs", "VA": "7.60#7.63"}]}
+{"ID": "rest16_quad_train_1350", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.59#5.00"}]}
+{"ID": "rest16_quad_test_105", "Aspect_VA": [{"Aspect": "mexican spot", "VA": "7.69#7.73"}]}
+{"ID": "rest16_quad_train_1045", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.30#5.10"}, {"Aspect": "food", "VA": "6.62#6.33"}]}
+{"ID": "rest16_quad_train_1169", "Aspect_VA": [{"Aspect": "pear torte", "VA": "6.20#6.37"}, {"Aspect": "staff", "VA": "4.02#5.42"}]}
+{"ID": "rest16_quad_test_42", "Aspect_VA": [{"Aspect": "miso soup", "VA": "5.59#5.39"}, {"Aspect": "rolls", "VA": "5.80#5.71"}]}
+{"ID": "rest16_quad_train_605", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.08#7.14"}]}
+{"ID": "rest16_quad_train_1155", "Aspect_VA": [{"Aspect": "water ' s edge", "VA": "6.74#6.55"}]}
+{"ID": "rest16_quad_test_443", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.45#5.76"}]}
+{"ID": "rest16_quad_train_382", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.70#6.79"}]}
+{"ID": "rest16_quad_train_920", "Aspect_VA": [{"Aspect": "beef noodle soup", "VA": "7.13#7.13"}]}
+{"ID": "rest16_quad_train_614", "Aspect_VA": [{"Aspect": "place", "VA": "8.01#8.04"}, {"Aspect": "place", "VA": "8.01#8.04"}]}
+{"ID": "rest16_quad_dev_17", "Aspect_VA": [{"Aspect": "raga ' s", "VA": "7.48#7.49"}, {"Aspect": "raga ' s", "VA": "7.48#7.49"}]}
+{"ID": "rest16_quad_train_1493", "Aspect_VA": [{"Aspect": "hot dog", "VA": "4.87#5.15"}, {"Aspect": "bark", "VA": "4.80#5.13"}]}
+{"ID": "rest16_quad_train_586", "Aspect_VA": [{"Aspect": "food", "VA": "2.30#7.10"}, {"Aspect": "spice", "VA": "2.82#6.04"}]}
+{"ID": "rest16_quad_train_899", "Aspect_VA": [{"Aspect": "food", "VA": "8.11#8.13"}]}
+{"ID": "rest16_quad_train_499", "Aspect_VA": [{"Aspect": "place", "VA": "3.98#5.44"}]}
+{"ID": "rest16_quad_test_449", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.12#7.20"}]}
+{"ID": "rest16_quad_train_687", "Aspect_VA": [{"Aspect": "sushi", "VA": "7.96#7.98"}]}
+{"ID": "rest16_quad_train_359", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.65#5.58"}]}
+{"ID": "rest16_quad_train_954", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.87#5.90"}, {"Aspect": "NULL", "VA": "5.87#5.90"}]}
+{"ID": "rest16_quad_train_144", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.90#7.94"}]}
+{"ID": "rest16_quad_test_153", "Aspect_VA": [{"Aspect": "eggs", "VA": "6.88#6.70"}, {"Aspect": "pancakes", "VA": "6.76#6.57"}, {"Aspect": "potatoes", "VA": "6.83#6.61"}, {"Aspect": "fresh fruit", "VA": "7.21#7.14"}, {"Aspect": "yogurt", "VA": "7.53#7.52"}, {"Aspect": "NULL", "VA": "7.13#7.02"}]}
+{"ID": "rest16_quad_test_413", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.79#5.06"}]}
+{"ID": "rest16_quad_train_3", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.94#4.98"}]}
+{"ID": "rest16_quad_test_330", "Aspect_VA": [{"Aspect": "waiters", "VA": "7.43#7.47"}, {"Aspect": "waiters", "VA": "7.43#7.47"}]}
+{"ID": "rest16_quad_train_1047", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.43#7.40"}]}
+{"ID": "rest16_quad_train_1272", "Aspect_VA": [{"Aspect": "appetizers", "VA": "7.36#7.35"}]}
+{"ID": "rest16_quad_train_1051", "Aspect_VA": [{"Aspect": "atmosphere", "VA": "7.59#7.60"}]}
+{"ID": "rest16_quad_test_544", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.17#7.31"}]}
+{"ID": "rest16_quad_train_1158", "Aspect_VA": [{"Aspect": "bar drinks", "VA": "6.59#6.42"}]}
+{"ID": "rest16_quad_train_1451", "Aspect_VA": [{"Aspect": "manager", "VA": "5.06#5.25"}, {"Aspect": "drinks", "VA": "5.54#5.43"}, {"Aspect": "appetizers", "VA": "5.72#5.60"}]}
+{"ID": "rest16_quad_train_1242", "Aspect_VA": [{"Aspect": "NULL", "VA": "8.06#8.09"}]}
+{"ID": "rest16_quad_train_283", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.75#5.60"}]}
+{"ID": "rest16_quad_test_266", "Aspect_VA": [{"Aspect": "black cod in sake kasu", "VA": "7.80#7.86"}]}
+{"ID": "rest16_quad_train_348", "Aspect_VA": [{"Aspect": "staff", "VA": "8.06#8.09"}]}
+{"ID": "rest16_quad_dev_151", "Aspect_VA": [{"Aspect": "service", "VA": "8.14#8.16"}, {"Aspect": "waiter", "VA": "7.87#7.91"}]}
+{"ID": "rest16_quad_test_34", "Aspect_VA": [{"Aspect": "food", "VA": "6.56#6.49"}]}
+{"ID": "rest16_quad_train_400", "Aspect_VA": [{"Aspect": "lox", "VA": "7.39#7.38"}]}
+{"ID": "rest16_quad_train_519", "Aspect_VA": [{"Aspect": "jelly fish", "VA": "7.52#7.56"}, {"Aspect": "drunken chicken", "VA": "7.44#7.48"}, {"Aspect": "soupy dumplings", "VA": "7.58#7.60"}, {"Aspect": "stir fry blue crab", "VA": "6.87#6.93"}]}
+{"ID": "rest16_quad_train_1456", "Aspect_VA": [{"Aspect": "crust", "VA": "7.59#7.58"}, {"Aspect": "pizza", "VA": "7.37#7.34"}]}
+{"ID": "rest16_quad_dev_20", "Aspect_VA": [{"Aspect": "dining", "VA": "7.53#7.56"}]}
+{"ID": "rest16_quad_dev_149", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.24#5.37"}, {"Aspect": "NULL", "VA": "3.24#5.37"}]}
+{"ID": "rest16_quad_train_1163", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.65#5.28"}]}
+{"ID": "rest16_quad_train_786", "Aspect_VA": [{"Aspect": "spreads", "VA": "6.62#6.77"}, {"Aspect": "spreads", "VA": "6.62#6.77"}, {"Aspect": "toppings", "VA": "7.09#7.23"}, {"Aspect": "toppings", "VA": "7.09#7.23"}]}
+{"ID": "rest16_quad_train_1149", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.16#7.04"}]}
+{"ID": "rest16_quad_train_1250", "Aspect_VA": [{"Aspect": "dishes", "VA": "4.28#5.53"}, {"Aspect": "NULL", "VA": "4.95#5.50"}]}
+{"ID": "rest16_quad_train_183", "Aspect_VA": [{"Aspect": "wait staff", "VA": "4.53#6.40"}, {"Aspect": "pie", "VA": "7.68#7.91"}]}
+{"ID": "rest16_quad_test_444", "Aspect_VA": [{"Aspect": "NULL", "VA": "2.54#7.22"}]}
+{"ID": "rest16_quad_train_568", "Aspect_VA": [{"Aspect": "back patio", "VA": "7.52#7.50"}, {"Aspect": "back patio", "VA": "7.52#7.50"}, {"Aspect": "music", "VA": "7.49#7.52"}]}
+{"ID": "rest16_quad_train_622", "Aspect_VA": [{"Aspect": "guacamole + shrimp appetizer", "VA": "7.83#7.85"}, {"Aspect": "filet", "VA": "7.61#7.63"}, {"Aspect": "frites", "VA": "6.75#6.86"}]}
+{"ID": "rest16_quad_test_98", "Aspect_VA": [{"Aspect": "fajita salad", "VA": "7.70#7.74"}, {"Aspect": "colorado", "VA": "7.68#7.72"}, {"Aspect": "fajitas", "VA": "7.75#7.79"}, {"Aspect": "NULL", "VA": "7.39#7.40"}]}
+{"ID": "rest16_quad_train_57", "Aspect_VA": [{"Aspect": "dishes", "VA": "7.74#7.76"}]}
+{"ID": "rest16_quad_test_373", "Aspect_VA": [{"Aspect": "server", "VA": "6.31#6.41"}, {"Aspect": "ray ' s", "VA": "5.37#5.44"}]}
+{"ID": "rest16_quad_test_318", "Aspect_VA": [{"Aspect": "honwy walnut prawns", "VA": "8.19#8.21"}, {"Aspect": "honwy walnut prawns", "VA": "8.19#8.21"}]}
+{"ID": "rest16_quad_test_473", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.18#5.37"}]}
+{"ID": "rest16_quad_train_713", "Aspect_VA": [{"Aspect": "sushi", "VA": "4.18#7.14"}]}
+{"ID": "rest16_quad_train_618", "Aspect_VA": [{"Aspect": "food", "VA": "8.02#8.04"}, {"Aspect": "food", "VA": "8.02#8.04"}]}
+{"ID": "rest16_quad_train_1499", "Aspect_VA": [{"Aspect": "casa la femme", "VA": "2.41#6.94"}]}
+{"ID": "rest16_quad_test_364", "Aspect_VA": [{"Aspect": "ray ' s boathouse", "VA": "7.93#7.96"}]}
+{"ID": "rest16_quad_train_1161", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.60#5.44"}, {"Aspect": "NULL", "VA": "3.60#5.44"}]}
+{"ID": "rest16_quad_train_1413", "Aspect_VA": [{"Aspect": "food", "VA": "7.32#7.35"}]}
+{"ID": "rest16_quad_train_317", "Aspect_VA": [{"Aspect": "place", "VA": "7.73#7.85"}]}
+{"ID": "rest16_quad_train_404", "Aspect_VA": [{"Aspect": "ambiance", "VA": "3.55#5.78"}]}
+{"ID": "rest16_quad_train_442", "Aspect_VA": [{"Aspect": "wine choices", "VA": "7.50#7.53"}]}
+{"ID": "rest16_quad_train_593", "Aspect_VA": [{"Aspect": "lobster sandwich", "VA": "8.21#8.23"}]}
+{"ID": "rest16_quad_train_1469", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.75#5.61"}]}
+{"ID": "rest16_quad_dev_168", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.02#5.17"}]}
+{"ID": "rest16_quad_train_515", "Aspect_VA": [{"Aspect": "foods", "VA": "2.74#6.53"}]}
+{"ID": "rest16_quad_dev_82", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.89#6.86"}]}
+{"ID": "rest16_quad_train_464", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.58#5.44"}]}
+{"ID": "rest16_quad_train_1523", "Aspect_VA": [{"Aspect": "service", "VA": "1.85#8.02"}]}
+{"ID": "rest16_quad_test_334", "Aspect_VA": [{"Aspect": "pepperoni ' s", "VA": "7.28#7.26"}, {"Aspect": "pepperoni ' s", "VA": "7.28#7.26"}]}
+{"ID": "rest16_quad_train_413", "Aspect_VA": [{"Aspect": "menu", "VA": "5.57#5.82"}, {"Aspect": "NULL", "VA": "7.24#7.25"}, {"Aspect": "NULL", "VA": "7.24#7.25"}]}
+{"ID": "rest16_quad_train_1070", "Aspect_VA": [{"Aspect": "veal", "VA": "7.11#7.04"}, {"Aspect": "mushrooms", "VA": "7.64#7.63"}]}
+{"ID": "rest16_quad_train_1175", "Aspect_VA": [{"Aspect": "looks", "VA": "3.92#5.61"}, {"Aspect": "meals", "VA": "4.70#5.09"}]}
+{"ID": "rest16_quad_test_75", "Aspect_VA": [{"Aspect": "food", "VA": "5.23#5.81"}]}
+{"ID": "rest16_quad_train_73", "Aspect_VA": [{"Aspect": "ingredients", "VA": "5.39#5.40"}, {"Aspect": "pizza", "VA": "6.16#6.21"}, {"Aspect": "crust", "VA": "5.67#5.68"}]}
+{"ID": "rest16_quad_test_311", "Aspect_VA": [{"Aspect": "pancakes", "VA": "7.98#8.00"}]}
+{"ID": "rest16_quad_train_1342", "Aspect_VA": [{"Aspect": "lunch buffet", "VA": "6.90#6.94"}, {"Aspect": "lunch buffet", "VA": "6.90#6.94"}]}
+{"ID": "rest16_quad_train_629", "Aspect_VA": [{"Aspect": "pizza place", "VA": "2.18#7.05"}]}
+{"ID": "rest16_quad_dev_140", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.19#4.70"}]}
+{"ID": "rest16_quad_train_465", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.80#5.63"}]}
+{"ID": "rest16_quad_dev_141", "Aspect_VA": [{"Aspect": "food", "VA": "8.03#8.07"}]}
+{"ID": "rest16_quad_test_210", "Aspect_VA": [{"Aspect": "place", "VA": "7.77#7.89"}]}
+{"ID": "rest16_quad_train_990", "Aspect_VA": [{"Aspect": "scene", "VA": "7.41#7.40"}, {"Aspect": "place", "VA": "6.92#6.89"}, {"Aspect": "location", "VA": "6.84#6.74"}]}
+{"ID": "rest16_quad_dev_165", "Aspect_VA": [{"Aspect": "lamb special", "VA": "8.09#8.12"}]}
+{"ID": "rest16_quad_train_287", "Aspect_VA": [{"Aspect": "pizza", "VA": "7.41#7.45"}, {"Aspect": "place", "VA": "7.26#7.31"}, {"Aspect": "place", "VA": "7.26#7.31"}]}
+{"ID": "rest16_quad_train_1214", "Aspect_VA": [{"Aspect": "rolls", "VA": "7.38#7.41"}, {"Aspect": "rolls", "VA": "7.38#7.41"}]}
+{"ID": "rest16_quad_dev_117", "Aspect_VA": [{"Aspect": "chicken pasta", "VA": "7.67#7.72"}, {"Aspect": "chicken pasta", "VA": "7.67#7.72"}]}
+{"ID": "rest16_quad_train_1389", "Aspect_VA": [{"Aspect": "entrees", "VA": "5.74#5.58"}]}
+{"ID": "rest16_quad_train_334", "Aspect_VA": [{"Aspect": "restaurant", "VA": "2.51#6.60"}, {"Aspect": "restaurant", "VA": "2.51#6.60"}]}
+{"ID": "rest16_quad_train_993", "Aspect_VA": [{"Aspect": "penne a la vodka", "VA": "7.32#7.24"}]}
+{"ID": "rest16_quad_train_1129", "Aspect_VA": [{"Aspect": "food", "VA": "6.83#6.82"}, {"Aspect": "people", "VA": "7.07#7.11"}]}
+{"ID": "rest16_quad_train_1421", "Aspect_VA": [{"Aspect": "restaurant", "VA": "3.18#5.81"}]}
+{"ID": "rest16_quad_train_223", "Aspect_VA": [{"Aspect": "beers", "VA": "7.59#7.64"}, {"Aspect": "food", "VA": "8.04#8.10"}, {"Aspect": "pumkin tortelini", "VA": "7.93#8.00"}]}
+{"ID": "rest16_quad_train_443", "Aspect_VA": [{"Aspect": "pizza", "VA": "7.71#7.79"}]}
+{"ID": "rest16_quad_train_1529", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.23#4.78"}]}
+{"ID": "rest16_quad_dev_118", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.24#5.31"}]}
+{"ID": "rest16_quad_test_472", "Aspect_VA": [{"Aspect": "NULL", "VA": "2.42#7.24"}]}
+{"ID": "rest16_quad_train_1401", "Aspect_VA": [{"Aspect": "meat", "VA": "7.14#7.13"}, {"Aspect": "sauces", "VA": "7.68#7.72"}, {"Aspect": "kimchi", "VA": "6.24#6.09"}, {"Aspect": "salad", "VA": "6.24#6.05"}, {"Aspect": "meal", "VA": "6.53#6.40"}, {"Aspect": "service", "VA": "6.99#7.00"}]}
+{"ID": "rest16_quad_dev_125", "Aspect_VA": [{"Aspect": "yamato", "VA": "6.22#6.22"}, {"Aspect": "red dragon roll", "VA": "5.33#5.48"}]}
+{"ID": "rest16_quad_train_357", "Aspect_VA": [{"Aspect": "chicken vindaloo", "VA": "5.36#5.47"}]}
+{"ID": "rest16_quad_train_753", "Aspect_VA": [{"Aspect": "staff", "VA": "6.92#6.95"}]}
+{"ID": "rest16_quad_train_433", "Aspect_VA": [{"Aspect": "tables", "VA": "6.07#5.90"}, {"Aspect": "candle - light", "VA": "3.52#5.85"}, {"Aspect": "food", "VA": "4.02#5.51"}, {"Aspect": "service", "VA": "3.59#5.66"}]}
+{"ID": "rest16_quad_test_69", "Aspect_VA": [{"Aspect": "fish", "VA": "7.18#7.11"}]}
+{"ID": "rest16_quad_train_138", "Aspect_VA": [{"Aspect": "wine selection", "VA": "7.83#7.85"}, {"Aspect": "gigondas", "VA": "7.77#7.79"}, {"Aspect": "house champagne", "VA": "7.94#7.96"}]}
+{"ID": "rest16_quad_train_462", "Aspect_VA": [{"Aspect": "food", "VA": "7.93#7.95"}]}
+{"ID": "rest16_quad_train_24", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.33#5.60"}]}
+{"ID": "rest16_quad_test_464", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.98#8.04"}]}
+{"ID": "rest16_quad_train_1240", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.03#5.12"}]}
+{"ID": "rest16_quad_train_979", "Aspect_VA": [{"Aspect": "all you can eat sushi", "VA": "4.44#5.58"}]}
+{"ID": "rest16_quad_train_415", "Aspect_VA": [{"Aspect": "taxan", "VA": "8.06#8.10"}]}
+{"ID": "rest16_quad_train_1110", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.90#6.73"}]}
+{"ID": "rest16_quad_train_333", "Aspect_VA": [{"Aspect": "expresso", "VA": "7.59#7.65"}]}
+{"ID": "rest16_quad_train_846", "Aspect_VA": [{"Aspect": "tiramisu", "VA": "2.99#6.34"}]}
+{"ID": "rest16_quad_dev_9", "Aspect_VA": [{"Aspect": "food", "VA": "4.70#5.80"}]}
+{"ID": "rest16_quad_train_799", "Aspect_VA": [{"Aspect": "eats", "VA": "7.50#7.56"}, {"Aspect": "eats", "VA": "7.50#7.56"}]}
+{"ID": "rest16_quad_test_504", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.68#6.64"}]}
+{"ID": "rest16_quad_test_70", "Aspect_VA": [{"Aspect": "jellyfish", "VA": "7.36#7.37"}, {"Aspect": "horse mackerel", "VA": "7.17#7.15"}, {"Aspect": "blue fin tuna", "VA": "7.29#7.30"}, {"Aspect": "sake ikura roll", "VA": "7.51#7.54"}]}
+{"ID": "rest16_quad_train_889", "Aspect_VA": [{"Aspect": "ravioli", "VA": "5.81#6.21"}, {"Aspect": "NULL", "VA": "4.23#5.45"}]}
+{"ID": "rest16_quad_train_122", "Aspect_VA": [{"Aspect": "planet thailand", "VA": "8.01#8.06"}, {"Aspect": "sushi", "VA": "8.01#8.06"}, {"Aspect": "thai food", "VA": "8.03#8.08"}]}
+{"ID": "rest16_quad_train_1218", "Aspect_VA": [{"Aspect": "banana chocolate dessert", "VA": "7.83#7.87"}, {"Aspect": "green tea tempura", "VA": "7.95#7.99"}]}
+{"ID": "rest16_quad_train_1236", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.90#7.93"}]}
+{"ID": "rest16_quad_train_911", "Aspect_VA": [{"Aspect": "roti rolls", "VA": "7.83#7.88"}]}
+{"ID": "rest16_quad_test_511", "Aspect_VA": [{"Aspect": "restaurant", "VA": "7.27#7.27"}]}
+{"ID": "rest16_quad_train_215", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.91#7.93"}]}
+{"ID": "rest16_quad_test_212", "Aspect_VA": [{"Aspect": "wait", "VA": "3.40#5.89"}]}
+{"ID": "rest16_quad_dev_61", "Aspect_VA": [{"Aspect": "wait staff", "VA": "7.01#7.04"}]}
+{"ID": "rest16_quad_test_37", "Aspect_VA": [{"Aspect": "value", "VA": "2.86#6.06"}, {"Aspect": "service", "VA": "2.75#6.11"}]}
+{"ID": "rest16_quad_test_231", "Aspect_VA": [{"Aspect": "pizza", "VA": "6.90#7.10"}, {"Aspect": "service", "VA": "3.32#6.38"}]}
+{"ID": "rest16_quad_train_1062", "Aspect_VA": [{"Aspect": "place", "VA": "6.45#6.53"}, {"Aspect": "place", "VA": "6.45#6.53"}]}
+{"ID": "rest16_quad_test_138", "Aspect_VA": [{"Aspect": "pizza menu", "VA": "7.84#7.88"}, {"Aspect": "pizza menu", "VA": "7.84#7.88"}]}
+{"ID": "rest16_quad_train_270", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.75#6.70"}, {"Aspect": "congee", "VA": "6.67#6.56"}, {"Aspect": "noodles", "VA": "6.62#6.51"}, {"Aspect": "rice dishes", "VA": "6.30#6.11"}]}
+{"ID": "rest16_quad_train_1141", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.00#5.12"}]}
+{"ID": "rest16_quad_train_1353", "Aspect_VA": [{"Aspect": "restaurant", "VA": "4.67#5.07"}]}
+{"ID": "rest16_quad_test_581", "Aspect_VA": [{"Aspect": "manager", "VA": "4.30#5.00"}, {"Aspect": "NULL", "VA": "4.33#4.94"}]}
+{"ID": "rest16_quad_train_1521", "Aspect_VA": [{"Aspect": "place", "VA": "7.08#7.15"}]}
+{"ID": "rest16_quad_test_404", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.35#5.08"}]}
+{"ID": "rest16_quad_train_1084", "Aspect_VA": [{"Aspect": "food", "VA": "6.98#7.20"}, {"Aspect": "service", "VA": "6.55#6.75"}, {"Aspect": "the four seasons", "VA": "3.13#6.33"}]}
+{"ID": "rest16_quad_train_1345", "Aspect_VA": [{"Aspect": "NULL", "VA": "2.92#6.67"}, {"Aspect": "NULL", "VA": "2.92#6.67"}]}
+{"ID": "rest16_quad_train_31", "Aspect_VA": [{"Aspect": "food", "VA": "8.08#8.13"}]}
+{"ID": "rest16_quad_train_265", "Aspect_VA": [{"Aspect": "place", "VA": "7.40#7.38"}]}
+{"ID": "rest16_quad_test_277", "Aspect_VA": [{"Aspect": "wood decor", "VA": "8.09#8.11"}]}
+{"ID": "rest16_quad_train_636", "Aspect_VA": [{"Aspect": "pizzeria", "VA": "7.98#8.03"}]}
+{"ID": "rest16_quad_train_896", "Aspect_VA": [{"Aspect": "design", "VA": "7.13#7.15"}, {"Aspect": "atmosphere", "VA": "7.26#7.30"}]}
+{"ID": "rest16_quad_test_78", "Aspect_VA": [{"Aspect": "place", "VA": "4.79#5.08"}, {"Aspect": "food", "VA": "5.07#5.11"}]}
+{"ID": "rest16_quad_test_233", "Aspect_VA": [{"Aspect": "breakfast", "VA": "7.91#7.96"}]}
+{"ID": "rest16_quad_test_51", "Aspect_VA": [{"Aspect": "food", "VA": "5.57#5.73"}, {"Aspect": "salsa", "VA": "4.65#5.41"}]}
+{"ID": "rest16_quad_train_1159", "Aspect_VA": [{"Aspect": "stuff tilapia", "VA": "1.67#8.25"}]}
+{"ID": "rest16_quad_train_930", "Aspect_VA": [{"Aspect": "staff", "VA": "7.68#7.72"}]}
+{"ID": "rest16_quad_train_981", "Aspect_VA": [{"Aspect": "servers", "VA": "7.64#7.68"}, {"Aspect": "servers", "VA": "7.64#7.68"}, {"Aspect": "servers", "VA": "7.64#7.68"}]}
+{"ID": "rest16_quad_train_698", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.94#4.89"}]}
+{"ID": "rest16_quad_train_1012", "Aspect_VA": [{"Aspect": "dumplings", "VA": "7.64#7.72"}]}
+{"ID": "rest16_quad_test_227", "Aspect_VA": [{"Aspect": "pizza", "VA": "7.74#7.79"}, {"Aspect": "mushroom pizza", "VA": "7.78#7.85"}]}
+{"ID": "rest16_quad_test_216", "Aspect_VA": [{"Aspect": "dessert", "VA": "5.48#5.46"}]}
+{"ID": "rest16_quad_train_26", "Aspect_VA": [{"Aspect": "grilled chicken special with edamame puree", "VA": "5.64#6.11"}]}
+{"ID": "rest16_quad_train_914", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.70#7.97"}]}
+{"ID": "rest16_quad_train_1184", "Aspect_VA": [{"Aspect": "dogs", "VA": "7.85#7.88"}, {"Aspect": "dogs", "VA": "7.85#7.88"}, {"Aspect": "toppings", "VA": "8.05#8.08"}, {"Aspect": "toppings", "VA": "8.05#8.08"}]}
+{"ID": "rest16_quad_train_242", "Aspect_VA": [{"Aspect": "sushi", "VA": "4.18#5.51"}, {"Aspect": "tuna", "VA": "2.69#6.48"}, {"Aspect": "rolls", "VA": "3.43#5.38"}, {"Aspect": "NULL", "VA": "3.84#5.31"}]}
+{"ID": "rest16_quad_train_1183", "Aspect_VA": [{"Aspect": "servers", "VA": "7.39#7.43"}]}
+{"ID": "rest16_quad_test_371", "Aspect_VA": [{"Aspect": "grilled alaskan king salmon", "VA": "7.55#7.56"}, {"Aspect": "creamed washington russet potatoes", "VA": "7.78#7.82"}, {"Aspect": "green beans", "VA": "7.75#7.78"}]}
+{"ID": "rest16_quad_train_124", "Aspect_VA": [{"Aspect": "atmosphere", "VA": "3.90#5.57"}, {"Aspect": "NULL", "VA": "4.67#4.99"}]}
+{"ID": "rest16_quad_train_1235", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.17#5.22"}]}
+{"ID": "rest16_quad_train_387", "Aspect_VA": [{"Aspect": "drinks", "VA": "2.38#6.90"}]}
+{"ID": "rest16_quad_train_221", "Aspect_VA": [{"Aspect": "restaurant", "VA": "7.99#8.02"}]}
+{"ID": "rest16_quad_train_1352", "Aspect_VA": [{"Aspect": "meal", "VA": "2.07#7.21"}, {"Aspect": "NULL", "VA": "2.14#7.19"}]}
+{"ID": "rest16_quad_train_1362", "Aspect_VA": [{"Aspect": "stir - fried squid", "VA": "1.72#8.37"}]}
+{"ID": "rest16_quad_train_600", "Aspect_VA": [{"Aspect": "place", "VA": "7.39#7.36"}]}
+{"ID": "rest16_quad_dev_129", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.17#5.06"}]}
+{"ID": "rest16_quad_test_106", "Aspect_VA": [{"Aspect": "service", "VA": "7.20#7.21"}, {"Aspect": "NULL", "VA": "6.81#6.80"}]}
+{"ID": "rest16_quad_train_184", "Aspect_VA": [{"Aspect": "salad", "VA": "8.11#8.14"}]}
+{"ID": "rest16_quad_test_71", "Aspect_VA": [{"Aspect": "pieces", "VA": "3.66#5.42"}]}
+{"ID": "rest16_quad_test_120", "Aspect_VA": [{"Aspect": "seating", "VA": "3.22#6.18"}, {"Aspect": "service", "VA": "3.24#6.29"}]}
+{"ID": "rest16_quad_dev_30", "Aspect_VA": [{"Aspect": "place", "VA": "3.09#6.58"}, {"Aspect": "place", "VA": "3.09#6.58"}]}
+{"ID": "rest16_quad_train_1510", "Aspect_VA": [{"Aspect": "NULL", "VA": "2.18#7.30"}]}
+{"ID": "rest16_quad_train_189", "Aspect_VA": [{"Aspect": "chicken pot pie", "VA": "8.20#8.23"}, {"Aspect": "cheeseburger", "VA": "8.21#8.26"}, {"Aspect": "cheeseburger", "VA": "8.21#8.26"}, {"Aspect": "service", "VA": "7.85#7.91"}, {"Aspect": "service", "VA": "7.85#7.91"}]}
+{"ID": "rest16_quad_dev_87", "Aspect_VA": [{"Aspect": "restaurant", "VA": "6.40#6.42"}]}
+{"ID": "rest16_quad_train_631", "Aspect_VA": [{"Aspect": "pizza", "VA": "7.98#8.02"}]}
+{"ID": "rest16_quad_test_92", "Aspect_VA": [{"Aspect": "food", "VA": "6.54#6.63"}, {"Aspect": "food", "VA": "6.54#6.63"}]}
+{"ID": "rest16_quad_train_167", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.21#5.78"}]}
+{"ID": "rest16_quad_train_262", "Aspect_VA": [{"Aspect": "spicy tuna roll", "VA": "8.05#8.09"}, {"Aspect": "spicy tuna roll", "VA": "8.05#8.09"}, {"Aspect": "spicy tuna roll", "VA": "8.05#8.09"}]}
+{"ID": "rest16_quad_test_325", "Aspect_VA": [{"Aspect": "vibe", "VA": "7.50#7.52"}, {"Aspect": "music", "VA": "7.28#7.31"}, {"Aspect": "atmosphere", "VA": "7.12#7.12"}, {"Aspect": "people", "VA": "7.17#7.18"}]}
+{"ID": "rest16_quad_train_1096", "Aspect_VA": [{"Aspect": "food", "VA": "2.01#7.91"}]}
+{"ID": "rest16_quad_train_1366", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.98#5.15"}]}
+{"ID": "rest16_quad_train_1041", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.30#7.31"}, {"Aspect": "NULL", "VA": "7.30#7.31"}, {"Aspect": "NULL", "VA": "7.30#7.31"}]}
+{"ID": "rest16_quad_train_776", "Aspect_VA": [{"Aspect": "ginger house", "VA": "7.80#7.83"}]}
+{"ID": "rest16_quad_train_881", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.92#7.15"}]}
+{"ID": "rest16_quad_train_523", "Aspect_VA": [{"Aspect": "food", "VA": "8.07#8.10"}]}
+{"ID": "rest16_quad_train_70", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.61#5.01"}]}
+{"ID": "rest16_quad_train_114", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.46#5.73"}, {"Aspect": "NULL", "VA": "5.46#5.73"}]}
+{"ID": "rest16_quad_train_980", "Aspect_VA": [{"Aspect": "areo", "VA": "7.66#7.69"}]}
+{"ID": "rest16_quad_train_332", "Aspect_VA": [{"Aspect": "dessert", "VA": "6.45#6.33"}]}
+{"ID": "rest16_quad_test_506", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.24#6.42"}]}
+{"ID": "rest16_quad_train_1193", "Aspect_VA": [{"Aspect": "restaurant", "VA": "8.01#8.06"}]}
+{"ID": "rest16_quad_test_355", "Aspect_VA": [{"Aspect": "orange juice", "VA": "3.77#5.24"}]}
+{"ID": "rest16_quad_test_345", "Aspect_VA": [{"Aspect": "service", "VA": "8.16#8.19"}, {"Aspect": "waiters", "VA": "7.97#8.03"}]}
+{"ID": "rest16_quad_test_113", "Aspect_VA": [{"Aspect": "open sesame", "VA": "5.48#5.64"}]}
+{"ID": "rest16_quad_train_1237", "Aspect_VA": [{"Aspect": "restaurant", "VA": "8.17#8.20"}]}
+{"ID": "rest16_quad_test_180", "Aspect_VA": [{"Aspect": "caesar salad", "VA": "3.23#5.90"}]}
+{"ID": "rest16_quad_train_1487", "Aspect_VA": [{"Aspect": "flank steak", "VA": "7.68#7.74"}]}
+{"ID": "rest16_quad_train_233", "Aspect_VA": [{"Aspect": "food", "VA": "8.05#8.10"}, {"Aspect": "ambience", "VA": "8.01#8.05"}, {"Aspect": "service", "VA": "8.08#8.11"}]}
+{"ID": "rest16_quad_test_67", "Aspect_VA": [{"Aspect": "balconey", "VA": "7.96#8.04"}]}
+{"ID": "rest16_quad_train_227", "Aspect_VA": [{"Aspect": "bagel", "VA": "8.05#8.07"}]}
+{"ID": "rest16_quad_train_506", "Aspect_VA": [{"Aspect": "service", "VA": "6.94#6.94"}, {"Aspect": "ambience", "VA": "6.92#6.92"}]}
+{"ID": "rest16_quad_train_733", "Aspect_VA": [{"Aspect": "restaurant", "VA": "7.78#7.77"}]}
+{"ID": "rest16_quad_test_288", "Aspect_VA": [{"Aspect": "servers", "VA": "7.61#7.65"}, {"Aspect": "servers", "VA": "7.61#7.65"}]}
+{"ID": "rest16_quad_dev_80", "Aspect_VA": [{"Aspect": "spot", "VA": "7.13#7.19"}]}
+{"ID": "rest16_quad_train_1248", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.45#6.71"}]}
+{"ID": "rest16_quad_train_574", "Aspect_VA": [{"Aspect": "food", "VA": "6.15#5.95"}, {"Aspect": "dishes", "VA": "7.48#7.51"}, {"Aspect": "dishes", "VA": "7.48#7.51"}]}
+{"ID": "rest16_quad_dev_3", "Aspect_VA": [{"Aspect": "spicy tuna roll", "VA": "7.91#7.94"}, {"Aspect": "rock shrimp tempura", "VA": "8.10#8.13"}]}
+{"ID": "rest16_quad_test_491", "Aspect_VA": [{"Aspect": "NULL", "VA": "2.61#6.82"}]}
+{"ID": "rest16_quad_train_778", "Aspect_VA": [{"Aspect": "chinese restaurant", "VA": "7.51#7.58"}]}
+{"ID": "rest16_quad_train_1429", "Aspect_VA": [{"Aspect": "server", "VA": "6.77#6.65"}, {"Aspect": "appetizer", "VA": "7.80#7.82"}]}
+{"ID": "rest16_quad_train_1513", "Aspect_VA": [{"Aspect": "NULL", "VA": "1.84#7.98"}]}
+{"ID": "rest16_quad_train_1407", "Aspect_VA": [{"Aspect": "food", "VA": "7.11#7.13"}, {"Aspect": "food", "VA": "7.11#7.13"}, {"Aspect": "NULL", "VA": "6.16#6.15"}]}
+{"ID": "rest16_quad_train_469", "Aspect_VA": [{"Aspect": "NULL", "VA": "3.16#6.03"}]}
+{"ID": "rest16_quad_test_265", "Aspect_VA": [{"Aspect": "dungeness crabs", "VA": "7.80#7.82"}]}
+{"ID": "rest16_quad_train_1326", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.15#4.95"}]}
+{"ID": "rest16_quad_test_561", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.21#7.22"}]}
+{"ID": "rest16_quad_train_1297", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.60#5.07"}]}
+{"ID": "rest16_quad_train_325", "Aspect_VA": [{"Aspect": "service", "VA": "4.81#5.19"}]}
+{"ID": "rest16_quad_dev_14", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.37#7.34"}]}
+{"ID": "rest16_quad_train_1105", "Aspect_VA": [{"Aspect": "food", "VA": "7.84#7.87"}, {"Aspect": "NULL", "VA": "7.70#7.69"}, {"Aspect": "NULL", "VA": "7.70#7.69"}]}
+{"ID": "rest16_quad_test_477", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.25#6.26"}]}
+{"ID": "rest16_quad_train_1027", "Aspect_VA": [{"Aspect": "pizza", "VA": "7.99#8.05"}]}
+{"ID": "rest16_quad_train_449", "Aspect_VA": [{"Aspect": "hostess", "VA": "1.78#8.11"}, {"Aspect": "waitress", "VA": "1.68#8.26"}]}
+{"ID": "rest16_quad_train_1530", "Aspect_VA": [{"Aspect": "place", "VA": "5.91#6.36"}, {"Aspect": "staff", "VA": "3.63#5.32"}]}
+{"ID": "rest16_quad_train_1504", "Aspect_VA": [{"Aspect": "restaurant", "VA": "1.71#8.27"}, {"Aspect": "NULL", "VA": "1.78#8.20"}]}
+{"ID": "rest16_quad_train_339", "Aspect_VA": [{"Aspect": "place", "VA": "7.73#7.75"}, {"Aspect": "service", "VA": "7.55#7.58"}, {"Aspect": "service", "VA": "7.55#7.58"}]}
+{"ID": "rest16_quad_test_299", "Aspect_VA": [{"Aspect": "pizza", "VA": "8.02#8.04"}, {"Aspect": "salads", "VA": "8.18#8.19"}]}
+{"ID": "rest16_quad_dev_48", "Aspect_VA": [{"Aspect": "food", "VA": "7.37#7.35"}]}
+{"ID": "rest16_quad_train_276", "Aspect_VA": [{"Aspect": "restaurant", "VA": "7.66#7.69"}]}
+{"ID": "rest16_quad_train_1414", "Aspect_VA": [{"Aspect": "food", "VA": "7.19#7.30"}, {"Aspect": "food", "VA": "7.19#7.30"}, {"Aspect": "sitting space", "VA": "3.33#5.85"}]}
+{"ID": "rest16_quad_train_1164", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.38#5.48"}]}
+{"ID": "rest16_quad_train_810", "Aspect_VA": [{"Aspect": "place", "VA": "7.47#7.47"}, {"Aspect": "bar scene", "VA": "7.02#6.92"}]}
+{"ID": "rest16_quad_train_823", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.67#7.75"}]}
+{"ID": "rest16_quad_test_90", "Aspect_VA": [{"Aspect": "saag", "VA": "7.88#7.94"}, {"Aspect": "paneer", "VA": "7.88#7.93"}, {"Aspect": "korma", "VA": "7.91#7.96"}]}
+{"ID": "rest16_quad_train_976", "Aspect_VA": [{"Aspect": "service", "VA": "1.72#8.33"}]}
+{"ID": "rest16_quad_test_485", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.17#6.10"}]}
+{"ID": "rest16_quad_test_456", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.76#5.84"}]}
+{"ID": "rest16_quad_test_279", "Aspect_VA": [{"Aspect": "shellfish and shrimp appetizer", "VA": "5.93#5.84"}]}
+{"ID": "rest16_quad_test_22", "Aspect_VA": [{"Aspect": "wine list", "VA": "8.12#8.14"}, {"Aspect": "food", "VA": "7.49#7.50"}]}
+{"ID": "rest16_quad_test_202", "Aspect_VA": [{"Aspect": "blue ribbon", "VA": "7.60#7.64"}]}
+{"ID": "rest16_quad_train_1268", "Aspect_VA": [{"Aspect": "menu", "VA": "7.65#7.69"}]}
+{"ID": "rest16_quad_train_1334", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.15#5.17"}]}
+{"ID": "rest16_quad_test_396", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.11#5.92"}]}
+{"ID": "rest16_quad_train_145", "Aspect_VA": [{"Aspect": "setting", "VA": "7.98#8.01"}, {"Aspect": "service", "VA": "7.92#7.94"}, {"Aspect": "NULL", "VA": "7.84#7.87"}]}
+{"ID": "rest16_quad_train_729", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.14#5.36"}]}
+{"ID": "rest16_quad_train_882", "Aspect_VA": [{"Aspect": "bloom ' s", "VA": "7.60#7.59"}]}
+{"ID": "rest16_quad_train_1001", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.51#5.23"}]}
+{"ID": "rest16_quad_train_323", "Aspect_VA": [{"Aspect": "tables", "VA": "3.29#5.72"}, {"Aspect": "tables", "VA": "3.29#5.72"}, {"Aspect": "menu", "VA": "4.86#5.42"}, {"Aspect": "wine list", "VA": "2.30#7.06"}]}
+{"ID": "rest16_quad_train_257", "Aspect_VA": [{"Aspect": "ambience", "VA": "7.37#7.37"}, {"Aspect": "ambience", "VA": "7.37#7.37"}, {"Aspect": "NULL", "VA": "6.83#6.78"}]}
+{"ID": "rest16_quad_train_1525", "Aspect_VA": [{"Aspect": "waiter", "VA": "4.51#5.08"}]}
+{"ID": "rest16_quad_train_331", "Aspect_VA": [{"Aspect": "wait staff", "VA": "7.13#7.23"}, {"Aspect": "place", "VA": "6.93#7.07"}, {"Aspect": "place", "VA": "6.93#7.07"}]}
+{"ID": "rest16_quad_test_415", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.82#6.49"}]}
+{"ID": "rest16_quad_train_1126", "Aspect_VA": [{"Aspect": "chicken in the salads", "VA": "2.93#6.11"}]}
+{"ID": "rest16_quad_train_867", "Aspect_VA": [{"Aspect": "cheescake", "VA": "5.27#5.57"}]}
+{"ID": "rest16_quad_train_1291", "Aspect_VA": [{"Aspect": "casa la femme", "VA": "7.20#7.18"}]}
+{"ID": "rest16_quad_train_117", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.73#7.72"}]}
+{"ID": "rest16_quad_train_535", "Aspect_VA": [{"Aspect": "waitress", "VA": "3.75#5.38"}]}
+{"ID": "rest16_quad_train_111", "Aspect_VA": [{"Aspect": "place", "VA": "7.78#7.81"}]}
+{"ID": "rest16_quad_test_101", "Aspect_VA": [{"Aspect": "restaurant", "VA": "7.92#7.96"}, {"Aspect": "decor", "VA": "7.89#7.92"}, {"Aspect": "customer service", "VA": "7.82#7.86"}, {"Aspect": "manager", "VA": "7.67#7.73"}]}
+{"ID": "rest16_quad_train_343", "Aspect_VA": [{"Aspect": "food", "VA": "6.68#6.55"}, {"Aspect": "food", "VA": "6.68#6.55"}]}
+{"ID": "rest16_quad_train_890", "Aspect_VA": [{"Aspect": "wines by the glass", "VA": "3.58#5.20"}]}
+{"ID": "rest16_quad_train_539", "Aspect_VA": [{"Aspect": "decor", "VA": "8.10#8.13"}]}
+{"ID": "rest16_quad_dev_132", "Aspect_VA": [{"Aspect": "water ' s edge", "VA": "7.95#8.00"}]}
+{"ID": "rest16_quad_train_185", "Aspect_VA": [{"Aspect": "NULL", "VA": "6.75#6.62"}]}
+{"ID": "rest16_quad_test_59", "Aspect_VA": [{"Aspect": "place", "VA": "7.80#7.86"}]}
+{"ID": "rest16_quad_train_575", "Aspect_VA": [{"Aspect": "service", "VA": "7.37#7.42"}]}
+{"ID": "rest16_quad_train_146", "Aspect_VA": [{"Aspect": "mizu", "VA": "7.90#7.98"}]}
+{"ID": "rest16_quad_train_352", "Aspect_VA": [{"Aspect": "prime rib", "VA": "7.28#7.37"}]}
+{"ID": "rest16_quad_train_801", "Aspect_VA": [{"Aspect": "cheff", "VA": "7.48#7.46"}, {"Aspect": "cheff", "VA": "7.48#7.46"}]}
+{"ID": "rest16_quad_train_1140", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.72#7.75"}, {"Aspect": "NULL", "VA": "7.72#7.75"}, {"Aspect": "NULL", "VA": "7.72#7.75"}]}
+{"ID": "rest16_quad_test_499", "Aspect_VA": [{"Aspect": "NULL", "VA": "2.82#6.61"}]}
+{"ID": "rest16_quad_train_249", "Aspect_VA": [{"Aspect": "NULL", "VA": "7.93#7.99"}]}
+{"ID": "rest16_quad_train_1434", "Aspect_VA": [{"Aspect": "palce", "VA": "5.39#5.36"}]}
+{"ID": "rest16_quad_test_530", "Aspect_VA": [{"Aspect": "manager", "VA": "2.32#6.81"}]}
+{"ID": "rest16_quad_test_122", "Aspect_VA": [{"Aspect": "beer", "VA": "7.91#7.95"}]}
+{"ID": "rest16_quad_train_340", "Aspect_VA": [{"Aspect": "place", "VA": "7.83#7.91"}]}
+{"ID": "rest16_quad_train_105", "Aspect_VA": [{"Aspect": "pizza", "VA": "7.60#7.64"}, {"Aspect": "atmoshpere", "VA": "7.52#7.60"}]}
+{"ID": "rest16_quad_train_702", "Aspect_VA": [{"Aspect": "williamsburg spot", "VA": "7.60#7.65"}]}
+{"ID": "rest16_quad_train_763", "Aspect_VA": [{"Aspect": "balsamic vinegar over icecream", "VA": "8.08#8.10"}, {"Aspect": "balsamic vinegar over icecream", "VA": "8.08#8.10"}]}
+{"ID": "rest16_quad_test_496", "Aspect_VA": [{"Aspect": "bar keep", "VA": "4.06#5.26"}]}
+{"ID": "rest16_quad_train_741", "Aspect_VA": [{"Aspect": "wait staff", "VA": "7.83#7.86"}, {"Aspect": "wait staff", "VA": "7.83#7.86"}, {"Aspect": "wait staff", "VA": "7.83#7.86"}]}
+{"ID": "rest16_quad_train_1104", "Aspect_VA": [{"Aspect": "indian place", "VA": "7.58#7.65"}]}
+{"ID": "rest16_quad_train_1503", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.10#5.48"}]}
+{"ID": "rest16_quad_train_1497", "Aspect_VA": [{"Aspect": "atmosphere", "VA": "7.13#7.18"}, {"Aspect": "fire place", "VA": "5.41#5.53"}, {"Aspect": "NULL", "VA": "5.38#5.49"}]}
+{"ID": "rest16_quad_test_243", "Aspect_VA": [{"Aspect": "brocollis", "VA": "7.74#7.75"}, {"Aspect": "brocollis", "VA": "7.74#7.75"}]}
+{"ID": "rest16_quad_train_200", "Aspect_VA": [{"Aspect": "wine list selection", "VA": "7.27#7.30"}, {"Aspect": "wine - by - the - glass", "VA": "7.71#7.75"}]}
+{"ID": "rest16_quad_test_156", "Aspect_VA": [{"Aspect": "waitstaff", "VA": "7.91#7.96"}]}
+{"ID": "rest16_quad_train_432", "Aspect_VA": [{"Aspect": "parmesean porcini souffle", "VA": "5.84#5.81"}, {"Aspect": "lamb glazed with balsamic vinegar", "VA": "5.01#5.39"}]}
+{"ID": "rest16_quad_train_180", "Aspect_VA": [{"Aspect": "pizza", "VA": "7.88#7.94"}, {"Aspect": "mozzarella", "VA": "7.57#7.64"}]}
+{"ID": "rest16_quad_test_17", "Aspect_VA": [{"Aspect": "waiter", "VA": "3.74#5.50"}]}
+{"ID": "rest16_quad_test_114", "Aspect_VA": [{"Aspect": "hummus", "VA": "7.75#7.80"}]}
+{"ID": "rest16_quad_train_34", "Aspect_VA": [{"Aspect": "place", "VA": "4.98#5.20"}]}
+{"ID": "rest16_quad_train_728", "Aspect_VA": [{"Aspect": "atmoshere", "VA": "7.90#7.92"}, {"Aspect": "NULL", "VA": "7.55#7.60"}]}
+{"ID": "rest16_quad_train_447", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.19#5.15"}]}
+{"ID": "rest16_quad_test_152", "Aspect_VA": [{"Aspect": "food", "VA": "7.89#7.92"}, {"Aspect": "atmosphere", "VA": "7.97#8.00"}]}
+{"ID": "rest16_quad_train_797", "Aspect_VA": [{"Aspect": "ambience", "VA": "7.33#7.37"}, {"Aspect": "staff", "VA": "7.62#7.68"}]}
+{"ID": "rest16_quad_test_341", "Aspect_VA": [{"Aspect": "balcony", "VA": "6.20#6.06"}]}
+{"ID": "rest16_quad_train_1443", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.29#5.21"}]}
+{"ID": "rest16_quad_train_1128", "Aspect_VA": [{"Aspect": "portobello and asparagus mole", "VA": "2.74#6.65"}]}
+{"ID": "rest16_quad_test_7", "Aspect_VA": [{"Aspect": "restaurant", "VA": "7.06#7.11"}]}
+{"ID": "rest16_quad_train_330", "Aspect_VA": [{"Aspect": "fish", "VA": "2.62#6.71"}]}
+{"ID": "rest16_quad_train_655", "Aspect_VA": [{"Aspect": "strawberry daiquiries", "VA": "7.97#7.99"}]}
+{"ID": "rest16_quad_train_717", "Aspect_VA": [{"Aspect": "japanese cuisine", "VA": "4.79#5.20"}]}
+{"ID": "rest16_quad_test_226", "Aspect_VA": [{"Aspect": "pizza", "VA": "7.33#7.37"}, {"Aspect": "service", "VA": "4.77#6.00"}]}
+{"ID": "rest16_quad_train_803", "Aspect_VA": [{"Aspect": "bagels", "VA": "5.89#6.14"}, {"Aspect": "bagels", "VA": "5.89#6.14"}]}
+{"ID": "rest16_quad_test_209", "Aspect_VA": [{"Aspect": "location", "VA": "7.44#7.47"}, {"Aspect": "mioposto", "VA": "7.37#7.40"}]}
+{"ID": "rest16_quad_test_248", "Aspect_VA": [{"Aspect": "food", "VA": "5.14#5.40"}, {"Aspect": "food", "VA": "5.14#5.40"}, {"Aspect": "restaurant", "VA": "4.46#5.16"}]}
+{"ID": "rest16_quad_train_625", "Aspect_VA": [{"Aspect": "food", "VA": "7.99#8.03"}, {"Aspect": "service", "VA": "7.63#7.67"}, {"Aspect": "service", "VA": "7.63#7.67"}, {"Aspect": "service", "VA": "7.63#7.67"}]}
+{"ID": "rest16_quad_train_128", "Aspect_VA": [{"Aspect": "rolls", "VA": "5.12#5.86"}, {"Aspect": "rolls", "VA": "5.12#5.86"}, {"Aspect": "sashimi", "VA": "3.59#5.89"}]}
+{"ID": "rest16_quad_test_466", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.75#5.05"}]}
+{"ID": "rest16_quad_train_385", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.39#5.02"}]}
+{"ID": "rest16_quad_train_640", "Aspect_VA": [{"Aspect": "food", "VA": "3.97#5.58"}, {"Aspect": "service", "VA": "1.77#8.18"}]}
+{"ID": "rest16_quad_train_978", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.95#5.23"}]}
+{"ID": "rest16_quad_test_483", "Aspect_VA": [{"Aspect": "seafood", "VA": "6.50#6.35"}]}
+{"ID": "rest16_quad_dev_27", "Aspect_VA": [{"Aspect": "restaurant", "VA": "8.00#8.03"}, {"Aspect": "restaurant", "VA": "8.00#8.03"}, {"Aspect": "food", "VA": "8.00#8.04"}, {"Aspect": "food", "VA": "8.00#8.04"}]}
+{"ID": "rest16_quad_train_386", "Aspect_VA": [{"Aspect": "service", "VA": "4.36#5.38"}]}
+{"ID": "rest16_quad_train_1086", "Aspect_VA": [{"Aspect": "red dragon roll", "VA": "7.94#8.01"}]}
+{"ID": "rest16_quad_train_149", "Aspect_VA": [{"Aspect": "moules", "VA": "8.07#8.10"}, {"Aspect": "lobster ravioli", "VA": "7.88#7.91"}]}
+{"ID": "rest16_quad_train_965", "Aspect_VA": [{"Aspect": "decor", "VA": "7.63#7.67"}, {"Aspect": "food", "VA": "7.61#7.66"}, {"Aspect": "food", "VA": "7.61#7.66"}, {"Aspect": "staff", "VA": "7.45#7.50"}, {"Aspect": "rice avenue", "VA": "7.64#7.68"}, {"Aspect": "rice avenue", "VA": "7.64#7.68"}, {"Aspect": "rice avenue", "VA": "7.64#7.68"}]}
+{"ID": "rest16_quad_train_1479", "Aspect_VA": [{"Aspect": "NULL", "VA": "5.00#5.13"}]}
+{"ID": "rest16_quad_train_61", "Aspect_VA": [{"Aspect": "kitchen", "VA": "3.47#5.84"}]}
+{"ID": "rest16_quad_dev_109", "Aspect_VA": [{"Aspect": "selection", "VA": "7.31#7.34"}, {"Aspect": "wines", "VA": "7.34#7.36"}, {"Aspect": "service", "VA": "7.28#7.31"}, {"Aspect": "decor", "VA": "7.43#7.46"}]}
+{"ID": "rest16_quad_train_1316", "Aspect_VA": [{"Aspect": "NULL", "VA": "2.87#6.06"}, {"Aspect": "NULL", "VA": "2.87#6.06"}, {"Aspect": "NULL", "VA": "2.87#6.06"}]}
+{"ID": "rest16_quad_train_199", "Aspect_VA": [{"Aspect": "food", "VA": "6.73#6.83"}, {"Aspect": "pork belly", "VA": "5.36#5.62"}]}
+{"ID": "rest16_quad_train_142", "Aspect_VA": [{"Aspect": "vt ' s", "VA": "5.88#5.74"}]}
+{"ID": "rest16_quad_test_213", "Aspect_VA": [{"Aspect": "seabass on lobster risotto", "VA": "8.05#8.09"}]}
+{"ID": "rest16_quad_dev_123", "Aspect_VA": [{"Aspect": "chicken teriyaki", "VA": "5.41#5.29"}]}
+{"ID": "rest16_quad_dev_131", "Aspect_VA": [{"Aspect": "decor", "VA": "6.83#6.76"}, {"Aspect": "food", "VA": "8.10#8.13"}]}
+{"ID": "rest16_quad_train_975", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.88#5.03"}]}
+{"ID": "rest16_quad_test_186", "Aspect_VA": [{"Aspect": "meal", "VA": "7.83#7.88"}]}
+{"ID": "rest16_quad_train_1480", "Aspect_VA": [{"Aspect": "maitre - d", "VA": "5.40#5.48"}]}
+{"ID": "rest16_quad_test_249", "Aspect_VA": [{"Aspect": "location", "VA": "5.62#5.43"}]}
+{"ID": "rest16_quad_test_401", "Aspect_VA": [{"Aspect": "NULL", "VA": "4.21#5.07"}]}
+{"ID": "rest16_quad_train_161", "Aspect_VA": [{"Aspect": "bar", "VA": "7.50#7.52"}, {"Aspect": "beers", "VA": "7.62#7.65"}, {"Aspect": "wines", "VA": "7.61#7.62"}]}
+{"ID": "rest16_quad_train_250", "Aspect_VA": [{"Aspect": "salads", "VA": "7.91#7.93"}, {"Aspect": "salads", "VA": "7.91#7.93"}, {"Aspect": "salads", "VA": "7.91#7.93"}]}
+{"ID": "rest16_quad_train_373", "Aspect_VA": [{"Aspect": "entertainment", "VA": "7.98#8.02"}]}
+{"ID": "rest16_quad_dev_103", "Aspect_VA": [{"Aspect": "dish", "VA": "8.12#8.16"}]}
+{"ID": "rest16_quad_test_286", "Aspect_VA": [{"Aspect": "desert", "VA": "8.02#8.03"}, {"Aspect": "dinner", "VA": "8.02#8.03"}]}
