@@ -1,4 +1,6 @@
 # SemEval-2026-Task3-Track-A
+[![twitter](https://img.shields.io/twitter/url/https/shields.io.svg?style=social)](https://x.com/nicolayr_/status/2045478369488175317)
+
 
 ## Project Overview
 This project provides solutions for [SemEval 2026 Task 3](https://github.com/DimABSA/DimABSA2026) - Dimensional ABSA, Track A Subtask 1 (DimASR).
