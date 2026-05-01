@@ -30,7 +30,7 @@ class OpenAIProvider(BaseLM):
     def __msg_content(self, prompt):
         if self.__assistant_prompt is not None:
             yield {
-                "role": "assistant",
+                "role": "system",
                 "content": self.__assistant_prompt
             }
 
