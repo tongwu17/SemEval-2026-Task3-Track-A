@@ -1,4 +1,8 @@
 # SemEval-2026-Task3-Track-A
+
+## 📢 News
+Our paper "NCL-BU at SemEval-2026 Task 3: Fine-tuning XLM-RoBERTa for Multilingual Dimensional Sentiment Regression" has been accepted to the 20th International Workshop on Semantic Evaluation (SemEval-2026), co-located with ACL 2026, and will be published in the ACL Anthology.
+
 [![twitter](https://img.shields.io/twitter/url/https/shields.io.svg?style=social)](https://x.com/nicolayr_/status/2045478369488175317)
 
 
@@ -7,7 +11,7 @@ This project provides solutions for [SemEval 2026 Task 3](https://github.com/Dim
 
 ## Methodologies
 
-### Main Method: Fine-tuning
+### Main Method: Fine-tuning XLM-RoBERTa
 Fine-tuning approach based on pretrained language model (XLM-RoBERTa).
 
 ### Prompt-based LLM
@@ -27,7 +31,7 @@ Large Language Models with prompting for comparison.
 │   │   ├── predict.py          
 │   │   ├── model.py            # Model definition
 │   │   ├── data_loader.py      # Data loading
-│   │   ├── outputs/            # Full predictions (dev / test)
+│   │   ├── outputs/            
 │   │   └── requirements.txt
 │   ├── method_prompt_llm/      # Prompt-based LLM (for comparison)
 │   │   ├── method_openai.py    # OpenAI API implementation
@@ -61,7 +65,7 @@ pip install -r requirements.txt
 
 ### Prompt-based LLM 
 
-Models used: GPT-5.2, LLaMA-3-70B, LLaMA-3.3-70B, LLaMA-4-Maverick.
+Models used: GPT-5.2, LLaMA-3-70B, LLaMA-4-Maverick.
 
 ```bash
 cd src/method_prompt_llm
@@ -72,8 +76,5 @@ export OPENAI_API_KEY='your-api-key-here'
 python3 method_openai.py \
   --input ../../task-dataset/track_a/subtask_1/eng/eng_laptop_dev_task1.jsonl \
   --model gpt-5.2
-
-# Bulk Chain (LLaMA)
-./run_llama3_70B_instruct.sh
 ```
 
