@@ -1,10 +1,30 @@
 # SemEval-2026-Task3-Track-A
 
-## 📢 News
-Our paper "NCL-BU at SemEval-2026 Task 3: Fine-tuning XLM-RoBERTa for Multilingual Dimensional Sentiment Regression" has been accepted to the 20th International Workshop on Semantic Evaluation (SemEval-2026), co-located with ACL 2026, and will be published in the ACL Anthology.
+## Publications
+- Paper: [NCL-BU at SemEval-2026 Task 3: Fine-tuning XLM-RoBERTa for Multilingual Dimensional Sentiment Regression](https://aclanthology.org/2026.semeval-1.240.pdf)
+  - ACL Anthology: https://aclanthology.org/2026.semeval-1.240/
+  - DOI: [10.18653/v1/2026.semeval-1.240](https://doi.org/10.18653/v1/2026.semeval-1.240)
+- Accepted at the Proceedings of the 20th International Workshop on Semantic Evaluation (2026)
+- Publisher: Association for Computational Linguistics
 
-[![twitter](https://img.shields.io/twitter/url/https/shields.io.svg?style=social)](https://x.com/nicolayr_/status/2045478369488175317)
+## Citation
+If you use this work, please cite:
 
+```bibtex
+@inproceedings{wu-etal-2026-ncl,
+    title = "{NCL}-{BU} at {S}em{E}val-2026 Task 3: Fine-tuning {XLM}-{R}o{BERT}a for Multilingual Dimensional Sentiment Regression",
+    author = "Wu, Tong and Rusnachenko, Nicolay and Liang, Huizhi(elly)",
+    booktitle = "Proceedings of the 20th {I}nternational {W}orkshop on {S}emantic {E}valuation (2026)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.semeval-1.240/",
+    doi = "10.18653/v1/2026.semeval-1.240",
+    pages = "1911--1918",
+    isbn = "979-8-89176-414-9"
+}
+```
 
 ## Project Overview
 This project provides solutions for [SemEval 2026 Task 3](https://github.com/DimABSA/DimABSA2026) - Dimensional ABSA, Track A Subtask 1 (DimASR).
